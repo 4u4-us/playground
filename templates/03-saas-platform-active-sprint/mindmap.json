@@ -1,0 +1,1331 @@
+{
+  "projectName": "SaaS Platform & Active Sprint",
+  "description": "Multi-tenant cloud infrastructure, RBAC, core APIs, Design System 2.0, AI automation, and usage-based billing.",
+  "category": "Engineering",
+  "nodes": [
+    {
+      "id": "node-pro-1",
+      "type": "primary",
+      "position": {
+        "x": -210,
+        "y": 30
+      },
+      "data": {
+        "label": "SaaS Cloud Platform 2.0 – Architecture, AI Engine & Global Launch",
+        "description": "End-to-end engineering, security, and go-to-market roadmap for launching SaaS Cloud Platform 2.0. Covers multi-tenant cloud infrastructure, RBAC, core APIs, Design System 2.0, AI automation, usage-based billing, and global rollout. Duration: 20.11.2026 – 19.02.2027.",
+        "githubUrl": "https://github.com/4u4-us",
+        "projectKey": "#PRO-1",
+        "epicKey": "#PRO-1",
+        "dna": {
+          "problem": "Legacy monolithic architecture cannot support multi-tenant enterprise isolation, custom AI workflows, or usage-based monetization at scale.",
+          "solution": "Next-generation distributed SaaS platform featuring multi-region Kubernetes, PostgreSQL RLS, real-time WebSocket sync, BYOK AI Copilot, and automated Stripe billing.",
+          "targetAudience": "High-growth B2B software engineering teams, product managers, and enterprise organizations requiring secure, compliant cloud collaboration.",
+          "marketLandscape": "Fast-paced B2B SaaS ecosystem demanding sub-200ms API response times, 99.99% SLA availability, and enterprise SSO/SOC 2 compliance.",
+          "businessModel": "Multi-tier SaaS subscription (Free, Developer, Pro, Enterprise) combined with metered consumption billing for API calls, storage, and AI tokens.",
+          "gtmStrategy": "Zero-signup interactive playground, design-partner private beta, developer-first documentation/SDKs, and high-visibility Product Hunt/HN launch blitz.",
+          "team": "Alex (Lead Cloud Architect & Strategy Lead), Beth (Principal Fullstack & Security Engineer)."
+        },
+        "panelData": {
+          "what": [
+            {
+              "id": "pw-1",
+              "label": "Provision multi-region Kubernetes, PostgreSQL RLS, and CI/CD pipelines",
+              "checked": true
+            },
+            {
+              "id": "pw-2",
+              "label": "Deploy API Gateway v2, Design System 2.0, and real-time multiplayer sync",
+              "checked": true
+            },
+            {
+              "id": "pw-3",
+              "label": "Build BYOK AI Copilot, RAG indexing pipeline, and no-code workflows",
+              "checked": false
+            },
+            {
+              "id": "pw-4",
+              "label": "Implement Stripe usage billing, complete SOC 2 audit, and execute global launch",
+              "checked": false
+            }
+          ],
+          "when": "2027-02-19T18:00:00.000Z",
+          "estimate": 196,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Flagship cloud platform modernization and global launch. Target: 99.99% availability, SOC 2 compliance, and 10k+ active workspaces."
+        }
+      },
+      "measured": {
+        "width": 480,
+        "height": 180
+      }
+    },
+    {
+      "id": "epic-infra",
+      "type": "secondary",
+      "position": {
+        "x": -210,
+        "y": -640
+      },
+      "data": {
+        "label": "Cloud Architecture & Infrastructure Foundation",
+        "subtitle": "Multi-region IaC, Kubernetes & CI/CD automation (20.11 – 04.12.2026)",
+        "description": "Provision scalable, multi-region cloud infrastructure using Infrastructure as Code (IaC) with automated CI/CD pipelines and high availability. (20.11.2026 – 04.12.2026)",
+        "epicKey": "#EPIC-1",
+        "status": 2,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-1",
+        "panelData": {
+          "when": "2026-12-04T18:00:00.000Z",
+          "estimate": 22.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Core foundation for zero-downtime deployments and multi-region resilience."
+        },
+        "cards": [
+          {
+            "id": "c-101",
+            "title": "Provision multi-region VPC and Kubernetes clusters via Terraform",
+            "description": "Define modular Terraform scripts for US-East and EU-Central production and staging environments.",
+            "ticketKey": "#TSK-1",
+            "status": 3,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-11-20T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "IaC",
+                "Terraform",
+                "Kubernetes"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "VPC peering between US-East and EU-Central",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "EKS/GKE cluster autoscaler configuration",
+                  "checked": true
+                },
+                {
+                  "id": "c3",
+                  "label": "Ingress controller and cert-manager setup",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c-102",
+            "title": "Configure managed PostgreSQL with read replicas and automated backups",
+            "description": "Deploy primary database cluster with point-in-time recovery (PITR) and connection pooling.",
+            "ticketKey": "#TSK-2",
+            "status": 2,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-11-24T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "PostgreSQL",
+                "Database",
+                "HA"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "Configure PgBouncer connection pooler",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "Set up cross-region read replica",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "c-103",
+            "title": "Deploy distributed Redis caching and session layer",
+            "description": "Set up high-availability Redis cluster for rate limiting, session state, and hot query caching.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-11-26T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Redis",
+                "Caching",
+                "Sessions"
+              ]
+            }
+          },
+          {
+            "id": "c-104",
+            "title": "Build GitHub Actions CI/CD pipelines with preview environments",
+            "description": "Automate linting, unit testing, container builds, and ephemeral PR preview deployments.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-11-30T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "CI/CD",
+                "GitHub Actions",
+                "DevOps"
+              ]
+            }
+          },
+          {
+            "id": "c-105",
+            "title": "Implement centralized secrets management and KMS encryption",
+            "description": "Configure cloud KMS and secret rotation policies for database credentials and third-party API keys.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-02T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Security",
+                "KMS",
+                "Vault"
+              ]
+            }
+          },
+          {
+            "id": "c-106",
+            "title": "Configure global CDN, WAF, and DDoS protection rules",
+            "description": "Set up Cloudflare/CloudFront edge caching, SSL/TLS enforcement, and OWASP firewall rules.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-04T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "CDN",
+                "WAF",
+                "Cloudflare"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-security",
+      "type": "secondary",
+      "position": {
+        "x": 580,
+        "y": -520
+      },
+      "data": {
+        "label": "Multi-Tenant Identity, RBAC & Security",
+        "subtitle": "SSO, Row-Level Security & SOC 2 compliance (27.11 – 14.12.2026)",
+        "description": "Build enterprise-grade authentication, tenant data isolation, granular role-based access control, and compliance readiness. (27.11.2026 – 14.12.2026)",
+        "epicKey": "#EPIC-2",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-1",
+        "panelData": {
+          "when": "2026-12-14T18:00:00.000Z",
+          "estimate": 23.5,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Enterprise gatekeeper: strictly enforces tenant boundary isolation and SOC 2 audit readiness."
+        },
+        "cards": [
+          {
+            "id": "c-201",
+            "title": "Implement SSO (SAML 2.0 / OIDC) and OAuth2 authentication",
+            "description": "Enable enterprise Okta/Azure AD login alongside Google and GitHub social auth providers.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-11-27T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Auth",
+                "SSO",
+                "SAML"
+              ]
+            }
+          },
+          {
+            "id": "c-202",
+            "title": "Enforce PostgreSQL Row-Level Security (RLS) for tenant isolation",
+            "description": "Write and test database-level RLS policies ensuring strict data separation between workspaces.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-01T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "PostgreSQL",
+                "RLS",
+                "Multi-Tenancy"
+              ]
+            }
+          },
+          {
+            "id": "c-203",
+            "title": "Design granular RBAC permission matrix (Owner, Admin, Editor, Viewer)",
+            "description": "Implement server-side middleware and UI guards enforcing role permissions across all endpoints.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-04T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "RBAC",
+                "Permissions",
+                "Security"
+              ]
+            }
+          },
+          {
+            "id": "c-204",
+            "title": "Build Personal Access Token (PAT) and scoped API key manager",
+            "description": "Allow developers to generate, scope, and revoke cryptographically hashed API keys.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-08T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "API Keys",
+                "PAT",
+                "Tokens"
+              ]
+            }
+          },
+          {
+            "id": "c-205",
+            "title": "Implement immutable audit logging for security-critical events",
+            "description": "Capture login attempts, role changes, billing updates, and data exports into an append-only log.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-11T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Audit Log",
+                "Compliance",
+                "Security"
+              ]
+            }
+          },
+          {
+            "id": "c-206",
+            "title": "Execute automated vulnerability scanning and SOC 2 gap audit",
+            "description": "Run SAST/DAST security scans and remediate critical dependency and configuration findings.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-1",
+            "panelData": {
+              "when": "2026-12-14T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "SOC2",
+                "Vulnerability",
+                "SAST"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-api",
+      "type": "secondary",
+      "position": {
+        "x": 1140,
+        "y": -30
+      },
+      "data": {
+        "label": "Core API Gateway & Event-Driven Services",
+        "subtitle": "High-throughput API v2, async queues & webhooks (07.12 – 28.12.2026)",
+        "description": "Develop the high-throughput public and internal API layer, asynchronous event bus, and reliable outbound webhook delivery system. (07.12.2026 – 28.12.2026)",
+        "epicKey": "#EPIC-3",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-2",
+        "panelData": {
+          "when": "2026-12-28T18:00:00.000Z",
+          "estimate": 25.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "High-volume communication backbone connecting backend microservices and external developers."
+        },
+        "cards": [
+          {
+            "id": "c-301",
+            "title": "Deploy versioned REST/GraphQL API Gateway with per-tenant rate limiting",
+            "description": "Implement /v2 API routing with sliding-window rate limits tied to subscription tiers.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-07T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "API Gateway",
+                "GraphQL",
+                "Rate Limiting"
+              ]
+            }
+          },
+          {
+            "id": "c-302",
+            "title": "Set up event-driven message broker and dead-letter queues",
+            "description": "Provision SQS/Kafka queues to decouple heavy background jobs from synchronous API requests.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-11T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Kafka",
+                "Event Bus",
+                "Queues"
+              ]
+            }
+          },
+          {
+            "id": "c-303",
+            "title": "Build outbound webhook engine with HMAC signing and exponential backoff",
+            "description": "Enable customer webhook subscriptions with automatic retries, delivery logs, and signature verification.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-16T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Webhooks",
+                "HMAC",
+                "Events"
+              ]
+            }
+          },
+          {
+            "id": "c-304",
+            "title": "Implement idempotent background worker fleet for async processing",
+            "description": "Deploy scalable worker containers for report exports, bulk imports, and scheduled sync tasks.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-21T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Workers",
+                "Async",
+                "Containers"
+              ]
+            }
+          },
+          {
+            "id": "c-305",
+            "title": "Generate interactive OpenAPI 3.1 specification and SDK clients",
+            "description": "Publish auto-generated API docs and TypeScript/Python SDK packages for external developers.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-24T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "OpenAPI",
+                "SDK",
+                "TypeScript"
+              ]
+            }
+          },
+          {
+            "id": "c-306",
+            "title": "Build v1-to-v2 data migration endpoints and compatibility adapters",
+            "description": "Create zero-data-loss migration scripts to seamlessly upgrade legacy v1 workspaces to Platform 2.0.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-28T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Migration",
+                "Data Integrity",
+                "V2"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-ui",
+      "type": "secondary",
+      "position": {
+        "x": 580,
+        "y": 480
+      },
+      "data": {
+        "label": "Next-Gen Web Dashboard & Design System 2.0",
+        "subtitle": "Multiplayer UI, Storybook tokens & Cmd+K palette (14.12.2026 – 08.01.2027)",
+        "description": "Deliver a fast, accessible, real-time web interface with a unified design system and frictionless user onboarding. (14.12.2026 – 08.01.2027)",
+        "epicKey": "#EPIC-4",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-2",
+        "panelData": {
+          "when": "2027-01-08T18:00:00.000Z",
+          "estimate": 27.5,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Flagship UI revamp with sub-second feedback, multiplayer cursor presence, and accessible component library."
+        },
+        "cards": [
+          {
+            "id": "c-401",
+            "title": "Publish Design System 2.0 tokens and accessible UI component library",
+            "description": "Build WCAG 2.1 AA compliant components with native dark/light theme support in Storybook.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-14T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Design System",
+                "UI",
+                "Accessibility"
+              ]
+            }
+          },
+          {
+            "id": "c-402",
+            "title": "Implement real-time multiplayer state synchronization via WebSockets",
+            "description": "Add live presence indicators and optimistic UI updates across concurrent team sessions.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-21T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "WebSockets",
+                "Multiplayer",
+                "Real-Time"
+              ]
+            }
+          },
+          {
+            "id": "c-403",
+            "title": "Build customizable executive analytics dashboard and KPI widgets",
+            "description": "Develop drag-and-drop charts with date-range filtering and CSV/PDF export capabilities.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-28T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Analytics",
+                "Charts",
+                "Dashboard"
+              ]
+            }
+          },
+          {
+            "id": "c-404",
+            "title": "Implement global Command Palette (Cmd+K) and keyboard shortcuts",
+            "description": "Enable instant fuzzy search across projects, settings, and quick actions from any screen.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-02T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Cmd+K",
+                "Search",
+                "Keyboard"
+              ]
+            }
+          },
+          {
+            "id": "c-405",
+            "title": "Create interactive multi-step workspace onboarding wizard",
+            "description": "Guide new users through workspace creation, team invites, and template selection in under 2 minutes.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-05T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Onboarding",
+                "UX",
+                "Growth"
+              ]
+            }
+          },
+          {
+            "id": "c-406",
+            "title": "Optimize Core Web Vitals and responsive tablet/mobile layouts",
+            "description": "Apply code-splitting, prefetching, and virtualized lists to achieve LCP < 1.8s and 95+ Lighthouse score.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-08T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Performance",
+                "LCP",
+                "Lighthouse"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-ai",
+      "type": "secondary",
+      "position": {
+        "x": -210,
+        "y": 640
+      },
+      "data": {
+        "label": "AI Copilot & Workflow Automation Layer",
+        "subtitle": "Multi-LLM router, BYOK vault, RAG & no-code triggers (28.12.2026 – 18.01.2027)",
+        "description": "Integrate a multi-provider AI orchestration engine with Bring Your Own Key (BYOK) support, RAG context retrieval, and automated workflows. (28.12.2026 – 18.01.2027)",
+        "epicKey": "#EPIC-5",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-2",
+        "panelData": {
+          "when": "2027-01-18T18:00:00.000Z",
+          "estimate": 26,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Intelligent automation core powering contextual recommendations, summaries, and agentic workflows."
+        },
+        "cards": [
+          {
+            "id": "c-501",
+            "title": "Build encrypted BYOK vault for personal and team LLM API keys",
+            "description": "Encrypt user-supplied OpenAI, Anthropic, and Gemini keys with AES-256-GCM and cascading team overrides.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2026-12-28T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "AI",
+                "BYOK",
+                "Encryption"
+              ]
+            }
+          },
+          {
+            "id": "c-502",
+            "title": "Implement multi-LLM priority router with automatic failover",
+            "description": "Route prompts across configured providers with 2-second preflight health checks and fallback queues.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-04T18:00:00.000Z",
+              "estimate": 4.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "LLM Router",
+                "Failover",
+                "Gemini"
+              ]
+            }
+          },
+          {
+            "id": "c-503",
+            "title": "Build streaming AI Copilot sidebar with workspace context injection",
+            "description": "Deliver token-by-token streaming responses grounded in the user active project schema and metadata.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-08T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Streaming",
+                "Copilot",
+                "Context"
+              ]
+            }
+          },
+          {
+            "id": "c-504",
+            "title": "Deploy vector embeddings and RAG indexing pipeline",
+            "description": "Index uploaded workspace documents into pgvector for low-latency semantic search and Q&A.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-12T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "RAG",
+                "pgvector",
+                "Embeddings"
+              ]
+            }
+          },
+          {
+            "id": "c-505",
+            "title": "Implement AI credit metering, hard caps, and rate quotas",
+            "description": "Track token consumption per workspace and enforce tier limits with real-time UI usage bars.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-15T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Metering",
+                "Quotas",
+                "Billing"
+              ]
+            }
+          },
+          {
+            "id": "c-506",
+            "title": "Create no-code workflow automation triggers and action nodes",
+            "description": "Allow users to chain status-change events with automated AI summaries, Slack alerts, or email digests.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-2",
+            "panelData": {
+              "when": "2027-01-18T18:00:00.000Z",
+              "estimate": 4.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Automation",
+                "Workflows",
+                "No-Code"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-billing",
+      "type": "secondary",
+      "position": {
+        "x": -1000,
+        "y": 480
+      },
+      "data": {
+        "label": "Billing, Subscriptions & Usage-Based Metering",
+        "subtitle": "Stripe monetization, seat proration & metered overage (06.01 – 22.01.2027)",
+        "description": "Implement multi-tier SaaS monetization, seat-based proration, metered overage billing, and global tax compliance via Stripe. (06.01.2027 – 22.01.2027)",
+        "epicKey": "#EPIC-6",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-3",
+        "panelData": {
+          "when": "2027-01-22T18:00:00.000Z",
+          "estimate": 18,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Complete Stripe monetization engine supporting monthly/annual seats and usage-based overage."
+        },
+        "cards": [
+          {
+            "id": "c-601",
+            "title": "Configure Stripe products and pricing tiers (Free, Developer, Pro, Enterprise)",
+            "description": "Set up monthly and annual recurring price IDs, trial periods, and feature entitlement flags.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-06T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Stripe",
+                "Pricing",
+                "Tiers"
+              ]
+            }
+          },
+          {
+            "id": "c-602",
+            "title": "Build resilient Stripe webhook handler for subscription lifecycle events",
+            "description": "Process checkout, invoice payment, upgrades, cancellations, and dunning retries with signature validation.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-09T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Stripe",
+                "Webhooks",
+                "Dunning"
+              ]
+            }
+          },
+          {
+            "id": "c-603",
+            "title": "Implement real-time usage metering and overage reporting",
+            "description": "Aggregate API calls, storage, and AI credits daily and push metered usage records to Stripe.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-13T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Metered Billing",
+                "Usage",
+                "Reporting"
+              ]
+            }
+          },
+          {
+            "id": "c-604",
+            "title": "Integrate self-serve Billing Portal and seat-based proration UI",
+            "description": "Allow team owners to add/remove seats, update payment methods, and download PDF invoices.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-16T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Billing Portal",
+                "Proration",
+                "Invoices"
+              ]
+            }
+          },
+          {
+            "id": "c-605",
+            "title": "Enable automated EU VAT and US sales tax calculation (Stripe Tax)",
+            "description": "Configure VAT ID validation, reverse-charge logic, and compliant tax invoice generation.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-19T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Taxes",
+                "VAT",
+                "Stripe Tax"
+              ]
+            }
+          },
+          {
+            "id": "c-606",
+            "title": "Build in-app upgrade paywalls and contextual limit nudges",
+            "description": "Trigger targeted upgrade modals when workspaces approach project, seat, or credit thresholds.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-22T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Paywalls",
+                "PLG",
+                "Upgrades"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-qa",
+      "type": "secondary",
+      "position": {
+        "x": -1560,
+        "y": -30
+      },
+      "data": {
+        "label": "Observability, QA & Performance Hardening",
+        "subtitle": "OpenTelemetry, k6 load testing & disaster recovery (18.01 – 05.02.2027)",
+        "description": "Validate platform resilience, end-to-end quality, and operational visibility prior to public release. (18.01.2027 – 05.02.2027)",
+        "epicKey": "#EPIC-7",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-3",
+        "panelData": {
+          "when": "2027-02-05T18:00:00.000Z",
+          "estimate": 23,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Rigorous hardening phase ensuring zero critical regressions, 99.99% uptime, and sub-200ms p95 latencies."
+        },
+        "cards": [
+          {
+            "id": "c-701",
+            "title": "Instrument OpenTelemetry distributed tracing and APM dashboards",
+            "description": "Track p95/p99 API latency, database query bottlenecks, and error rates in Datadog/Grafana.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-18T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "OpenTelemetry",
+                "APM",
+                "Tracing"
+              ]
+            }
+          },
+          {
+            "id": "c-702",
+            "title": "Configure PagerDuty/Slack incident alerting and SLO burn-rate monitors",
+            "description": "Set automated escalation alerts for 5xx spikes, queue backlogs, and elevated latency.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-21T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Alerting",
+                "SLO",
+                "PagerDuty"
+              ]
+            }
+          },
+          {
+            "id": "c-703",
+            "title": "Write comprehensive Playwright E2E test suite for critical user flows",
+            "description": "Automate regression tests covering signup, SSO, workspace mutations, AI chat, and Stripe checkout.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-26T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Playwright",
+                "E2E",
+                "Testing"
+              ]
+            }
+          },
+          {
+            "id": "c-704",
+            "title": "Execute k6 load and stress testing at 5x projected launch traffic",
+            "description": "Simulate concurrent WebSocket connections and API bursts to verify horizontal autoscaling.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-01-29T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "k6",
+                "Load Testing",
+                "Autoscaling"
+              ]
+            }
+          },
+          {
+            "id": "c-705",
+            "title": "Conduct disaster recovery and database failover drill",
+            "description": "Simulate primary region outage and verify RTO < 15 minutes and RPO < 1 minute.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-02T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Disaster Recovery",
+                "Failover",
+                "RTO"
+              ]
+            }
+          },
+          {
+            "id": "c-706",
+            "title": "Perform final pre-launch bug bash and release candidate sign-off",
+            "description": "Triage and resolve all P0/P1 defects across staging before freezing the v2.0.0 release branch.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-05T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Bug Bash",
+                "RC",
+                "Release"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-gtm",
+      "type": "secondary",
+      "position": {
+        "x": -1000,
+        "y": -520
+      },
+      "data": {
+        "label": "Go-To-Market, Beta Rollout & Production Launch",
+        "subtitle": "Interactive sandbox, beta cohort & global release (01.02 – 19.02.2027)",
+        "description": "Execute controlled beta testing, publish developer documentation, and launch SaaS Cloud Platform 2.0 globally. (01.02.2027 – 19.02.2027)",
+        "epicKey": "#EPIC-8",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-saas-3",
+        "panelData": {
+          "when": "2027-02-19T18:00:00.000Z",
+          "estimate": 21.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Global public release, Product Hunt feature, interactive sandbox debut, and customer activation war room."
+        },
+        "cards": [
+          {
+            "id": "c-801",
+            "title": "Launch zero-signup interactive sandbox demo environment",
+            "description": "Deploy a pre-populated read/write demo workspace so prospects experience Platform 2.0 in 5 seconds.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-01T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Sandbox",
+                "PLG",
+                "Interactive Demo"
+              ]
+            }
+          },
+          {
+            "id": "c-802",
+            "title": "Publish v2.0 documentation hub, changelog, and migration guides",
+            "description": "Release searchable docs covering quickstarts, API references, BYOK setup, and v1-to-v2 upgrades.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-05T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Docs",
+                "Developer Hub",
+                "Changelog"
+              ]
+            }
+          },
+          {
+            "id": "c-803",
+            "title": "Onboard 50 design-partner accounts to Private Beta cohort",
+            "description": "Enable v2.0 feature flags for beta customers and collect structured telemetry and UX feedback.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-09T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Beta Cohort",
+                "Feedback",
+                "Design Partners"
+              ]
+            }
+          },
+          {
+            "id": "c-804",
+            "title": "Launch public Status Page and SLA uptime reporting",
+            "description": "Configure automated endpoint health checks and incident communication channels at status.platform.io.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-12T18:00:00.000Z",
+              "estimate": 1.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Status Page",
+                "Uptime",
+                "SLA"
+              ]
+            }
+          },
+          {
+            "id": "c-805",
+            "title": "Prepare Product Hunt, Hacker News, and 45-second launch video assets",
+            "description": "Produce crisp demo video, founder story, technical blog post, and social launch visuals.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-16T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Product Hunt",
+                "Video Demo",
+                "Marketing"
+              ]
+            }
+          },
+          {
+            "id": "c-806",
+            "title": "Execute Global Production Launch and 48-hour post-launch war room",
+            "description": "Switch global DNS to Platform 2.0, trigger launch announcements, and monitor live activation metrics.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-saas-3",
+            "panelData": {
+              "when": "2027-02-19T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Production Launch",
+                "War Room",
+                "Go-Live"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-saas-infra",
+      "source": "node-pro-1",
+      "target": "epic-infra",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-security",
+      "source": "node-pro-1",
+      "target": "epic-security",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-api",
+      "source": "node-pro-1",
+      "target": "epic-api",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-left",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-ui",
+      "source": "node-pro-1",
+      "target": "epic-ui",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-ai",
+      "source": "node-pro-1",
+      "target": "epic-ai",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-billing",
+      "source": "node-pro-1",
+      "target": "epic-billing",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-qa",
+      "source": "node-pro-1",
+      "target": "epic-qa",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-saas-gtm",
+      "source": "node-pro-1",
+      "target": "epic-gtm",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-saas-1",
+      "name": "Sprint 1: Cloud Foundation & Security (20.11 – 14.12.2026)",
+      "startDate": "2026-11-20T09:00:00.000Z",
+      "endDate": "2026-12-14T18:00:00.000Z",
+      "status": "ACTIVE",
+      "goal": "Establish multi-region Kubernetes clusters, automated CI/CD, and enterprise RBAC security baseline."
+    },
+    {
+      "id": "sprint-saas-2",
+      "name": "Sprint 2: Core APIs, Design System & AI Engine (15.12.2026 – 18.01.2027)",
+      "startDate": "2026-12-15T09:00:00.000Z",
+      "endDate": "2027-01-18T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Deliver public API v2, real-time multiplayer dashboard, and BYOK AI Copilot integration."
+    },
+    {
+      "id": "sprint-saas-3",
+      "name": "Sprint 3: Monetization, Hardening & Global Launch (19.01 – 19.02.2027)",
+      "startDate": "2027-01-19T09:00:00.000Z",
+      "endDate": "2027-02-19T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Launch Stripe usage-based billing, pass SOC 2/load drills, and execute global production rollout."
+    }
+  ],
+  "teamMembers": [
+    {
+      "userId": "demo-user-alex",
+      "nick": "Alex",
+      "email": "alex@4u4.us",
+      "preferredIcon": "rocket",
+      "role": "Product Lead / Architect",
+      "joinedAt": "2026-11-20T18:03:48.966Z"
+    },
+    {
+      "userId": "demo-user-beth",
+      "nick": "Beth",
+      "email": "beth@4u4.us",
+      "preferredIcon": "brain",
+      "role": "Senior Fullstack Dev",
+      "joinedAt": "2026-11-20T18:03:48.966Z"
+    }
+  ]
+}
