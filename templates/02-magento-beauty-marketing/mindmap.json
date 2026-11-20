@@ -1,0 +1,1032 @@
+{
+  "projectName": "Magento Beauty Store Launch & Marketing",
+  "description": "Full-funnel beauty e-commerce strategy: tracking CAC/ROAS, SEO, Launch Blitz, Influencer Seeding, and LTV retention.",
+  "category": "E-Commerce",
+  "nodes": [
+    {
+      "id": "project",
+      "type": "primary",
+      "position": {
+        "x": -240,
+        "y": 30
+      },
+      "data": {
+        "label": "Magento Cosmetics Store Launch – 3-Month Marketing Campaign (PL/EU)",
+        "description": "Comprehensive go-to-market strategy in the beauty e-commerce sector. Encompasses full-funnel execution from pre-launch teaser, through Launch Blitz, to retention and loyalty programs built on Magento 2 architecture. Timeline: Nov 18, 2026 – Feb 17, 2027.",
+        "githubUrl": "https://github.com/4u4-us",
+        "projectKey": "#PRO-1",
+        "epicKey": "#PRO-1",
+        "dna": {
+          "problem": "Entering a saturated beauty market with escalating customer acquisition costs (CAC) and severe iOS 14.5+ attribution loss without robust server-side analytics.",
+          "solution": "A full-funnel 3-month growth engine on Magento 2: server-side CAPI/GTM tracking, VIP pre-launch list building, multi-channel Launch Blitz, nano-influencer seeding, and automated Klaviyo retention.",
+          "targetAudience": "Health-conscious women and men aged 20-45 across EU and Poland seeking organic, vegan skincare and clean beauty formulations.",
+          "marketLandscape": "High-velocity, competitive beauty market requiring ROAS > 300%, sub-2.5s mobile LCP performance, and authentic UGC trust anchors.",
+          "businessModel": "Direct-to-consumer (D2C) high-margin model driven by bundling, repeat purchases, and loyalty reward points.",
+          "gtmStrategy": "Three-phase funnel: 1) Teaser & VIP List (Pre-launch), 2) Multi-channel Launch Blitz (PMax, Advantage+, TikTok), 3) Retention & LTV scaling.",
+          "team": "Alex (Growth Architect & Campaign Lead), Beth (Senior Analytics & Magento Tech Lead)."
+        },
+        "panelData": {
+          "what": [
+            {
+              "id": "pw-1",
+              "label": "Deploy GTM, GA4 enhanced e-commerce, and Meta CAPI server-side",
+              "checked": true
+            },
+            {
+              "id": "pw-2",
+              "label": "Pre-launch teaser landing page and VIP lead acquisition via Klaviyo",
+              "checked": true
+            },
+            {
+              "id": "pw-3",
+              "label": "Launch Blitz across Google PMax, Meta Advantage+, and TikTok Spark Ads",
+              "checked": false
+            },
+            {
+              "id": "pw-4",
+              "label": "Scale customer retention, influencer affiliate codes, and tier pricing",
+              "checked": false
+            }
+          ],
+          "when": "2027-02-17T18:00:00.000Z",
+          "estimate": 85,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Flagship beauty launch campaign. Core milestones: ROAS > 300%, mobile LCP < 2.5s, and a high-converting automated retention funnel."
+        }
+      },
+      "measured": {
+        "width": 480,
+        "height": 180
+      }
+    },
+    {
+      "id": "epic-analytics",
+      "type": "secondary",
+      "position": {
+        "x": 440,
+        "y": -520
+      },
+      "data": {
+        "label": "Analytics & Tracking Architecture",
+        "subtitle": "Data infrastructure for CAC/ROAS tracking & GDPR (Nov 18 – Nov 25, 2026)",
+        "description": "Implementation of data infrastructure for precise CAC and ROAS tracking, bypassing iOS tracking barriers with EU GDPR compliance. (Nov 18 – Nov 25, 2026)",
+        "epicKey": "#EPIC-1",
+        "status": 2,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-1",
+        "panelData": {
+          "when": "2026-11-25T18:00:00.000Z",
+          "estimate": 16,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Foundation for all paid media attribution. Required before Launch Blitz ad spend starts."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-1",
+            "title": "Deploy Google Tag Manager & GA4 Enhanced E-Commerce",
+            "description": "Data Layer integration for full cart, checkout, and purchase journey tracking on Magento.",
+            "ticketKey": "#TSK-1",
+            "status": 3,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-18T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Analytics",
+                "GA4",
+                "GTM"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "Install Magento 2 GTM extension",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "Configure purchase and add_to_cart dataLayer events",
+                  "checked": true
+                },
+                {
+                  "id": "c3",
+                  "label": "Test debug view in GA4",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-2",
+            "title": "Implement Facebook Conversions API (CAPI)",
+            "description": "Server-side tracking deployment to maximize Meta Ads attribution and signal resilience.",
+            "ticketKey": "#TSK-2",
+            "status": 2,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-19T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Meta Ads",
+                "CAPI",
+                "Server-Side"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "Generate Meta Graph API access token",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "Verify event deduplication with browser Pixel",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-3",
+            "title": "Configure Google Consent Mode v2",
+            "description": "Integrate cookie consent banner with advanced consent states required for EU markets.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-20T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Compliance",
+                "GDPR",
+                "Consent Mode"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-4",
+            "title": "Generate and Validate Product Feeds (XML)",
+            "description": "Create catalog feeds for Google Merchant Center and Meta via native Magento catalog export.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-23T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Feeds",
+                "Google Merchant",
+                "PMax"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-5",
+            "title": "Integrate Klaviyo Event Tracking Scripts",
+            "description": "Configure event triggers: Add to Cart, Checkout Started, and Placed Order in storefront theme.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-24T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Email",
+                "Klaviyo",
+                "Tracking"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-6",
+            "title": "Varnish Cache Audit for Mobile Ad Traffic",
+            "description": "Simulate high ad traffic spikes to ensure Largest Contentful Paint (LCP) remains under 2.5s.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-25T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Performance",
+                "LCP",
+                "Varnish"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-prelaunch",
+      "type": "secondary",
+      "position": {
+        "x": 860,
+        "y": 80
+      },
+      "data": {
+        "label": "Pre-Launch Phase & Lead Generation (Teaser)",
+        "subtitle": "Generate launch hype and build VIP waitlist (Nov 26 – Dec 14, 2026)",
+        "description": "Building pre-launch anticipation and early VIP buyer database before store launch with exclusive incentives. (Nov 26 – Dec 14, 2026)",
+        "epicKey": "#EPIC-2",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-1",
+        "panelData": {
+          "when": "2026-12-14T18:00:00.000Z",
+          "estimate": 15.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Warm audience acquisition prior to official cart opening."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-7",
+            "title": "Deploy Coming Soon Landing Page on Magento CMS",
+            "description": "High-converting teaser page with countdown timer and VIP signup form for 20% launch discount.",
+            "ticketKey": "#TSK-7",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-26T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Landing Page",
+                "Pre-Launch",
+                "VIP"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-8",
+            "title": "Launch Meta Lead Ads Campaign",
+            "description": "Top-of-funnel campaign targeting beauty enthusiasts with copy: \"Join VIP early access & claim welcome discount\".",
+            "ticketKey": "#TSK-8",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-30T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Paid Media",
+                "Meta Ads",
+                "Leads"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-9",
+            "title": "Build Klaviyo Welcome Nurture Flow",
+            "description": "Automated email warm-up sequence introducing brand founders, organic formulations, and clean ingredients.",
+            "ticketKey": "#TSK-9",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-02T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Klaviyo",
+                "Email Flow",
+                "Nurture"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-10",
+            "title": "Define Cart Price Rules for VIP Launch in Magento",
+            "description": "Configure unique single-use VIP discount coupon codes mapped to customer email profiles.",
+            "ticketKey": "#TSK-10",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-04T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Promotions",
+                "Coupons",
+                "Cart Price Rules"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-11",
+            "title": "Commission Teaser UGC Video Production",
+            "description": "Produce high-impact 3-second macro texture close-ups formatted for TikTok and Instagram Reels.",
+            "ticketKey": "#TSK-11",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-07T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Creative",
+                "UGC",
+                "Video"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-12",
+            "title": "Segment Acquired VIP Lead Database",
+            "description": "Tag skin type preferences and product interests in CRM to personalize launch day messaging.",
+            "ticketKey": "#TSK-12",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-14T18:00:00.000Z",
+              "estimate": 1.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Segmentation",
+                "CRM",
+                "Klaviyo"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-seo",
+      "type": "secondary",
+      "position": {
+        "x": -620,
+        "y": -520
+      },
+      "data": {
+        "label": "Content Commerce & Organic SEO",
+        "subtitle": "Google search visibility & product page CRO (Nov 18 – Dec 13, 2026)",
+        "description": "Brand positioning in Google search and conversion rate optimization via rich native content on product detail pages. (Nov 18 – Dec 13, 2026)",
+        "epicKey": "#EPIC-3",
+        "status": 2,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-1",
+        "panelData": {
+          "when": "2026-12-13T18:00:00.000Z",
+          "estimate": 14,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Long-term organic acquisition engine to lower blended customer acquisition cost (CAC)."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-13",
+            "title": "SEO Meta Tags for Top 20 Categories",
+            "description": "Optimize Title, H1, and Description tags focusing on \"clean skincare\" and \"vegan beauty\".",
+            "ticketKey": "#TSK-13",
+            "status": 2,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-20T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "SEO",
+                "On-Page",
+                "Metadata"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-14",
+            "title": "Implement WebP Images with Alt Tags",
+            "description": "Compress and convert all catalog media to next-gen WebP to boost Google Images visibility and speed.",
+            "ticketKey": "#TSK-14",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-11-24T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "WebP",
+                "Media Optimization",
+                "Speed"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-15",
+            "title": "Configure 301 URL Redirect Mapping",
+            "description": "Ensure pristine Magento URL key hierarchy and eliminate potential 404 crawl errors.",
+            "ticketKey": "#TSK-15",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-05T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Redirects",
+                "URL Structure"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-16",
+            "title": "Publish Skincare Routine Blog Guides",
+            "description": "Author 4 educational SEO articles with internal links to recommended product bundles.",
+            "ticketKey": "#TSK-16",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-10T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Content Marketing",
+                "Blog",
+                "Routines"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-17",
+            "title": "Validate Schema.org Structured Data",
+            "description": "Implement Product and AggregateRating rich snippets to display live prices and star reviews in SERPs.",
+            "ticketKey": "#TSK-17",
+            "status": 1,
+            "sprintId": "sprint-mkt-1",
+            "panelData": {
+              "when": "2026-12-13T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Rich Snippets",
+                "Schema.org",
+                "SERP"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-launch",
+      "type": "secondary",
+      "position": {
+        "x": 440,
+        "y": 680
+      },
+      "data": {
+        "label": "Launch Blitz – Reach & Conversions (Week 1)",
+        "subtitle": "Full-throttle paid media launch & checkout monitoring (Dec 15 – Dec 21, 2026)",
+        "description": "Aggressive market entry across all paid advertising channels. Goal: Maximize daily sessions and flawless checkout execution. (Dec 15 – Dec 21, 2026)",
+        "epicKey": "#EPIC-4",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-2",
+        "panelData": {
+          "when": "2026-12-21T18:00:00.000Z",
+          "estimate": 12,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "High-intensity launch week driving immediate conversion velocity and validating catalog economics."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-18",
+            "title": "Launch Google Ads Performance Max (PMax)",
+            "description": "Target ROAS > 300% campaign utilizing optimized Magento product XML feeds and creative asset groups.",
+            "ticketKey": "#TSK-18",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-15T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "PMax",
+                "Google Ads",
+                "ROAS"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-19",
+            "title": "Activate Meta Advantage+ Shopping Campaigns",
+            "description": "Automated dynamic catalog sales campaign optimized for Purchase events across PL/EU.",
+            "ticketKey": "#TSK-19",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-15T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Meta Ads",
+                "Advantage+",
+                "Catalog Sales"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-20",
+            "title": "Deploy Go-Live Email Announcement",
+            "description": "Broadcast launch email to entire VIP waitlist announcing store open with discount codes.",
+            "ticketKey": "#TSK-20",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-15T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Klaviyo",
+                "Go-Live",
+                "VIP Blast"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-21",
+            "title": "Launch TikTok Spark Ads Campaign",
+            "description": "Promote creator UGC videos linking directly to mobile-optimized, fast-loading product pages.",
+            "ticketKey": "#TSK-21",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-16T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "TikTok Ads",
+                "Spark Ads",
+                "UGC"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-22",
+            "title": "Enable Meta Dynamic Product Ads (DPA)",
+            "description": "Dynamic retargeting showing viewed but unpurchased cosmetic products to warm prospects.",
+            "ticketKey": "#TSK-22",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-17T18:00:00.000Z",
+              "estimate": 1.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Retargeting",
+                "DPA",
+                "Meta Ads"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-23",
+            "title": "Real-Time Checkout Funnel Monitoring",
+            "description": "Track checkout drop-off rates and payment gateway response times during peak launch traffic spikes.",
+            "ticketKey": "#TSK-23",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-18T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Monitoring",
+                "Checkout CRO",
+                "Payment"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-influencers",
+      "type": "secondary",
+      "position": {
+        "x": -1040,
+        "y": 80
+      },
+      "data": {
+        "label": "Social Proof & Micro-Influencer Seeding",
+        "subtitle": "UGC acquisition & creator partnerships (Dec 15, 2026 – Jan 15, 2027)",
+        "description": "Acquire authentic User-Generated Content and build brand credibility through targeted beauty micro-influencers. (Dec 15, 2026 – Jan 15, 2027)",
+        "epicKey": "#EPIC-5",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-2",
+        "panelData": {
+          "when": "2027-01-15T18:00:00.000Z",
+          "estimate": 13,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "High-trust authentic social proof driving organic reach and high-converting creative ad collateral."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-24",
+            "title": "Recruit 30 Beauty Nano-Influencers (PL/EU)",
+            "description": "Source creators with 10k-25k engaged followers for product gifting and affiliate partnerships.",
+            "ticketKey": "#TSK-24",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-15T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Influencers",
+                "Seeding",
+                "Beauty PL"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-25",
+            "title": "Configure Custom Affiliate Coupon Codes",
+            "description": "Set up trackable creator-specific discount codes in Magento Cart Price Rules with commission tracking.",
+            "ticketKey": "#TSK-25",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-16T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Affiliate",
+                "Coupons",
+                "Cart Price Rules"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-26",
+            "title": "Dispatch PR Seed Packages (Unboxing Experience)",
+            "description": "Ship 30 branded unboxing gift boxes featuring signature skincare sets and custom cards.",
+            "ticketKey": "#TSK-26",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-17T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "PR Gifting",
+                "Unboxing",
+                "Fulfillment"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-27",
+            "title": "Curate and Reformat Influencer UGC Assets",
+            "description": "Edit creator Reels and TikToks into high-converting paid social ad variants with bold visual hooks.",
+            "ticketKey": "#TSK-27",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2026-12-28T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "UGC",
+                "Content Repurposing",
+                "Paid Ads"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-28",
+            "title": "Analyze Creator Sales in Magento Reports",
+            "description": "Identify which influencers generate the lowest blended CAC and highest conversion volume.",
+            "ticketKey": "#TSK-28",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2027-01-05T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Analytics",
+                "Attribution",
+                "CAC"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-29",
+            "title": "Onboard Top 5 Converting Creators to Long-Term Contracts",
+            "description": "Offer ongoing monthly brand ambassadorships based on verified sales performance.",
+            "ticketKey": "#TSK-29",
+            "status": 1,
+            "sprintId": "sprint-mkt-2",
+            "panelData": {
+              "when": "2027-01-15T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Ambassadors",
+                "Contracts",
+                "Scaling"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-retention",
+      "type": "secondary",
+      "position": {
+        "x": -620,
+        "y": 680
+      },
+      "data": {
+        "label": "Post-Launch Scaling, Retention & AOV Expansion",
+        "subtitle": "LTV maximization, repeat purchases & bundle tiers (Dec 22, 2026 – Feb 17, 2027)",
+        "description": "Strategic initiatives to increase Customer Lifetime Value (LTV) and average order value for returning buyers. (Dec 22, 2026 – Feb 17, 2027)",
+        "epicKey": "#EPIC-6",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-mkt-3",
+        "panelData": {
+          "when": "2027-02-17T18:00:00.000Z",
+          "estimate": 14,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Sustainable profitability engine. Shifts marketing focus from cold acquisition to high-margin repeat customer revenue."
+        },
+        "cards": [
+          {
+            "id": "mkt-tsk-30",
+            "title": "Configure Klaviyo Abandoned Cart Automation",
+            "description": "Multi-step recovery flow (1h reminder, 24h 5% urgency discount) to recover lost Magento checkouts.",
+            "ticketKey": "#TSK-30",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2026-12-23T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Klaviyo",
+                "Abandoned Cart",
+                "Automation"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-31",
+            "title": "Activate Magento Reward Points Program",
+            "description": "Configure native points accrual for purchases and product reviews to foster customer retention.",
+            "ticketKey": "#TSK-31",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-01-04T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Loyalty",
+                "Reward Points",
+                "Retention"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-32",
+            "title": "Implement Tier Pricing Rules",
+            "description": "Set volume discount rules (e.g. buy 3 face masks, save 20%) in Magento catalog pricing.",
+            "ticketKey": "#TSK-32",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-01-10T18:00:00.000Z",
+              "estimate": 1.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Tier Pricing",
+                "Discounts",
+                "Catalog"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-33",
+            "title": "Create Curated Cosmetic Bundles",
+            "description": "Group complementary routine products into single SKU bundles (e.g. \"Morning Glow Routine\") to lift AOV.",
+            "ticketKey": "#TSK-33",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-01-15T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Bundles",
+                "AOV Expansion",
+                "Merchandising"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-34",
+            "title": "Automate Post-Purchase Review Collection",
+            "description": "Trigger automated review requests with photo incentive 14 days after order fulfillment.",
+            "ticketKey": "#TSK-34",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-01-22T18:00:00.000Z",
+              "estimate": 1,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Reviews",
+                "Social Proof",
+                "Klaviyo"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-35",
+            "title": "Deploy Customer Win-Back Email Campaign",
+            "description": "Automated replenishment campaign with cross-sell recommendations sent 30 days after last order.",
+            "ticketKey": "#TSK-35",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-02-05T18:00:00.000Z",
+              "estimate": 1.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Win-Back",
+                "Repeat Sales",
+                "LTV"
+              ]
+            }
+          },
+          {
+            "id": "mkt-tsk-36",
+            "title": "LTV/CAC Financial Audit & ROAS Reallocation",
+            "description": "Comprehensive financial review. Shift surplus ad spend into top-margin bestsellers across Google PMax.",
+            "ticketKey": "#TSK-36",
+            "status": 1,
+            "sprintId": "sprint-mkt-3",
+            "panelData": {
+              "when": "2027-02-17T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Budget Optimization",
+                "ROAS",
+                "Finance"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-mkt-analytics",
+      "source": "project",
+      "target": "epic-analytics",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-mkt-prelaunch",
+      "source": "project",
+      "target": "epic-prelaunch",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-left",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-mkt-seo",
+      "source": "project",
+      "target": "epic-seo",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-mkt-launch",
+      "source": "project",
+      "target": "epic-launch",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-mkt-influencers",
+      "source": "project",
+      "target": "epic-influencers",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-mkt-retention",
+      "source": "project",
+      "target": "epic-retention",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-mkt-1",
+      "name": "Sprint 1: Tracking & Pre-Launch (Nov 18 – Dec 14, 2026)",
+      "startDate": "2026-11-18T09:00:00.000Z",
+      "endDate": "2026-12-14T18:00:00.000Z",
+      "status": "ACTIVE",
+      "goal": "Implement tracking infrastructure (GTM, GA4, CAPI, Consent Mode v2), optimize SEO metadata, and build VIP pre-launch audience in Klaviyo."
+    },
+    {
+      "id": "sprint-mkt-2",
+      "name": "Sprint 2: Launch Blitz & Influencers (Dec 15, 2026 – Jan 15, 2027)",
+      "startDate": "2026-12-15T09:00:00.000Z",
+      "endDate": "2027-01-15T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Deploy omnichannel launch campaigns (Google PMax, Meta Advantage+, TikTok Spark Ads), send Go-Live emails, and activate 30 beauty nano-influencers."
+    },
+    {
+      "id": "sprint-mkt-3",
+      "name": "Sprint 3: Retention & LTV Scaling (Jan 16 – Feb 17, 2027)",
+      "startDate": "2027-01-16T09:00:00.000Z",
+      "endDate": "2027-02-17T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Maximize customer lifetime value with Magento Reward Points, Tier Pricing, Bundled Products, Win-Back email flows, and ROAS budget optimization."
+    }
+  ],
+  "teamMembers": [
+    {
+      "userId": "demo-user-alex",
+      "nick": "Alex",
+      "email": "alex@4u4.us",
+      "preferredIcon": "rocket",
+      "role": "Product Lead / Architect",
+      "joinedAt": "2026-11-20T18:03:46.307Z"
+    },
+    {
+      "userId": "demo-user-beth",
+      "nick": "Beth",
+      "email": "beth@4u4.us",
+      "preferredIcon": "brain",
+      "role": "Senior Fullstack Dev",
+      "joinedAt": "2026-11-20T18:03:46.307Z"
+    }
+  ]
+}
