@@ -1,0 +1,1062 @@
+{
+  "projectName": "Magento E-Commerce Store Design",
+  "description": "Planning, design, development, payment integration, and deployment of a modern Magento online store.",
+  "category": "E-Commerce",
+  "nodes": [
+    {
+      "id": "project",
+      "type": "primary",
+      "position": {
+        "x": 150,
+        "y": 255
+      },
+      "data": {
+        "label": "A new online store design based on the Magento platform",
+        "description": "Planning and execution of a new Magento e-commerce store with high performance and scalable architecture.",
+        "githubUrl": "https://github.com/4u4-us",
+        "projectKey": "#PRO-1",
+        "epicKey": "#PRO-1",
+        "dna": {
+          "problem": "Legacy e-commerce setup with slow page loads, disjointed checkout, and poor mobile conversion.",
+          "solution": "Modern Magento 2 headless implementation with optimized checkout flow and automated payment reconciliation.",
+          "targetAudience": "Global B2C consumers and B2B wholesale buyers.",
+          "marketLandscape": "Competitive retail landscape requiring sub-2s response times and robust inventory sync.",
+          "businessModel": "Direct-to-consumer online retail with integrated omnichannel fulfillment.",
+          "gtmStrategy": "Targeted organic search, Google Shopping campaigns, and email marketing automation.",
+          "team": "Alex (Product Lead & Architect), Beth (Senior Fullstack Engineer)."
+        },
+        "panelData": {
+          "what": [
+            {
+              "id": "pw-1",
+              "label": "E-commerce discovery and architecture audit",
+              "checked": true
+            },
+            {
+              "id": "pw-2",
+              "label": "Magento 2.4 infrastructure setup",
+              "checked": true
+            },
+            {
+              "id": "pw-3",
+              "label": "Payment and shipping provider integrations",
+              "checked": false
+            },
+            {
+              "id": "pw-4",
+              "label": "End-to-end security compliance and PCI DSS check",
+              "checked": false
+            }
+          ],
+          "when": "2026-12-04T17:00:00.000Z",
+          "estimate": 180,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "High-priority enterprise store delivery. Ensure seamless checkout experience and rapid page loading."
+        }
+      },
+      "measured": {
+        "width": 800,
+        "height": 177
+      }
+    },
+    {
+      "id": "Planning",
+      "type": "secondary",
+      "position": {
+        "x": 1500,
+        "y": 296
+      },
+      "data": {
+        "label": "Project Planning",
+        "subtitle": "Define scope and requirements.",
+        "description": "Project discovery, stakeholder interviews, requirement specifications, and milestone timeline setup.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-1",
+        "status": 3,
+        "panelData": {
+          "when": "2026-11-14T16:00:00.000Z",
+          "estimate": 24,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "what": [
+            {
+              "id": "pl-w1",
+              "label": "Stakeholder sign-off on technical requirements",
+              "checked": true
+            },
+            {
+              "id": "pl-w2",
+              "label": "Resource allocation and sprint calendar",
+              "checked": true
+            }
+          ]
+        },
+        "cards": [
+          {
+            "id": "card-plan-1",
+            "title": "Define project scope",
+            "description": "Detail all functional and non-functional requirements for the new storefront.",
+            "ticketKey": "#TSK-1",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-10T15:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "what": [
+                {
+                  "id": "w-1",
+                  "label": "Identify core product catalogue requirements",
+                  "checked": true
+                },
+                {
+                  "id": "w-2",
+                  "label": "Define multi-currency and multi-language boundaries",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-plan-2",
+            "title": "Gather requirements",
+            "description": "Consolidate UX requirements, integrations, and third-party API dependencies.",
+            "ticketKey": "#TSK-2",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-12T13:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "what": [
+                {
+                  "id": "w-3",
+                  "label": "Compile list of required Magento extensions",
+                  "checked": true
+                },
+                {
+                  "id": "w-4",
+                  "label": "Audit ERP integration specifications",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-plan-3",
+            "title": "Create project timeline",
+            "description": "Map out milestone dates, sprint delivery schedule, and critical path analysis.",
+            "ticketKey": "#TSK-3",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-14T16:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "what": [
+                {
+                  "id": "w-5",
+                  "label": "Build Gantt timeline and sprint milestones",
+                  "checked": true
+                },
+                {
+                  "id": "w-6",
+                  "label": "Set buffer windows for QA and staging validation",
+                  "checked": true
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 372,
+        "height": 388
+      }
+    },
+    {
+      "id": "Design",
+      "type": "secondary",
+      "position": {
+        "x": 960,
+        "y": 645
+      },
+      "data": {
+        "label": "Store Design",
+        "subtitle": "Create visual identity.",
+        "description": "UI/UX wireframes, high-fidelity mockups, responsive mobile layouts, and design system components.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-2",
+        "status": 2,
+        "sprintId": "sprint-active-demo",
+        "panelData": {
+          "when": "2026-11-21T15:00:00.000Z",
+          "estimate": 36,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-des-1",
+            "title": "Design homepage mockup",
+            "description": "Create hero banner, featured categories, and responsive mobile header layouts.",
+            "ticketKey": "#TSK-4",
+            "status": 3,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-16T14:00:00.000Z",
+              "estimate": 12,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "what": [
+                {
+                  "id": "w-7",
+                  "label": "Figma design system components approval",
+                  "checked": true
+                },
+                {
+                  "id": "w-8",
+                  "label": "Desktop, tablet, and smartphone breakpoint designs",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-des-2",
+            "title": "Design product page",
+            "description": "Product gallery, attribute selector, dynamic pricing display, and stock badge.",
+            "ticketKey": "#TSK-5",
+            "status": 3,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-18T16:00:00.000Z",
+              "estimate": 12,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "what": [
+                {
+                  "id": "w-9",
+                  "label": "Interactive image zoom and 360-degree preview",
+                  "checked": true
+                },
+                {
+                  "id": "w-10",
+                  "label": "Customer review and ratings section layout",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-des-3",
+            "title": "Design checkout flow",
+            "description": "Streamlined one-step checkout layout to maximize mobile conversion rates.",
+            "ticketKey": "#TSK-6",
+            "status": 2,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-21T13:00:00.000Z",
+              "estimate": 12,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "what": [
+                {
+                  "id": "w-11",
+                  "label": "Accordion multi-step vs. one-page checkout UX review",
+                  "checked": true
+                },
+                {
+                  "id": "w-12",
+                  "label": "Guest checkout with 1-click Apple Pay / Google Pay button",
+                  "checked": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 400,
+        "height": 388
+      }
+    },
+    {
+      "id": "Development",
+      "type": "secondary",
+      "position": {
+        "x": 345,
+        "y": 705
+      },
+      "data": {
+        "label": "Magento Development",
+        "subtitle": "Implement store functionality.",
+        "description": "Platform installation, database indexing, custom module programming, and theme integration.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-3",
+        "status": 2,
+        "sprintId": "sprint-active-demo",
+        "panelData": {
+          "when": "2026-11-23T16:00:00.000Z",
+          "estimate": 56,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-dev-1",
+            "title": "Install Magento",
+            "description": "Set up Magento 2.4.x with PHP 8.2, OpenSearch 2.x, and MariaDB on cloud staging.",
+            "ticketKey": "#TSK-7",
+            "status": 3,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-15T11:00:00.000Z",
+              "estimate": 16,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "what": [
+                {
+                  "id": "w-13",
+                  "label": "Configure Redis cache and session storage",
+                  "checked": true
+                },
+                {
+                  "id": "w-14",
+                  "label": "Deploy OpenSearch cluster and test indexing",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-dev-2",
+            "title": "Configure store settings",
+            "description": "Set up multi-store views, tax zones, currency conversion rates, and email templates.",
+            "ticketKey": "#TSK-8",
+            "status": 2,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-21T15:00:00.000Z",
+              "estimate": 16,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "what": [
+                {
+                  "id": "w-15",
+                  "label": "Tax calculation rules for EU VAT and US states",
+                  "checked": true
+                },
+                {
+                  "id": "w-16",
+                  "label": "Transactional email layouts with logo and footer branding",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "card-dev-3",
+            "title": "Develop custom modules",
+            "description": "Build bespoke modules for specialized ERP sync and personalized discount logic.",
+            "ticketKey": "#TSK-9",
+            "status": 2,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-23T17:00:00.000Z",
+              "estimate": 24,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "what": [
+                {
+                  "id": "w-17",
+                  "label": "Custom pricing plugin for B2B wholesale customer tier",
+                  "checked": true
+                },
+                {
+                  "id": "w-18",
+                  "label": "GraphQL query optimization for sub-100ms response",
+                  "checked": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 390,
+        "height": 388
+      }
+    },
+    {
+      "id": "ProductCatalog",
+      "type": "secondary",
+      "position": {
+        "x": -383,
+        "y": 780
+      },
+      "data": {
+        "label": "Product Catalog",
+        "subtitle": "Manage product data.",
+        "description": "Catalog taxonomy, attribute sets, CSV bulk data import, and SEO-friendly description copywriting.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-4",
+        "status": 2,
+        "panelData": {
+          "when": "2026-11-22T15:00:00.000Z",
+          "estimate": 28,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex"
+        },
+        "cards": [
+          {
+            "id": "card-cat-1",
+            "title": "Import initial product data",
+            "description": "Bulk import 2,500 SKUs with images, configurable variants, and inventory stock counts.",
+            "ticketKey": "#TSK-10",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-17T14:00:00.000Z",
+              "estimate": 12,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-cat-2",
+            "title": "Set up product categories",
+            "description": "Structure multi-level category navigation with layered attribute filters (color, size, brand).",
+            "ticketKey": "#TSK-11",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-21T13:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-cat-3",
+            "title": "Optimize product descriptions",
+            "description": "AI-assisted SEO enhancement of product meta titles, keywords, and rich schema markup.",
+            "ticketKey": "#TSK-12",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-24T16:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 424,
+        "height": 388
+      }
+    },
+    {
+      "id": "PaymentGateway",
+      "type": "secondary",
+      "position": {
+        "x": -390,
+        "y": -420
+      },
+      "data": {
+        "label": "Payment Gateway Integration",
+        "subtitle": "Secure payment processing.",
+        "description": "Payment provider selection, webhook listeners, 3D Secure 2 compliance, and refund automation.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-5",
+        "status": 2,
+        "sprintId": "sprint-active-demo",
+        "panelData": {
+          "when": "2026-11-23T15:00:00.000Z",
+          "estimate": 24,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-pay-1",
+            "title": "Choose payment gateway",
+            "description": "Evaluate Stripe, PayPal Braintree, and Adyen for fee structures and regional payment methods.",
+            "ticketKey": "#TSK-13",
+            "status": 3,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-16T10:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-pay-2",
+            "title": "Integrate payment gateway",
+            "description": "Configure official Stripe connector with Apple Pay, Google Pay, and localized bank transfers.",
+            "ticketKey": "#TSK-14",
+            "status": 2,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-21T15:00:00.000Z",
+              "estimate": 12,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-pay-3",
+            "title": "Test payment processing",
+            "description": "Simulate successful payments, declined authorizations, 3D Secure challenges, and automated refunds.",
+            "ticketKey": "#TSK-15",
+            "status": 1,
+            "sprintId": "sprint-active-demo",
+            "panelData": {
+              "when": "2026-11-24T14:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 404,
+        "height": 388
+      }
+    },
+    {
+      "id": "Shipping",
+      "type": "secondary",
+      "position": {
+        "x": -945,
+        "y": 27
+      },
+      "data": {
+        "label": "Shipping Configuration",
+        "subtitle": "Define shipping methods.",
+        "description": "Carrier API integrations (DHL, FedEx, UPS), real-time rate calculation, and automated label generation.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-6",
+        "status": 2,
+        "panelData": {
+          "when": "2026-11-24T16:00:00.000Z",
+          "estimate": 20,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-ship-1",
+            "title": "Configure shipping options",
+            "description": "Set up standard ground, express next-day, and free shipping threshold promotions.",
+            "ticketKey": "#TSK-16",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-18T13:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-ship-2",
+            "title": "Set up shipping rates",
+            "description": "Configure table rates based on weight, destination country, and subtotal thresholds.",
+            "ticketKey": "#TSK-17",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-22T14:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-ship-3",
+            "title": "Test shipping calculations",
+            "description": "Validate shipping rate accuracy across international destinations and dimensional weight limits.",
+            "ticketKey": "#TSK-18",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-25T15:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 403,
+        "height": 388
+      }
+    },
+    {
+      "id": "SEO",
+      "type": "secondary",
+      "position": {
+        "x": -960,
+        "y": 543
+      },
+      "data": {
+        "label": "SEO Optimization",
+        "subtitle": "Improve search engine visibility.",
+        "description": "XML sitemap generator, canonical URL rules, Google Search Console verification, and structured data.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-7",
+        "status": 2,
+        "panelData": {
+          "when": "2026-11-26T14:00:00.000Z",
+          "estimate": 22,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex"
+        },
+        "cards": [
+          {
+            "id": "card-seo-1",
+            "title": "Implement SEO best practices",
+            "description": "Configure canonical URLs, robot meta directives, and clean URL rewrites.",
+            "ticketKey": "#TSK-19",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-17T15:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-seo-2",
+            "title": "Set up Google Analytics & GTM",
+            "description": "Deploy Google Tag Manager with enhanced e-commerce conversion tracking.",
+            "ticketKey": "#TSK-20",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-22T10:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-seo-3",
+            "title": "Optimize meta descriptions",
+            "description": "Generate dynamic rich snippets for product pricing, availability, and customer reviews.",
+            "ticketKey": "#TSK-21",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-26T13:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 422,
+        "height": 388
+      }
+    },
+    {
+      "id": "Testing",
+      "type": "secondary",
+      "position": {
+        "x": 224,
+        "y": -285
+      },
+      "data": {
+        "label": "Testing and QA",
+        "subtitle": "Ensure quality and functionality.",
+        "description": "Automated Cypress smoke tests, cross-browser compatibility, payment stress testing, and accessibility.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-8",
+        "status": 1,
+        "panelData": {
+          "when": "2026-11-28T16:00:00.000Z",
+          "estimate": 24,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-tst-1",
+            "title": "Perform user acceptance testing",
+            "description": "Conduct guided test orders with key merchant stakeholders and note edge-case friction points.",
+            "ticketKey": "#TSK-22",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-23T13:00:00.000Z",
+              "estimate": 10,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-tst-2",
+            "title": "Conduct cross-browser testing",
+            "description": "Test checkout flow on Safari iOS, Chrome Android, Edge, and Firefox desktop.",
+            "ticketKey": "#TSK-23",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-27T15:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-tst-3",
+            "title": "Test order processing & webhooks",
+            "description": "Validate inventory deductions, invoice generation, customer notifications, and ERP export.",
+            "ticketKey": "#TSK-24",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-28T17:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 441,
+        "height": 388
+      }
+    },
+    {
+      "id": "Deployment",
+      "type": "secondary",
+      "position": {
+        "x": -960,
+        "y": -495
+      },
+      "data": {
+        "label": "Deployment",
+        "subtitle": "Launch the online store.",
+        "description": "Production cluster provisioning, SSL certificates, DNS switchover, and live traffic warm-up.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-9",
+        "status": 1,
+        "panelData": {
+          "when": "2026-12-01T17:00:00.000Z",
+          "estimate": 20,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-dep-1",
+            "title": "Deploy to production server",
+            "description": "Zero-downtime deployment script execution via GitHub Actions with database maintenance flag.",
+            "ticketKey": "#TSK-25",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-30T15:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-dep-2",
+            "title": "Configure DNS settings & CDN",
+            "description": "Point primary A/AAAA records to Cloudflare Edge with automated HTTPS cert renewal.",
+            "ticketKey": "#TSK-26",
+            "status": 1,
+            "panelData": {
+              "when": "2026-12-01T13:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-dep-3",
+            "title": "Monitor site performance",
+            "description": "Real-time Datadog monitoring for APM, database query bottlenecks, and 5xx error spikes.",
+            "ticketKey": "#TSK-27",
+            "status": 1,
+            "panelData": {
+              "when": "2026-12-02T16:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 407,
+        "height": 388
+      }
+    },
+    {
+      "id": "Marketing",
+      "type": "secondary",
+      "position": {
+        "x": 799,
+        "y": -300
+      },
+      "data": {
+        "label": "Marketing and Promotion",
+        "subtitle": "Drive traffic and sales.",
+        "description": "Launch campaigns, social media influencer activations, welcome discount popups, and email flows.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-10",
+        "status": 2,
+        "panelData": {
+          "when": "2026-11-25T16:00:00.000Z",
+          "estimate": 24,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex"
+        },
+        "cards": [
+          {
+            "id": "card-mkt-1",
+            "title": "Set up marketing campaigns",
+            "description": "Configure Meta Ads and Google Performance Max campaigns targeting high-intent shoppers.",
+            "ticketKey": "#TSK-28",
+            "status": 3,
+            "panelData": {
+              "when": "2026-11-18T15:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-mkt-2",
+            "title": "Plan social media strategy",
+            "description": "Coordinate 30-day opening countdown with short-form teaser reels on Instagram & TikTok.",
+            "ticketKey": "#TSK-29",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-22T14:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-mkt-3",
+            "title": "Implement email marketing automation",
+            "description": "Build automated Klaviyo welcome series, abandoned cart recovery, and VIP discount coupons.",
+            "ticketKey": "#TSK-30",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-25T13:00:00.000Z",
+              "estimate": 8,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 412,
+        "height": 388
+      }
+    },
+    {
+      "id": "Maintenance",
+      "type": "secondary",
+      "position": {
+        "x": 1500,
+        "y": -220
+      },
+      "data": {
+        "label": "Ongoing Maintenance",
+        "subtitle": "Keep the store running smoothly.",
+        "description": "Automated nightly backups, security patch cadence, Magento core updates, and SLA support.",
+        "isCollapsed": false,
+        "epicKey": "#EPIC-11",
+        "status": 1,
+        "panelData": {
+          "when": "2026-12-03T16:00:00.000Z",
+          "estimate": 18,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth"
+        },
+        "cards": [
+          {
+            "id": "card-mnt-1",
+            "title": "Perform regular backups",
+            "description": "Set up encrypted off-site snapshots of MySQL database and media assets to S3/R2 storage.",
+            "ticketKey": "#TSK-31",
+            "status": 2,
+            "panelData": {
+              "when": "2026-11-24T10:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          },
+          {
+            "id": "card-mnt-2",
+            "title": "Update Magento security patches",
+            "description": "Apply Adobe Commerce security releases and review extension compatibility in staging.",
+            "ticketKey": "#TSK-32",
+            "status": 1,
+            "panelData": {
+              "when": "2026-11-30T14:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex"
+            }
+          },
+          {
+            "id": "card-mnt-3",
+            "title": "Monitor security & audit logs",
+            "description": "Configure automated intrusion detection, failed admin login alerts, and WAF rules.",
+            "ticketKey": "#TSK-33",
+            "status": 1,
+            "panelData": {
+              "when": "2026-12-03T15:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth"
+            }
+          }
+        ]
+      },
+      "measured": {
+        "width": 387,
+        "height": 388
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-project-Planning",
+      "source": "project",
+      "target": "Planning",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-left",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Design",
+      "source": "project",
+      "target": "Design",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Development",
+      "source": "project",
+      "target": "Development",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-ProductCatalog",
+      "source": "project",
+      "target": "ProductCatalog",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-PaymentGateway",
+      "source": "project",
+      "target": "PaymentGateway",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Shipping",
+      "source": "project",
+      "target": "Shipping",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-SEO",
+      "source": "project",
+      "target": "SEO",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Testing",
+      "source": "project",
+      "target": "Testing",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Deployment",
+      "source": "project",
+      "target": "Deployment",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Marketing",
+      "source": "project",
+      "target": "Marketing",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true
+    },
+    {
+      "id": "e-project-Maintenance",
+      "source": "project",
+      "target": "Maintenance",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-left",
+      "type": "animated",
+      "animated": true
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-active-demo",
+      "name": "Sprint: Store Core & Checkout Integration",
+      "startDate": "2026-11-12T08:00:00.000Z",
+      "endDate": "2026-11-25T17:00:00.000Z",
+      "status": "ACTIVE",
+      "goal": "Complete Magento store development, payment gateway integration, and shipping configuration."
+    }
+  ],
+  "teamMembers": [
+    {
+      "userId": "demo-user-alex",
+      "nick": "Alex",
+      "email": "alex@4u4.us",
+      "preferredIcon": "rocket",
+      "role": "Product Lead / Architect",
+      "joinedAt": "2026-11-20T18:03:43.628Z"
+    },
+    {
+      "userId": "demo-user-beth",
+      "nick": "Beth",
+      "email": "beth@4u4.us",
+      "preferredIcon": "brain",
+      "role": "Senior Fullstack Dev",
+      "joinedAt": "2026-11-20T18:03:43.628Z"
+    }
+  ]
+}
