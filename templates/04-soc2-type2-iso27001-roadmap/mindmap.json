@@ -1,0 +1,956 @@
+{
+  "projectName": "SOC 2 Type II & ISO 27001 Roadmap",
+  "description": "Scope definition, ISMS policies, cloud hardening, vendor risk, pen-testing, and automated evidence collection.",
+  "category": "Security & Compliance",
+  "nodes": [
+    {
+      "id": "node-pro-1",
+      "type": "primary",
+      "position": {
+        "x": -240,
+        "y": 30
+      },
+      "data": {
+        "label": "SOC 2 Type II & ISO 27001 Certification Roadmap",
+        "description": "End-to-end compliance, security engineering, and external audit roadmap to achieve SOC 2 Type II and ISO 27001 readiness. Covers scope definition, ISMS policies, cloud hardening, vendor risk, penetration testing, and automated evidence collection. Duration: 20.11.2026 – 31.12.2026 (6 weeks / 30 working days).",
+        "githubUrl": "https://github.com/4u4-us",
+        "projectKey": "#PRO-1",
+        "epicKey": "#PRO-1",
+        "dna": {
+          "problem": "Enterprise sales deals blocked due to lack of formal SOC 2 Type II report, ISO 27001 certification, and verified continuous security posture.",
+          "solution": "Deploy continuous compliance automation (Drata/Vanta), formalize corporate ISMS, harden cloud infrastructure, and pass external CPA firm audit with zero exceptions.",
+          "targetAudience": "Enterprise B2B clients, procurement teams, enterprise CISOs, and security review committees.",
+          "marketLandscape": "Strict enterprise procurement landscape requiring verified SOC 2 Type II attestations, GDPR compliance, and independent penetration test reports.",
+          "businessModel": "Unlocks enterprise annual contracts ($50k - $250k+ ACV) and eliminates procurement cycle friction.",
+          "gtmStrategy": "Public Security Trust Center, automated NDA click-through report sharing, and continuous compliance posture badges.",
+          "team": "Alex (Head of Information Security & Compliance Lead), Beth (Principal Security & Cloud Systems Engineer)."
+        },
+        "panelData": {
+          "what": [
+            {
+              "id": "pw-1",
+              "label": "Define Trust Services Criteria, connect Vanta/Drata, and lock auditor scope",
+              "checked": true
+            },
+            {
+              "id": "pw-2",
+              "label": "Draft and ratify all ISMS policies and enforce cloud MFA/MDM controls",
+              "checked": true
+            },
+            {
+              "id": "pw-3",
+              "label": "Complete third-party penetration testing and BCDR disaster recovery drill",
+              "checked": false
+            },
+            {
+              "id": "pw-4",
+              "label": "Fulfill auditor PBC evidence sampling and publish public Security Trust Center",
+              "checked": false
+            }
+          ],
+          "when": "2026-12-31T18:00:00.000Z",
+          "estimate": 104,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Highest-priority company milestone for unlocking enterprise-tier ARR and customer trust."
+        }
+      },
+      "measured": {
+        "width": 480,
+        "height": 180
+      }
+    },
+    {
+      "id": "epic-scope",
+      "type": "secondary",
+      "position": {
+        "x": -620,
+        "y": -520
+      },
+      "data": {
+        "label": "Readiness Assessment & Audit Scope",
+        "subtitle": "Trust Services Criteria, data flow & gap analysis (20.11 – 27.11.2026)",
+        "description": "Define Trust Services Criteria (Security, Availability, Confidentiality), map system boundaries, and identify compliance gaps prior to remediation. (20.11.2026 – 27.11.2026)",
+        "epicKey": "#EPIC-1",
+        "status": 2,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-1",
+        "panelData": {
+          "when": "2026-11-27T18:00:00.000Z",
+          "estimate": 16.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Scoping phase defining exact cloud boundaries, in-scope services, and baseline remediation backlog."
+        },
+        "cards": [
+          {
+            "id": "c-soc-101",
+            "title": "Define SOC 2 Trust Services Criteria and ISO 27001 Statement of Applicability (SoA)",
+            "description": "Select applicable security controls and document justifications for any excluded clauses.",
+            "ticketKey": "#TSK-1",
+            "status": 3,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-20T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Scope",
+                "TSC",
+                "ISO27001"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "Select Security, Availability, and Confidentiality TSC",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "Document Annex A controls justification in SoA",
+                  "checked": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c-soc-102",
+            "title": "Map production system architecture and data-flow boundaries",
+            "description": "Create up-to-date network, cloud, and customer data flow diagrams for the auditor.",
+            "ticketKey": "#TSK-2",
+            "status": 2,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-23T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Data Flow",
+                "Architecture",
+                "Diagrams"
+              ],
+              "checklist": [
+                {
+                  "id": "c1",
+                  "label": "Document customer data encryption boundaries",
+                  "checked": true
+                },
+                {
+                  "id": "c2",
+                  "label": "Map third-party integration ingestion pathways",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "c-soc-103",
+            "title": "Deploy compliance automation platform (Vanta / Drata) and connect integrations",
+            "description": "Link AWS/GCP, GitHub, Okta, and HRIS systems for continuous control monitoring.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-25T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Automation",
+                "Drata",
+                "Vanta"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-104",
+            "title": "Conduct comprehensive gap analysis against baseline controls",
+            "description": "Catalog all failing technical and procedural checks and assign remediation owners.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-26T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Gap Analysis",
+                "Controls",
+                "Remediation"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-105",
+            "title": "Select accredited CPA / ISO audit firm and lock observation window",
+            "description": "Finalize engagement letter, audit calendar, and evidence delivery milestones.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-27T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Audit Firm",
+                "CPA",
+                "Scheduling"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-policies",
+      "type": "secondary",
+      "position": {
+        "x": 440,
+        "y": -520
+      },
+      "data": {
+        "label": "Information Security Policies & Governance",
+        "subtitle": "ISMS documentation, risk register & committee (24.11 – 04.12.2026)",
+        "description": "Establish the Information Security Management System (ISMS), formalize corporate policies, and institute recurring risk reviews. (24.11.2026 – 04.12.2026)",
+        "epicKey": "#EPIC-2",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-1",
+        "panelData": {
+          "when": "2026-12-04T18:00:00.000Z",
+          "estimate": 16,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Formal policy framework approved by executive leadership and reviewed annually."
+        },
+        "cards": [
+          {
+            "id": "c-soc-201",
+            "title": "Draft and ratify core Information Security and Access Control policies",
+            "description": "Formalize password standards, least-privilege rules, and MFA mandates across all systems.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-24T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Policies",
+                "Access Control",
+                "ISMS"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-202",
+            "title": "Publish Acceptable Use, Data Classification, and Retention policies",
+            "description": "Define handling rules for confidential customer data, PII, and automated purge schedules.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-26T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Data Classification",
+                "Retention",
+                "PII"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-203",
+            "title": "Formalize Change Management and Secure SDLC policy",
+            "description": "Document mandatory PR peer reviews, CI/CD checks, and production deployment approvals.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-30T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "SDLC",
+                "Change Management",
+                "CI/CD"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-204",
+            "title": "Conduct formal annual Risk Assessment and build Risk Register",
+            "description": "Score technical, operational, and third-party threats with documented mitigation plans.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-12-02T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Risk Assessment",
+                "Risk Register"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-205",
+            "title": "Establish quarterly Security Committee charter and meeting minutes",
+            "description": "Hold initial leadership governance review to approve ISMS objectives and sign off policies.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-12-04T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Governance",
+                "Committee",
+                "Minutes"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-hardening",
+      "type": "secondary",
+      "position": {
+        "x": 860,
+        "y": 80
+      },
+      "data": {
+        "label": "Cloud Infrastructure & Access Hardening",
+        "subtitle": "MFA, MDM, encryption, audit logs & UAR (25.11 – 11.12.2026)",
+        "description": "Remediate technical infrastructure gaps across cloud environments, identity providers, endpoints, and source code repositories. (25.11.2026 – 11.12.2026)",
+        "epicKey": "#EPIC-3",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-1",
+        "panelData": {
+          "when": "2026-12-11T18:00:00.000Z",
+          "estimate": 19,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Technical remediation ensuring 100% green tests in continuous monitoring automation."
+        },
+        "cards": [
+          {
+            "id": "c-soc-301",
+            "title": "Enforce hardware-backed MFA and SSO across all production and SaaS tools",
+            "description": "Eliminate standalone passwords and enforce Okta/Google Workspace SSO with SAML 2.0.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-25T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "MFA",
+                "SSO",
+                "Identity"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-302",
+            "title": "Configure full-disk encryption and MDM enrollment on all employee laptops",
+            "description": "Deploy Kandji/Jamf/Intune to enforce FileVault/BitLocker, screen locks, and OS auto-updates.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-11-27T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "MDM",
+                "Encryption",
+                "Endpoints"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-303",
+            "title": "Enable encryption at rest (AES-256) and in transit (TLS 1.3) across all data stores",
+            "description": "Audit S3 buckets, RDS databases, and load balancers to remove public access and legacy ciphers.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-12-02T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "TLS 1.3",
+                "AES-256",
+                "Cloud Storage"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-304",
+            "title": "Lock down GitHub branch protection and mandatory code review rules",
+            "description": "Require signed commits, passing status checks, and at least one approving review on main branches.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-1",
+            "panelData": {
+              "when": "2026-12-04T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "GitHub",
+                "Branch Protection",
+                "Code Review"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-305",
+            "title": "Centralize immutable audit logs and configure SIEM anomaly alerts",
+            "description": "Route CloudTrail, Kubernetes, and auth logs to a tamper-proof archive with 365-day retention.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-08T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "SIEM",
+                "Audit Logs",
+                "Retention"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-306",
+            "title": "Execute quarterly User Access Review (UAR) across production systems",
+            "description": "Audit all active admin privileges, revoke stale accounts, and archive signed approval logs.",
+            "ticketKey": "#TSK-6",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-11T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "UAR",
+                "Privileges",
+                "Access Review"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-hr-vendor",
+      "type": "secondary",
+      "position": {
+        "x": 440,
+        "y": 680
+      },
+      "data": {
+        "label": "HR Security, Onboarding & Vendor Risk Management",
+        "subtitle": "Background checks, security training & vendor DPAs (03.12 – 18.12.2026)",
+        "description": "Ensure personnel compliance, security awareness training, and rigorous due diligence for all critical sub-processors. (03.12.2026 – 18.12.2026)",
+        "epicKey": "#EPIC-4",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-2",
+        "panelData": {
+          "when": "2026-12-18T18:00:00.000Z",
+          "estimate": 14.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "People and supply chain security controls, training verification, and third-party risk management."
+        },
+        "cards": [
+          {
+            "id": "c-soc-401",
+            "title": "Verify background checks and signed NDAs for 100% of employees and contractors",
+            "description": "Audit HR folders to close any missing employment agreements or confidentiality clauses.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-03T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "HR Security",
+                "Background Checks",
+                "NDAs"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-402",
+            "title": "Roll out mandatory annual Security Awareness and Phishing training",
+            "description": "Track 100% completion certificates and policy acknowledgments across the organization.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-07T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Security Training",
+                "Phishing",
+                "Compliance"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-403",
+            "title": "Standardize employee onboarding and 24-hour offboarding checklists",
+            "description": "Automate ticket workflows ensuring immediate access revocation upon role change or termination.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-10T18:00:00.000Z",
+              "estimate": 2,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Onboarding",
+                "Offboarding",
+                "Access Deprovisioning"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-404",
+            "title": "Build Vendor Inventory and classify sub-processors by data risk tier",
+            "description": "Catalog every SaaS and infrastructure vendor accessing customer or corporate data.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-14T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Vendor Risk",
+                "Sub-processors",
+                "Inventory"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-405",
+            "title": "Collect SOC 2 reports, DPAs, and security questionnaires from Tier-1 vendors",
+            "description": "Review third-party audit exceptions and document formal vendor risk acceptance.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-18T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Due Diligence",
+                "DPAs",
+                "SOC2 Review"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-vuln",
+      "type": "secondary",
+      "position": {
+        "x": -620,
+        "y": 680
+      },
+      "data": {
+        "label": "Vulnerability Management, Pen-Testing & Incident Response",
+        "subtitle": "SAST/DAST, third-party pen-test & BCDR drill (07.12 – 23.12.2026)",
+        "description": "Validate defensive resilience through third-party penetration testing, continuous scanning, and live disaster recovery drills. (07.12.2026 – 23.12.2026)",
+        "epicKey": "#EPIC-5",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-2",
+        "panelData": {
+          "when": "2026-12-23T18:00:00.000Z",
+          "estimate": 19.5,
+          "assigneeNick": "Beth",
+          "assigneeId": "demo-user-beth",
+          "notes": "Empirical verification of security controls through external offensive testing and disaster recovery simulations."
+        },
+        "cards": [
+          {
+            "id": "c-soc-501",
+            "title": "Configure automated SAST, DAST, and container vulnerability scanning in CI/CD",
+            "description": "Integrate Dependabot/Snyk and enforce SLA remediation windows (Critical < 72h, High < 14d).",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-07T18:00:00.000Z",
+              "estimate": 3.5,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "SAST",
+                "DAST",
+                "Vulnerability Management"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-502",
+            "title": "Commission third-party black-box and grey-box penetration test",
+            "description": "Engage CREST-certified testers to evaluate web app, APIs, and cloud perimeter.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-10T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Pen-Test",
+                "CREST",
+                "Offensive Security"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-503",
+            "title": "Remediate pen-test findings and obtain clean re-test attestation letter",
+            "description": "Patch all Critical and High findings and archive official executive summary report.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-16T18:00:00.000Z",
+              "estimate": 6,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "Remediation",
+                "Attestation",
+                "Fixes"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-504",
+            "title": "Run tabletop Incident Response (IR) breach simulation drill",
+            "description": "Simulate credential compromise, verify escalation paths, and document lessons learned.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-2",
+            "panelData": {
+              "when": "2026-12-18T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Incident Response",
+                "Tabletop Drill",
+                "Lessons Learned"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-505",
+            "title": "Execute Business Continuity & Disaster Recovery (BCDR) backup restore test",
+            "description": "Restore production database snapshot into isolated staging and record actual RTO/RPO metrics.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-23T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Beth",
+              "assigneeId": "demo-user-beth",
+              "tags": [
+                "BCDR",
+                "Disaster Recovery",
+                "RTO/RPO"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "epic-audit",
+      "type": "secondary",
+      "position": {
+        "x": -1040,
+        "y": 80
+      },
+      "data": {
+        "label": "Automated Evidence Collection & External Audit Execution",
+        "subtitle": "Mock audit, PBC sampling, interviews & Trust Center (16.12 – 31.12.2026)",
+        "description": "Complete internal pre-audit review, support external auditor sampling, and publish the final certification trust center. (16.12.2026 – 31.12.2026)",
+        "epicKey": "#EPIC-6",
+        "status": 1,
+        "isCollapsed": false,
+        "sprintId": "sprint-soc2-3",
+        "panelData": {
+          "when": "2026-12-31T18:00:00.000Z",
+          "estimate": 18.5,
+          "assigneeNick": "Alex",
+          "assigneeId": "demo-user-alex",
+          "notes": "Official CPA audit observation window, sampling verification, report issuance, and public Trust Center rollout."
+        },
+        "cards": [
+          {
+            "id": "c-soc-601",
+            "title": "Perform internal mock audit and verify 100% passing automated tests",
+            "description": "Resolve all red flags in Vanta/Drata and verify timestamped manual evidence uploads.",
+            "ticketKey": "#TSK-1",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-16T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Mock Audit",
+                "Vanta/Drata",
+                "Evidence"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-602",
+            "title": "Fulfill auditor PBC (Prepared by Client) evidence and population sample requests",
+            "description": "Deliver sampled PR logs, onboarding tickets, access reviews, and change approvals.",
+            "ticketKey": "#TSK-2",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-21T18:00:00.000Z",
+              "estimate": 5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "PBC Requests",
+                "Sampling",
+                "Evidence Delivery"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-603",
+            "title": "Conduct external auditor walkthrough interviews with Engineering and HR leads",
+            "description": "Demonstrate live production controls, monitoring dashboards, and incident playbooks.",
+            "ticketKey": "#TSK-3",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-23T18:00:00.000Z",
+              "estimate": 4,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Auditor Walkthrough",
+                "Interviews",
+                "Live Demo"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-604",
+            "title": "Review draft SOC 2 Type II / ISO 27001 report and issue Management Assertion letter",
+            "description": "Verify accuracy of system description, resolve any minor auditor comments, and sign off.",
+            "ticketKey": "#TSK-4",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-28T18:00:00.000Z",
+              "estimate": 3,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Report Review",
+                "Assertion Letter",
+                "Sign-Off"
+              ]
+            }
+          },
+          {
+            "id": "c-soc-605",
+            "title": "Launch public Security Trust Center and publish compliance badges",
+            "description": "Gate full audit report behind automated NDA workflow for enterprise sales prospects.",
+            "ticketKey": "#TSK-5",
+            "status": 1,
+            "sprintId": "sprint-soc2-3",
+            "panelData": {
+              "when": "2026-12-31T18:00:00.000Z",
+              "estimate": 2.5,
+              "assigneeNick": "Alex",
+              "assigneeId": "demo-user-alex",
+              "tags": [
+                "Trust Center",
+                "Badges",
+                "Sales Enablement"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-pro-epic-1",
+      "source": "node-pro-1",
+      "target": "epic-scope",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#3b82f6",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "id": "edge-pro-epic-2",
+      "source": "node-pro-1",
+      "target": "epic-policies",
+      "sourceHandle": "source-top",
+      "targetHandle": "target-bottom",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#8b5cf6",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "id": "edge-pro-epic-3",
+      "source": "node-pro-1",
+      "target": "epic-hardening",
+      "sourceHandle": "source-right",
+      "targetHandle": "target-left",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#10b981",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "id": "edge-pro-epic-4",
+      "source": "node-pro-1",
+      "target": "epic-hr-vendor",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#f59e0b",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "id": "edge-pro-epic-5",
+      "source": "node-pro-1",
+      "target": "epic-vuln",
+      "sourceHandle": "source-bottom",
+      "targetHandle": "target-top",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#ef4444",
+        "strokeWidth": 2.5
+      }
+    },
+    {
+      "id": "edge-pro-epic-6",
+      "source": "node-pro-1",
+      "target": "epic-audit",
+      "sourceHandle": "source-left",
+      "targetHandle": "target-right",
+      "type": "animated",
+      "animated": true,
+      "style": {
+        "stroke": "#06b6d4",
+        "strokeWidth": 2.5
+      }
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-soc2-1",
+      "name": "Sprint 1: Scope, Policies & Cloud Hardening (20.11 – 04.12.2026)",
+      "startDate": "2026-11-20T09:00:00.000Z",
+      "endDate": "2026-12-04T18:00:00.000Z",
+      "status": "ACTIVE",
+      "goal": "Complete baseline gap analysis in Drata/Vanta, ratify corporate ISMS policies, and enforce cloud MFA/MDM controls."
+    },
+    {
+      "id": "sprint-soc2-2",
+      "name": "Sprint 2: Vendor Risk, Pen-Testing & Incident Response (07.12 – 18.12.2026)",
+      "startDate": "2026-12-07T09:00:00.000Z",
+      "endDate": "2026-12-18T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Complete vendor due diligence, verify 100% staff security training, and remediate third-party pen-test findings."
+    },
+    {
+      "id": "sprint-soc2-3",
+      "name": "Sprint 3: Mock Audit, Evidence Sampling & Trust Center (21.12 – 31.12.2026)",
+      "startDate": "2026-12-21T09:00:00.000Z",
+      "endDate": "2026-12-31T18:00:00.000Z",
+      "status": "PLANNED",
+      "goal": "Fulfill external CPA auditor PBC evidence requests, conduct walkthrough interviews, and launch public Security Trust Center."
+    }
+  ],
+  "teamMembers": [
+    {
+      "userId": "demo-user-alex",
+      "nick": "Alex",
+      "email": "alex@4u4.us",
+      "preferredIcon": "rocket",
+      "role": "Product Lead / Architect",
+      "joinedAt": "2026-11-20T18:03:51.801Z"
+    },
+    {
+      "userId": "demo-user-beth",
+      "nick": "Beth",
+      "email": "beth@4u4.us",
+      "preferredIcon": "brain",
+      "role": "Senior Fullstack Dev",
+      "joinedAt": "2026-11-20T18:03:51.801Z"
+    }
+  ]
+}
