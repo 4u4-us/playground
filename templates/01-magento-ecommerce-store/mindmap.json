@@ -116,7 +116,8 @@
                   "checked": true
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/4"
           },
           {
             "id": "card-plan-2",
@@ -221,7 +222,8 @@
                   "checked": true
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/5"
           },
           {
             "id": "card-des-2",
@@ -328,7 +330,8 @@
                   "checked": true
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/6"
           },
           {
             "id": "card-dev-2",
@@ -380,7 +383,8 @@
                   "checked": false
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/7"
           }
         ]
       },
@@ -504,7 +508,8 @@
               "estimate": 12,
               "assigneeNick": "Beth",
               "assigneeId": "demo-user-beth"
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/8"
           },
           {
             "id": "card-pay-3",
