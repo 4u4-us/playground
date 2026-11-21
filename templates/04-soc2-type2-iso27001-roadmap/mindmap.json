@@ -53,7 +53,8 @@
           "assigneeNick": "Alex",
           "assigneeId": "demo-user-alex",
           "notes": "Highest-priority company milestone for unlocking enterprise-tier ARR and customer trust."
-        }
+        },
+        "ticketUrl": "https://github.com/4u4-us/playground/tree/main/templates/04-soc2-type2-iso27001-roadmap"
       },
       "measured": {
         "width": 480,
@@ -633,7 +634,7 @@
             "id": "c-soc-502",
             "title": "Commission third-party black-box and grey-box penetration test",
             "description": "Engage CREST-certified testers to evaluate web app, APIs, and cloud perimeter.",
-            "ticketKey": "#TSK-2",
+            "ticketKey": "#TIX-2",
             "status": 1,
             "sprintId": "sprint-soc2-2",
             "panelData": {
@@ -646,7 +647,8 @@
                 "CREST",
                 "Offensive Security"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/31"
           },
           {
             "id": "c-soc-503",
