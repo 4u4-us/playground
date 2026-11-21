@@ -1,228 +1,227 @@
-# [![#PRO-1](https://img.shields.io/badge/PRO-1-8b5cf6)](#_) A new online store design based on the Magento platform
+# <p align="center"><img src="https://api.iconify.design/logos/magento.svg" width="40" height="40" align="center" /> Magento E-Commerce Store Design — Enterprise Platform</p>
 
-_Planning and execution of a new Magento e-commerce store with high performance and scalable architecture._
+<p align="center">
+  <strong>Comprehensive Architecture, High-Availability Cloud Infrastructure & Agile Sprint Specification</strong>
+</p>
 
-**Date:** November 20, 2026 19:03
-
-<a id="toc"></a>
-## Table of Contents
-
-<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-1 [Project Planning](#project-planning)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-2 [Store Design](#store-design)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-3 [Magento Development](#magento-development)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-4 [Product Catalog](#product-catalog)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-5 [Payment Gateway Integration](#payment-gateway-integration)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-6 [Shipping Configuration](#shipping-configuration)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-7 [SEO Optimization](#seo-optimization)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-8 [Testing and QA](#testing-and-qa)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-9 [Deployment](#deployment)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-10 [Marketing and Promotion](#marketing-and-promotion)  
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-11 [Ongoing Maintenance](#ongoing-maintenance)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Project_Key-%23PRO--1-8b5cf6?style=for-the-badge" alt="PRO-1" />
+  <img src="https://img.shields.io/badge/Magento_EE-2.4.7-ee672f?style=for-the-badge&logo=magento" alt="Magento 2.4" />
+  <img src="https://img.shields.io/badge/Theme-Hyv%C3%A4_Frontend-00b4d8?style=for-the-badge" alt="Hyva Theme" />
+  <img src="https://img.shields.io/badge/Cloud-AWS_Multi--AZ-232f3e?style=for-the-badge&logo=amazon-aws" alt="AWS" />
+  <img src="https://img.shields.io/badge/SLA-99.99%25-10b981?style=for-the-badge" alt="SLA" />
+</p>
 
 ---
 
-## Nodes & Tasks Registry
-
-<a id="project-planning"></a>
-<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-1](https://img.shields.io/badge/EPIC-1-f59e0b)](#_) **Project Planning** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 14.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 48h &nbsp;<sup>[↑](#toc)</sup>
-
-_Project discovery, stakeholder interviews, requirement specifications, and milestone timeline setup._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Define project scope** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 10.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Detail all functional and non-functional requirements for the new storefront._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Gather requirements** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Consolidate UX requirements, integrations, and third-party API dependencies._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Create project timeline** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 14.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Map out milestone dates, sprint delivery schedule, and critical path analysis._  
-
-
-<a id="store-design"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-2](https://img.shields.io/badge/EPIC-2-f59e0b)](#_) **Store Design** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 72h &nbsp;<sup>[↑](#toc)</sup>
-
-_UI/UX wireframes, high-fidelity mockups, responsive mobile layouts, and design system components._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Design homepage mockup** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Create hero banner, featured categories, and responsive mobile header layouts._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Design product page** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Product gallery, attribute selector, dynamic pricing display, and stock badge._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Design checkout flow** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Streamlined one-step checkout layout to maximize mobile conversion rates._  
-
-
-<a id="magento-development"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-3](https://img.shields.io/badge/EPIC-3-f59e0b)](#_) **Magento Development** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 112h &nbsp;<sup>[↑](#toc)</sup>
-
-_Platform installation, database indexing, custom module programming, and theme integration._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Install Magento** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 15.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Set up Magento 2.4.x with PHP 8.2, OpenSearch 2.x, and MariaDB on cloud staging._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Configure store settings** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Set up multi-store views, tax zones, currency conversion rates, and email templates._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Develop custom modules** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Build bespoke modules for specialized ERP sync and personalized discount logic._  
-
-
-<a id="product-catalog"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-4](https://img.shields.io/badge/EPIC-4-f59e0b)](#_) **Product Catalog** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 22.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 56h &nbsp;<sup>[↑](#toc)</sup>
-
-_Catalog taxonomy, attribute sets, CSV bulk data import, and SEO-friendly description copywriting._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Import initial product data** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 17.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Bulk import 2,500 SKUs with images, configurable variants, and inventory stock counts._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Set up product categories** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Structure multi-level category navigation with layered attribute filters (color, size, brand)._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Optimize product descriptions** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _AI-assisted SEO enhancement of product meta titles, keywords, and rich schema markup._  
-
-
-<a id="payment-gateway-integration"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-5](https://img.shields.io/badge/EPIC-5-f59e0b)](#_) **Payment Gateway Integration** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 48h &nbsp;<sup>[↑](#toc)</sup>
-
-_Payment provider selection, webhook listeners, 3D Secure 2 compliance, and refund automation._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Choose payment gateway** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Evaluate Stripe, PayPal Braintree, and Adyen for fee structures and regional payment methods._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Integrate payment gateway** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 12h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Configure official Stripe connector with Apple Pay, Google Pay, and localized bank transfers._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Test payment processing** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Simulate successful payments, declined authorizations, 3D Secure challenges, and automated refunds._  
-
-
-<a id="shipping-configuration"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-6](https://img.shields.io/badge/EPIC-6-f59e0b)](#_) **Shipping Configuration** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 40h &nbsp;<sup>[↑](#toc)</sup>
-
-_Carrier API integrations (DHL, FedEx, UPS), real-time rate calculation, and automated label generation._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Configure shipping options** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Set up standard ground, express next-day, and free shipping threshold promotions._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Set up shipping rates** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 22.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Configure table rates based on weight, destination country, and subtotal thresholds._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Test shipping calculations** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 25.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Validate shipping rate accuracy across international destinations and dimensional weight limits._  
-
-
-<a id="seo-optimization"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-7](https://img.shields.io/badge/EPIC-7-f59e0b)](#_) **SEO Optimization** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 26.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 44h &nbsp;<sup>[↑](#toc)</sup>
-
-_XML sitemap generator, canonical URL rules, Google Search Console verification, and structured data._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Implement SEO best practices** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 17.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Configure canonical URLs, robot meta directives, and clean URL rewrites._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Set up Google Analytics & GTM** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 22.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Deploy Google Tag Manager with enhanced e-commerce conversion tracking._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Optimize meta descriptions** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 26.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Generate dynamic rich snippets for product pricing, availability, and customer reviews._  
-
-
-<a id="testing-and-qa"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-8](https://img.shields.io/badge/EPIC-8-f59e0b)](#_) **Testing and QA** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 28.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 48h &nbsp;<sup>[↑](#toc)</sup>
-
-_Automated Cypress smoke tests, cross-browser compatibility, payment stress testing, and accessibility._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Perform user acceptance testing** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 10h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Conduct guided test orders with key merchant stakeholders and note edge-case friction points._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Conduct cross-browser testing** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 27.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Test checkout flow on Safari iOS, Chrome Android, Edge, and Firefox desktop._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Test order processing & webhooks** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 28.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Validate inventory deductions, invoice generation, customer notifications, and ERP export._  
-
-
-<a id="deployment"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-9](https://img.shields.io/badge/EPIC-9-f59e0b)](#_) **Deployment** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 1.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 40h &nbsp;<sup>[↑](#toc)</sup>
-
-_Production cluster provisioning, SSL certificates, DNS switchover, and live traffic warm-up._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Deploy to production server** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 30.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Zero-downtime deployment script execution via GitHub Actions with database maintenance flag._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Configure DNS settings & CDN** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 1.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Point primary A/AAAA records to Cloudflare Edge with automated HTTPS cert renewal._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Monitor site performance** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Real-time Datadog monitoring for APM, database query bottlenecks, and 5xx error spikes._  
-
-
-<a id="marketing-and-promotion"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-10](https://img.shields.io/badge/EPIC-10-f59e0b)](#_) **Marketing and Promotion** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 25.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 48h &nbsp;<sup>[↑](#toc)</sup>
-
-_Launch campaigns, social media influencer activations, welcome discount popups, and email flows._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Set up marketing campaigns** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Configure Meta Ads and Google Performance Max campaigns targeting high-intent shoppers._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Plan social media strategy** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 22.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Coordinate 30-day opening countdown with short-form teaser reels on Instagram & TikTok._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Implement email marketing automation** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 25.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Build automated Klaviyo welcome series, abandoned cart recovery, and VIP discount coupons._  
-
-
-<a id="ongoing-maintenance"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-11](https://img.shields.io/badge/EPIC-11-f59e0b)](#_) **Ongoing Maintenance** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 36h &nbsp;<sup>[↑](#toc)</sup>
-
-_Automated nightly backups, security patch cadence, Magento core updates, and SLA support._
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Perform regular backups** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Set up encrypted off-site snapshots of MySQL database and media assets to S3/R2 storage._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Update Magento security patches** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 30.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Apply Adobe Commerce security releases and review extension compatibility in staging._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Monitor security & audit logs** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Configure automated intrusion detection, failed admin login alerts, and WAF rules._  
-
-
-
+## 🎯 Executive Summary & Business Objectives
+
+This repository contains the end-to-end architectural blueprint and implementation plan for a high-performance **Magento 2.4 Enterprise Edition** online store tailored for cosmetics, luxury goods, and high-frequency retail.
+
+### 🏆 Key Performance Indicators (KPIs)
+* **Performance Benchmark:** Core Web Vitals (LCP < 1.8s, INP < 150ms, CLS < 0.05), Google Lighthouse score **> 92/100**.
+* **Traffic Capacity:** Built to comfortably sustain **15,000 concurrent shopping sessions** and **350,000 Monthly Active Users**.
+* **Checkout Velocity:** 1-page frictionless checkout with under **2.5 seconds payment turnaround**.
+* **Multi-Currency & Internationalization:** Native support for PLN (zł), EUR (€), and USD ($) with automatic geolocation and VAT calculation.
 
 ---
 
-<sub>⚡ **Planned & structured with [4u4.us](https://4u4.us)** — *Visual MindMap & Agile Backlog Ecosystem for Developers*</sub>
+## 🏛️ High-Availability System Architecture
+
+The infrastructure is orchestrated on **Amazon Web Services (AWS)** using containerized micro-services, distributed caching, and multi-region database redundancy:
+
+```mermaid
+flowchart TD
+    subgraph Edge ["🌐 Global Edge & Security"]
+        DNS["AWS Route 53 (Latency Routing)"] --> CF["AWS CloudFront CDN + AWS WAF"]
+        CF --> DDoS["AWS Shield Advanced (Anti-DDoS)"]
+    end
+
+    subgraph Ingress ["🚪 Ingress & Reverse Proxy"]
+        DDoS --> ALB["Application Load Balancer (ALB / TLS 1.3)"]
+        ALB --> Varnish["Varnish Cache 7.x Cluster (FPC Layer)"]
+    end
+
+    subgraph AppCluster ["⚡ Magento Application Tier (Auto-Scaling ECS Fargate)"]
+        Varnish --> Web1["PHP-FPM 8.3 / Nginx (Pod 1)"]
+        Varnish --> Web2["PHP-FPM 8.3 / Nginx (Pod 2)"]
+        Varnish --> Web3["PHP-FPM 8.3 / Nginx (Auto-scaled Pod N)"]
+    end
+
+    subgraph DataStorage ["💾 Persistence, State & Search"]
+        Web1 & Web2 & Web3 --> Aurora[("Amazon Aurora MySQL 8.0 Multi-AZ
+(Primary Writer + Read Replicas)")]
+        Web1 & Web2 & Web3 --> RedisSession[("Amazon ElastiCache Redis
+(Session Storage)")]
+        Web1 & Web2 & Web3 --> RedisBackend[("Amazon ElastiCache Redis
+(Object & FPC Cache)")]
+        Web1 & Web2 & Web3 --> OpenSearch[("AWS OpenSearch 2.11 Cluster
+(Catalog Search & Auto-Suggest)")]
+        Web1 & Web2 & Web3 --> S3Media[("Amazon S3 Bucket
+(Product Images & Assets)")]
+    end
+
+    subgraph ExternalIntegrations ["🔌 External Microservices & APIs"]
+        Web1 & Web2 & Web3 --> Stripe["Stripe Payments & Apple Pay"]
+        Web1 & Web2 & Web3 --> ERP["SAP / Baselinker ERP (Queue Worker)"]
+        Web1 & Web2 & Web3 --> Marketing["Klaviyo Events & GA4 E-Commerce"]
+    end
+```
+
+---
+
+## 💳 Checkout & Payment Execution Sequence
+
+The store employs an asynchronous, tokenized payment integration with **Stripe Elements** to guarantee PCI-DSS Level 1 compliance:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Shopper as 🛍️ Customer
+    participant UI as Hyvä Frontend (Alpine.js)
+    participant Core as Magento GraphQL API
+    participant Stripe as Stripe Gateway
+    participant ERP as ERP / Fulfillment Worker
+
+    Shopper->>UI: 1. Add Cosmetics to Cart & Open Checkout
+    UI->>Core: 2. mutation { setShippingAddress() }
+    Core-->>UI: 3. Return Available Carriers & Rates (InPost, DPD, DHL)
+    Shopper->>UI: 4. Select Payment Method (Apple Pay / Credit Card)
+    UI->>Core: 5. mutation { createStripePaymentIntent() }
+    Core->>Stripe: 6. POST /v1/payment_intents (amount, currency: PLN)
+    Stripe-->>Core: 7. Return client_secret
+    Core-->>UI: 8. Provide client_secret
+    Shopper->>Stripe: 9. 3D Secure 2.0 Biometric Confirmation
+    Stripe-->>UI: 10. PaymentIntent status: 'succeeded'
+    UI->>Core: 11. mutation { placeOrder(payment_intent_id) }
+    Core->>ERP: 12. Dispatch Order to Warehouse Queue (#MAG-8891)
+    Core-->>Shopper: 13. Render Order Confirmation & Send Receipt Email
+```
+
+---
+
+## 📋 Table of Contents
+
+- [🏛️ High-Availability System Architecture](#️-high-availability-system-architecture)
+- [💳 Checkout & Payment Execution Sequence](#-checkout--payment-execution-sequence)
+- [📊 Sprints & Milestones Overview](#-sprints--milestones-overview)
+- [🗂️ Epics & Technical Backlog](#️-epics--technical-backlog)
+  - [#EPIC-1 Project Planning](#epic-1-project-planning)
+  - [#EPIC-2 Store Design & UX](#epic-2-store-design--ux)
+  - [#EPIC-3 Magento 2 Core Development](#epic-3-magento-2-core-development)
+  - [#EPIC-4 Frontend Development with Hyvä](#epic-4-frontend-development-with-hyvä)
+  - [#EPIC-5 Checkout & Payment Integrations](#epic-5-checkout--payment-integrations)
+  - [#EPIC-6 DevOps, Cloud Infrastructure & Security](#epic-6-devops-cloud-infrastructure--security)
+  - [#EPIC-7 Third-Party ERP & Logistics Systems](#epic-7-third-party-erp--logistics-systems)
+  - [#EPIC-8 Testing & Quality Assurance](#epic-8-testing--quality-assurance)
+  - [#EPIC-9 SEO, Analytics & Compliance](#epic-9-seo-analytics--compliance)
+  - [#EPIC-10 Deployment & Hypercare Go-Live](#epic-10-deployment--hypercare-go-live)
+  - [#EPIC-11 Post-Launch Support & Maintenance](#epic-11-post-launch-support--maintenance)
+- [🛡️ Non-Functional Requirements & Security](#️-non-functional-requirements--security)
+
+---
+
+## 📊 Sprints & Milestones Overview
+
+| Sprint ID | Sprint Focus | Dates | Velocity (Hours) | Key Milestone |
+|-----------|--------------|-------|------------------|---------------|
+| **Sprint 1** | Store Core, Hyvä Theme & Database Setup | Nov 18 – Dec 14, 2026 | 160h | Working dev environment with product catalog |
+| **Sprint 2** | Checkout, Stripe, Shipping & ERP Integration | Dec 15, 2026 – Jan 15, 2027 | 180h | End-to-end test purchases and inventory sync |
+| **Sprint 3** | Load Testing, Hardening & Go-Live Hypercare | Jan 16 – Feb 17, 2027 | 140h | Production deployment under 99.99% SLA |
+
+---
+
+## 🗂️ Epics & Technical Backlog
+
+### #EPIC-1: Project Planning
+> Initial project scope definition, technical architecture specifications, resource allocation, and kickoff.
+* **Estimate:** 24h | **Status:** <img src="https://api.iconify.design/twemoji/green-circle.svg" width="10" height="10" /> Done | **Owner:** Lead Solutions Architect
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-1](https://github.com/4u4-us/playground/issues) | Requirements Gathering & Stakeholder Workshops | 8h | Done | Solutions Architect |
+| [#TSK-2](https://github.com/4u4-us/playground/issues) | Technical Architecture & Cloud Infrastructure Blueprint | 10h | Done | Lead Cloud Engineer |
+| [#TSK-3](https://github.com/4u4-us/playground/issues) | Project Roadmap, RACI Matrix & Milestone Definition | 6h | Done | Technical PM |
+
+---
+
+### #EPIC-2: Store Design & UX
+> UI/UX design in Figma, design system, interactive prototypes, and design approval for cosmetics store.
+* **Estimate:** 32h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Senior Product Designer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-4](https://github.com/4u4-us/playground/issues) | Wireframes, User Journey & Design System | 10h | Done | UI/UX Designer |
+| [#TSK-5](https://github.com/4u4-us/playground/issues) | Homepage & Category (PLP) UI Designs | 8h | In Progress | UI/UX Designer |
+| [#TSK-6](https://github.com/4u4-us/playground/issues) | Product Page (PDP) & Swatches UI Designs | 8h | In Progress | UI/UX Designer |
+| [#TSK-7](https://github.com/4u4-us/playground/issues) | Checkout Flow & Cart Drawer Prototype | 6h | To Do | UI/UX Designer |
+
+---
+
+### #EPIC-3: Magento 2 Core Development
+> Magento 2.4 EE setup, composer configuration, database schema, multi-store architecture, and catalog indexing.
+* **Estimate:** 48h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Senior Backend Engineer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-8](https://github.com/4u4-us/playground/issues) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
+| [#TSK-9](https://github.com/4u4-us/playground/issues) | Configure Multi-Store Structure (PLN / EUR) | 12h | In Progress | Senior Backend Dev |
+| [#TSK-10](https://github.com/4u4-us/playground/issues) | OpenSearch 2.11 Cluster Configuration & Indexers | 10h | In Progress | Senior Backend Dev |
+| [#TSK-11](https://github.com/4u4-us/playground/issues) | Product Attribute Sets (Skin Types, Shades, Volumes) | 10h | To Do | Backend Dev |
+| [#TSK-12](https://github.com/4u4-us/playground/issues) | Custom Product Options & Dynamic Price Calculation | 8h | To Do | Backend Dev |
+
+---
+
+### #EPIC-4: Frontend Development with Hyvä
+> Modern frontend implementation using Hyvä Theme, TailwindCSS, Alpine.js, and extreme performance tuning.
+* **Estimate:** 40h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Lead Frontend Engineer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-13](https://github.com/4u4-us/playground/issues) | Initialize Hyvä Base Theme with Tailwind JIT | 8h | Done | Frontend Lead |
+| [#TSK-14](https://github.com/4u4-us/playground/issues) | Implement Sticky Header, Megamenu & Search Flyout | 10h | In Progress | Frontend Dev |
+| [#TSK-15](https://github.com/4u4-us/playground/issues) | Product Gallery with Zoom & Shade Selector | 12h | In Progress | Frontend Dev |
+| [#TSK-16](https://github.com/4u4-us/playground/issues) | Ajax Mini-Cart & Free Shipping Progress Bar | 10h | To Do | Frontend Dev |
+
+---
+
+### #EPIC-5: Checkout & Payment Integrations
+> Frictionless single-step checkout, Stripe Elements, Apple Pay, Google Pay, and localized carrier shipping.
+* **Estimate:** 36h | **Status:** <img src="https://api.iconify.design/twemoji/red-circle.svg" width="10" height="10" /> To Do | **Owner:** Senior Integration Engineer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-17](https://github.com/4u4-us/playground/issues) | Integrate Hyvä Checkout (One-Step React/Alpine) | 10h | To Do | Frontend Lead |
+| [#TSK-18](https://github.com/4u4-us/playground/issues) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
+| [#TSK-19](https://github.com/4u4-us/playground/issues) | Polish BLIK & PayU / Przelewy24 Payment Rails | 8h | To Do | Senior Backend Dev |
+| [#TSK-20](https://github.com/4u4-us/playground/issues) | InPost Paczkomaty Parcel Locker Map Picker | 8h | To Do | Integration Dev |
+
+---
+
+### #EPIC-6: DevOps, Cloud Infrastructure & Security
+> AWS ECS Fargate, Aurora MySQL, ElastiCache Redis, CloudFront CDN, WAF, CI/CD with GitHub Actions.
+* **Estimate:** 32h | **Status:** <img src="https://api.iconify.design/twemoji/green-circle.svg" width="10" height="10" /> Done | **Owner:** Lead DevOps Engineer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [#TSK-21](https://github.com/4u4-us/playground/issues) | Terraform Provisioning of Multi-AZ AWS Infrastructure | 12h | Done | Lead DevOps Eng |
+| [#TSK-22](https://github.com/4u4-us/playground/issues) | Varnish 7.x Full-Page-Cache Clustering on AWS | 8h | Done | DevOps Eng |
+| [#TSK-23](https://github.com/4u4-us/playground/issues) | GitHub Actions CI/CD Pipeline (Build, Test, Deploy) | 8h | Done | DevOps Eng |
+| [#TSK-24](https://github.com/4u4-us/playground/issues) | Automated Nightly Backups & S3 Snapshot Archiving | 4h | Done | DevOps Eng |
+
+---
+
+## 🛡️ Non-Functional Requirements & Security Matrix
+
+> [!IMPORTANT]
+> **PCI-DSS Level 1 Compliance:** The application never handles, stores, or transmits raw credit card numbers. All payment inputs are mounted inside sandboxed Stripe iframes.
+
+| Area | Target Standard | Implementation & Tooling |
+|------|-----------------|--------------------------|
+| **Data Encryption** | AES-256 (At Rest), TLS 1.3 (In Transit) | AWS KMS customer-managed keys, strict HSTS |
+| **DDoS Protection** | Zero-downtime under volumetric attacks | CloudFront + AWS WAF rate-limiting rules |
+| **Disaster Recovery** | RPO < 1 hour, RTO < 2 hours | Aurora Multi-AZ with automated continuous PITR |
+| **Authentication** | Two-Factor Authentication (2FA) | Mandatory TOTP for all Magento Admin accounts |
+
+---
+*Generated automatically by [4u4.us](https://4u4.us) — Visual Agile for Modern Engineering Armies.*
