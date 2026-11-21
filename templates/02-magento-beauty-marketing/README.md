@@ -231,10 +231,10 @@ gantt
 | Task Key | Task Description | Channel | Target / Deliverable | Status |
 |----------|------------------|---------|----------------------|--------|
 | [![#TASK-M1](https://img.shields.io/badge/TASK-M1-3b82f6)](https://github.com/4u4-us/playground/issues/9) | Deploy Coming Soon Landing Page on Subdomain | Web | High-converting waitlist page | Done |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/27)** | **Support Ticket: VIP Waitlist SMS early-access URL redirection loop** | SMS | Verified SSL handshake fix | Closed |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/27)** | **Support Ticket: VIP Waitlist SMS early-access URL redirection loop** | SMS | Verified SSL handshake fix | Closed |
 | [![#TASK-M2](https://img.shields.io/badge/TASK-M2-3b82f6)](https://github.com/4u4-us/playground/issues/10) | Launch Meta Lead Ads Campaign (VIP Early Access) | Meta | Target CPL < $1.40 | In Progress |
 | [![#TASK-M3](https://img.shields.io/badge/TASK-M3-3b82f6)](https://github.com/4u4-us/playground/issues/11) | Build Klaviyo Welcome Nurture Sequence (5 Emails) | Email | 48% Open Rate benchmark | In Progress |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/26)** | **Marketing Defect: Meta Conversions API purchase event deduplication mismatch** | CAPI | 100% match quality fix | Open |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/26)** | **Marketing Defect: Meta Conversions API purchase event deduplication mismatch** | CAPI | 100% match quality fix | Open |
 | [![#TASK-M4](https://img.shields.io/badge/TASK-M4-3b82f6)](https://github.com/4u4-us/playground/issues/12) | Commission Teaser UGC Video Production (8 Creators) | TikTok | 8 Approved Video Concepts | Done |
 | [![#TASK-M5](https://img.shields.io/badge/TASK-M5-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M5") | Implement Server-Side GTM, Meta CAPI & GA4 Events | Tracking | 100% Event Match Quality | Done |
 
