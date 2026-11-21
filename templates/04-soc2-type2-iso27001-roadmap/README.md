@@ -1,185 +1,144 @@
-# [![#PRO-1](https://img.shields.io/badge/PRO-1-8b5cf6)](#_) SOC 2 Type II & ISO 27001 Certification Roadmap
+# <p align="center"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2316a34a" width="40" height="40" align="center" /> SOC 2 Type II & ISO 27001 Enterprise Roadmap</p>
 
-_End-to-end compliance, security engineering, and external audit roadmap to achieve SOC 2 Type II and ISO 27001 readiness. Covers scope definition, ISMS policies, cloud hardening, vendor risk, penetration testing, and automated evidence collection. Duration: 20.11.2026 – 31.12.2026 (6 weeks / 30 working days)._
+<p align="center">
+  <strong>Comprehensive Information Security Management System (ISMS) & Trust Services Criteria Implementation</strong>
+</p>
 
-**Date:** November 20, 2026 19:03
-
-<a id="toc"></a>
-## Table of Contents
-
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-1 [Readiness Assessment & Audit Scope](#readiness-assessment-audit-scope)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-2 [Information Security Policies & Governance](#information-security-policies-governance)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-3 [Cloud Infrastructure & Access Hardening](#cloud-infrastructure-access-hardening)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-4 [HR Security, Onboarding & Vendor Risk Management](#hr-security-onboarding-vendor-risk-management)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-5 [Vulnerability Management, Pen-Testing & Incident Response](#vulnerability-management-pen-testing-incident-response)  
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> #EPIC-6 [Automated Evidence Collection & External Audit Execution](#automated-evidence-collection-external-audit-execution)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Project_Key-%23PRO--4-16a34a?style=for-the-badge" alt="PRO-4" />
+  <img src="https://img.shields.io/badge/Certification-SOC_2_Type_II-059669?style=for-the-badge" alt="SOC 2" />
+  <img src="https://img.shields.io/badge/Standard-ISO%2FIEC_27001%3A2022-2563eb?style=for-the-badge" alt="ISO 27001" />
+  <img src="https://img.shields.io/badge/Security_Model-Zero_Trust_Architecture-7c3aed?style=for-the-badge" alt="Zero Trust" />
+  <img src="https://img.shields.io/badge/Audit_Window-6_Months-f59e0b?style=for-the-badge" alt="Audit Window" />
+</p>
 
 ---
 
-## Nodes & Tasks Registry
-
-<a id="readiness-assessment-audit-scope"></a>
-<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-1](https://img.shields.io/badge/EPIC-1-f59e0b)](#_) **Readiness Assessment & Audit Scope** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 27.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 33h &nbsp;<sup>[↑](#toc)</sup>
-
-_Define Trust Services Criteria (Security, Availability, Confidentiality), map system boundaries, and identify compliance gaps prior to remediation. (20.11.2026 – 27.11.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/green-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Define SOC 2 Trust Services Criteria and ISO 27001 Statement of Applicability (SoA)** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 20.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Select applicable security controls and document justifications for any excluded clauses._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Map production system architecture and data-flow boundaries** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Create up-to-date network, cloud, and customer data flow diagrams for the auditor._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Deploy compliance automation platform (Vanta / Drata) and connect integrations** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 25.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Link AWS/GCP, GitHub, Okta, and HRIS systems for continuous control monitoring._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Conduct comprehensive gap analysis against baseline controls** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 26.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Catalog all failing technical and procedural checks and assign remediation owners._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Select accredited CPA / ISO audit firm and lock observation window** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 27.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Finalize engagement letter, audit calendar, and evidence delivery milestones._  
-
-
-<a id="information-security-policies-governance"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-2](https://img.shields.io/badge/EPIC-2-f59e0b)](#_) **Information Security Policies & Governance** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 32h &nbsp;<sup>[↑](#toc)</sup>
-
-_Establish the Information Security Management System (ISMS), formalize corporate policies, and institute recurring risk reviews. (24.11.2026 – 04.12.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Draft and ratify core Information Security and Access Control policies** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 24.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Formalize password standards, least-privilege rules, and MFA mandates across all systems._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Publish Acceptable Use, Data Classification, and Retention policies** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 26.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Define handling rules for confidential customer data, PII, and automated purge schedules._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Formalize Change Management and Secure SDLC policy** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 30.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Document mandatory PR peer reviews, CI/CD checks, and production deployment approvals._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Conduct formal annual Risk Assessment and build Risk Register** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Score technical, operational, and third-party threats with documented mitigation plans._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Establish quarterly Security Committee charter and meeting minutes** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Hold initial leadership governance review to approve ISMS objectives and sign off policies._  
-
-
-<a id="cloud-infrastructure-access-hardening"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-3](https://img.shields.io/badge/EPIC-3-f59e0b)](#_) **Cloud Infrastructure & Access Hardening** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 11.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 38h &nbsp;<sup>[↑](#toc)</sup>
-
-_Remediate technical infrastructure gaps across cloud environments, identity providers, endpoints, and source code repositories. (25.11.2026 – 11.12.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Enforce hardware-backed MFA and SSO across all production and SaaS tools** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 25.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Eliminate standalone passwords and enforce Okta/Google Workspace SSO with SAML 2.0._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Configure full-disk encryption and MDM enrollment on all employee laptops** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 27.11.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Deploy Kandji/Jamf/Intune to enforce FileVault/BitLocker, screen locks, and OS auto-updates._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Enable encryption at rest (AES-256) and in transit (TLS 1.3) across all data stores** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Audit S3 buckets, RDS databases, and load balancers to remove public access and legacy ciphers._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Lock down GitHub branch protection and mandatory code review rules** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Require signed commits, passing status checks, and at least one approving review on main branches._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Centralize immutable audit logs and configure SIEM anomaly alerts** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 8.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Route CloudTrail, Kubernetes, and auth logs to a tamper-proof archive with 365-day retention._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Execute quarterly User Access Review (UAR) across production systems** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 11.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Audit all active admin privileges, revoke stale accounts, and archive signed approval logs._  
-
-
-<a id="hr-security-onboarding-vendor-risk-management"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-4](https://img.shields.io/badge/EPIC-4-f59e0b)](#_) **HR Security, Onboarding & Vendor Risk Management** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 29h &nbsp;<sup>[↑](#toc)</sup>
-
-_Ensure personnel compliance, security awareness training, and rigorous due diligence for all critical sub-processors. (03.12.2026 – 18.12.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Verify background checks and signed NDAs for 100% of employees and contractors** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Audit HR folders to close any missing employment agreements or confidentiality clauses._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Roll out mandatory annual Security Awareness and Phishing training** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 7.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Track 100% completion certificates and policy acknowledgments across the organization._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Standardize employee onboarding and 24-hour offboarding checklists** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 10.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Automate ticket workflows ensuring immediate access revocation upon role change or termination._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Build Vendor Inventory and classify sub-processors by data risk tier** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 14.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Catalog every SaaS and infrastructure vendor accessing customer or corporate data._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Collect SOC 2 reports, DPAs, and security questionnaires from Tier-1 vendors** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Review third-party audit exceptions and document formal vendor risk acceptance._  
-
-
-<a id="vulnerability-management-pen-testing-incident-response"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-5](https://img.shields.io/badge/EPIC-5-f59e0b)](#_) **Vulnerability Management, Pen-Testing & Incident Response** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 39h &nbsp;<sup>[↑](#toc)</sup>
-
-_Validate defensive resilience through third-party penetration testing, continuous scanning, and live disaster recovery drills. (07.12.2026 – 23.12.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Configure automated SAST, DAST, and container vulnerability scanning in CI/CD** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 7.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Integrate Dependabot/Snyk and enforce SLA remediation windows (Critical_  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Commission third-party black-box and grey-box penetration test** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 10.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Engage CREST-certified testers to evaluate web app, APIs, and cloud perimeter._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Remediate pen-test findings and obtain clean re-test attestation letter** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 6h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Patch all Critical and High findings and archive official executive summary report._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Run tabletop Incident Response (IR) breach simulation drill** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 18.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Simulate credential compromise, verify escalation paths, and document lessons learned._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Execute Business Continuity & Disaster Recovery (BCDR) backup restore test** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Restore production database snapshot into isolated staging and record actual RTO/RPO metrics._  
-
-
-<a id="automated-evidence-collection-external-audit-execution"></a>
-<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![#EPIC-6](https://img.shields.io/badge/EPIC-6-f59e0b)](#_) **Automated Evidence Collection & External Audit Execution** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 31.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 37h &nbsp;<sup>[↑](#toc)</sup>
-
-_Complete internal pre-audit review, support external auditor sampling, and publish the final certification trust center. (16.12.2026 – 31.12.2026)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Perform internal mock audit and verify 100% passing automated tests** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 16.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Resolve all red flags in Vanta/Drata and verify timestamped manual evidence uploads._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Fulfill auditor PBC (Prepared by Client) evidence and population sample requests** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 21.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Deliver sampled PR logs, onboarding tickets, access reviews, and change approvals._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Conduct external auditor walkthrough interviews with Engineering and HR leads** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 23.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 4h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Demonstrate live production controls, monitoring dashboards, and incident playbooks._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Review draft SOC 2 Type II / ISO 27001 report and issue Management Assertion letter** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 28.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 3h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Verify accuracy of system description, resolve any minor auditor comments, and sign off._  
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/twemoji/red-circle.svg" width="8" height="8" style="vertical-align: middle; margin-right: 4px;" /> [![TSK](https://img.shields.io/badge/TSK--3b82f6)](#_) **Launch public Security Trust Center and publish compliance badges** - <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 31.12.2026 -> <a href="#_" style="pointer-events:none"><img src="https://api.iconify.design/lucide/clock.svg?color=%23888888" width="4" height="4" style="pointer-events:none" /></a> 2.5h  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ _Gate full audit report behind automated NDA workflow for enterprise sales prospects._  
-
-
-
+## 🛡️ Executive Mandate & Certification Scope
+
+This roadmap outlines the complete enterprise journey to achieve **SOC 2 Type II** attestation and **ISO/IEC 27001:2022** certification for a cloud-native SaaS infrastructure.
+
+The certification encompasses all **5 AICPA Trust Services Criteria (TSC)**:
+1. **Security:** Protecting against unauthorized access and system breaches.
+2. **Availability:** Ensuring 99.99% operational uptime and robust disaster recovery.
+3. **Confidentiality:** Strict encryption and data handling controls for customer proprietary data.
+4. **Processing Integrity:** Complete, valid, accurate, and authorized transaction processing.
+5. **Privacy:** Full compliance with GDPR, CCPA, and global privacy mandates.
 
 ---
 
-<sub>⚡ **Planned & structured with [4u4.us](https://4u4.us)** — *Visual MindMap & Agile Backlog Ecosystem for Developers*</sub>
+## 📅 Compliance Roadmap & Audit Lifecycle
+
+```mermaid
+flowchart LR
+    Phase1["🔍 Phase 1: Gap Assessment & Scoping
+(Weeks 1-3)"]
+    Phase2["📜 Phase 2: Policy Authoring & IAM Lockdown
+(Weeks 4-8)"]
+    Phase3["🤖 Phase 3: Continuous Monitoring & Automation
+(Weeks 9-12)"]
+    Phase4["🛡️ Phase 4: External Pen-Testing & Remediation
+(Weeks 13-16)"]
+    Phase5["📋 Phase 5: SOC 2 Type I Audit
+(Point in Time - Week 17)"]
+    Phase6["⏱️ Phase 6: 6-Month Evidence Observation
+(Months 5-10)"]
+    Phase7["🏆 Phase 7: SOC 2 Type II Attestation & ISO Certification
+(Month 11)"]
+
+    Phase1 --> Phase2 --> Phase3 --> Phase4 --> Phase5 --> Phase6 --> Phase7
+```
+
+---
+
+## 🏰 Zero-Trust Multi-Layer Security Architecture
+
+```mermaid
+graph TD
+    subgraph Layer1 ["1. Identity & Access Governance (IAM)"]
+        IdP["Google Workspace / Okta SSO"] --> MFA["Hardware Security Key FIDO2 / WebAuthn"]
+        MFA --> RBAC["Least-Privilege RBAC & JIT Access Provisioning"]
+        RBAC --> BackgroundChecks["Mandatory Employee Background Checks"]
+    end
+
+    subgraph Layer2 ["2. Perimeter & Network Isolation"]
+        RBAC --> ZeroTrust["Tailscale WireGuard Mesh VPN (No Public Bastions)"]
+        ZeroTrust --> VPC["AWS Multi-AZ VPC (Private Isolated Subnets)"]
+        VPC --> WAF["Cloudflare Enterprise + AWS WAF (Rate Limits & OWASP Rules)"]
+    end
+
+    subgraph Layer3 ["3. Application & CI/CD Security Pipeline"]
+        WAF --> Containers["Docker Containers on AWS ECS Fargate"]
+        Code["GitHub Repository"] --> SecretScan["TruffleHog (Secret Detection)"]
+        SecretScan --> Snyk["Snyk SAST & Dependency Vulnerability Gate"]
+        Snyk --> Trivy["Trivy Container Image Scanning"]
+        Trivy --> Signed["Cosign Cryptographic Signature Verification"]
+        Signed --> Containers
+    end
+
+    subgraph Layer4 ["4. Data Cryptography & Key Management"]
+        Containers --> KMS["AWS KMS Customer-Managed Encryption Keys"]
+        KMS --> Rest["Encryption at Rest (AES-256-GCM)"]
+        Containers --> Transit["Encryption in Transit (TLS 1.3 Strict)"]
+    end
+
+    subgraph Layer5 ["5. Continuous Observability & Incident Response"]
+        Containers & VPC & IdP --> SIEM["Datadog Cloud SIEM & CloudTrail Audit Logs"]
+        SIEM --> Alert["PagerDuty 24/7 Security Operations Escalation"]
+    end
+```
+
+---
+
+## 🗂️ Sprints & Detailed Compliance Execution
+
+### Sprint 1: Scope, Policies & Cloud Hardening (Nov 20 – Dec 04, 2026)
+* **Goal:** Finalize 18 statutory information security policies and enforce cloud infrastructure security baselines.
+
+| Control Key | Security Domain | Implementation Specification | Status |
+|-------------|-----------------|------------------------------|--------|
+| **CC6.1** | Logical Access Controls | Enforce Okta SSO with WebAuthn/FIDO2 MFA for all employees | Done |
+| **CC6.6** | Data Encryption | Enable AES-256 encryption on all RDS clusters, Redis & S3 buckets | Done |
+| **CC6.7** | Transit Protection | Strict TLS 1.3 with automated certificate rotation via ACM | Done |
+| **CC2.1** | Governance & Policy | Author and publish Information Security Policy & Acceptable Use | In Progress |
+| **CC5.1** | Risk Assessment | Conduct annual Threat Model & Enterprise Risk Assessment | In Progress |
+
+---
+
+### Sprint 2: Vendor Risk, Pen-Testing & Incident Response (Dec 07 – Dec 18, 2026)
+* **Goal:** Execute third-party penetration test and formalize Vendor Risk Management (VRM) reviews.
+
+| Control Key | Security Domain | Implementation Specification | Status |
+|-------------|-----------------|------------------------------|--------|
+| **CC7.1** | Vulnerability Scanning | Automated daily vulnerability scans on infrastructure with Snyk | In Progress |
+| **CC7.2** | Penetration Testing | Independent CREST-accredited white-box penetration test | To Do |
+| **CC9.2** | Vendor Management | Security review & DPA execution for all critical SaaS vendors | To Do |
+| **CC7.3** | Incident Response | Tabletop Incident Response Simulation with PagerDuty runbooks | To Do |
+| **CC8.1** | Change Control | Mandatory 2-person code review and automated CI security gates | Done |
+
+---
+
+### Sprint 3: Mock Audit, Evidence Sampling & Trust Center (Dec 21 – Dec 31, 2026)
+* **Goal:** Conduct mock audit with external CPA firm and deploy public customer Trust Center.
+
+| Control Key | Security Domain | Implementation Specification | Status |
+|-------------|-----------------|------------------------------|--------|
+| **CC3.2** | Evidence Collection | Automated evidence collection via Vanta / Drata agent integration | To Do |
+| **CC4.1** | Audit Sampling | Review 25 random change requests and employee offboarding records | To Do |
+| **CC1.4** | Security Training | 100% completion of annual KnowBe4 security awareness training | To Do |
+| **TRUST** | Public Trust Center | Launch public security trust page with self-service NDA access | To Do |
+| **FINAL** | Type I Examination | External AICPA certified auditor signs off on Type I report | To Do |
+
+---
+
+## 📊 Enterprise Risk Register
+
+| Risk ID | Threat Scenario | Inherent Risk | Mitigation Controls | Residual Risk |
+|---------|-----------------|---------------|---------------------|---------------|
+| **RSK-01** | Compromised Employee Credentials | High (9/10) | Hardware FIDO2 MFA, JIT Access, Session timeout after 15m | Low (2/10) |
+| **RSK-02** | Supply Chain / Vulnerable Dependency | Critical (10/10) | Snyk SAST blocking PRs, automated Dependabot alerts | Low (2/10) |
+| **RSK-03** | Production Data Leak / Unencrypted Backup | Critical (10/10) | AWS KMS customer-managed keys, zero public S3 bucket policies | Very Low (1/10) |
+| **RSK-04** | Ransomware / Data Destruction | High (8/10) | AWS S3 Object Lock, immutable cross-region backups, RPO < 15m | Very Low (1/10) |
+
+---
+*Generated automatically by [4u4.us](https://4u4.us) — Visual Agile for Modern Engineering Armies.*
