@@ -53,7 +53,8 @@
           "assigneeNick": "Alex",
           "assigneeId": "demo-user-alex",
           "notes": "Flagship beauty launch campaign. Core milestones: ROAS > 300%, mobile LCP < 2.5s, and a high-converting automated retention funnel."
-        }
+        },
+        "ticketUrl": "https://github.com/4u4-us/playground/tree/main/templates/02-magento-beauty-marketing"
       },
       "measured": {
         "width": 480,
@@ -193,7 +194,7 @@
             "id": "mkt-tsk-5",
             "title": "Integrate Klaviyo Event Tracking Scripts",
             "description": "Configure event triggers: Add to Cart, Checkout Started, and Placed Order in storefront theme.",
-            "ticketKey": "#TSK-5",
+            "ticketKey": "#TIX-2",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -206,7 +207,8 @@
                 "Klaviyo",
                 "Tracking"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/27"
           },
           {
             "id": "mkt-tsk-6",
@@ -799,7 +801,7 @@
             "id": "mkt-tsk-30",
             "title": "Configure Klaviyo Abandoned Cart Automation",
             "description": "Multi-step recovery flow (1h reminder, 24h 5% urgency discount) to recover lost Magento checkouts.",
-            "ticketKey": "#TSK-30",
+            "ticketKey": "#TIX-1",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -812,7 +814,8 @@
                 "Abandoned Cart",
                 "Automation"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/26"
           },
           {
             "id": "mkt-tsk-31",
