@@ -53,7 +53,8 @@
           "assigneeNick": "Alex",
           "assigneeId": "demo-user-alex",
           "notes": "High-priority enterprise store delivery. Ensure seamless checkout experience and rapid page loading."
-        }
+        },
+        "ticketUrl": "https://github.com/4u4-us/playground/tree/main/templates/01-magento-ecommerce-store"
       },
       "measured": {
         "width": 800,
@@ -337,7 +338,7 @@
             "id": "card-dev-2",
             "title": "Configure store settings",
             "description": "Set up multi-store views, tax zones, currency conversion rates, and email templates.",
-            "ticketKey": "#TSK-8",
+            "ticketKey": "#TIX-2",
             "status": 2,
             "sprintId": "sprint-active-demo",
             "panelData": {
@@ -357,7 +358,8 @@
                   "checked": false
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/25"
           },
           {
             "id": "card-dev-3",
@@ -486,7 +488,7 @@
             "id": "card-pay-1",
             "title": "Choose payment gateway",
             "description": "Evaluate Stripe, PayPal Braintree, and Adyen for fee structures and regional payment methods.",
-            "ticketKey": "#TSK-13",
+            "ticketKey": "#TIX-1",
             "status": 3,
             "sprintId": "sprint-active-demo",
             "panelData": {
@@ -494,7 +496,8 @@
               "estimate": 6,
               "assigneeNick": "Alex",
               "assigneeId": "demo-user-alex"
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/24"
           },
           {
             "id": "card-pay-2",
