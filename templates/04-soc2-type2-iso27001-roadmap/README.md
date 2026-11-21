@@ -90,6 +90,116 @@ graph TD
 
 ---
 
+
+---
+
+## 🗺️ Interactive MindMap Graph (Generated 1:1 from `mindmap.json`)
+
+> **Dynamic Architecture Decomposition:** The native Mermaid diagram below is generated programmatically from the `mindmap.json` data tree. Each branch represents an architecture epic, and terminal leaves represent actionable agile user stories and tasks.
+
+```mermaid
+mindmap
+  root(("SOC 2 Type II & ISO 27001 Roadmap"))
+    ["EPIC-1 Readiness Assessment & Audit Scope"]
+      ("Define SOC 2 Trust Services Criteria and ISO 27001 Statement of Applicability SoA • 4h")
+      ("Map production system architecture and data-flow boundaries • 3.5h")
+      ("Deploy compliance automation platform Vanta / Drata and connect integrations • 3h")
+      ("Conduct comprehensive gap analysis against baseline controls • 4h")
+    ["EPIC-2 Information Security Policies & Governance"]
+      ("Draft and ratify core Information Security and Access Control policies • 4h")
+      ("Publish Acceptable Use, Data Classification, and Retention policies • 3h")
+      ("Formalize Change Management and Secure SDLC policy • 3h")
+      ("Conduct formal annual Risk Assessment and build Risk Register • 4h")
+    ["EPIC-3 Cloud Infrastructure & Access Hardening"]
+      ("Enforce hardware-backed MFA and SSO across all production and SaaS tools • 3h")
+      ("Configure full-disk encryption and MDM enrollment on all employee laptops • 4h")
+      ("Enable encryption at rest AES-256 and in transit TLS 1.3 across all data stores • 3.5h")
+      ("Lock down GitHub branch protection and mandatory code review rules • 2h")
+    ["EPIC-4 HR Security, Onboarding & Vendor Risk Management"]
+      ("Verify background checks and signed NDAs for 100% of employees and contractors • 3h")
+      ("Roll out mandatory annual Security Awareness and Phishing training • 2.5h")
+      ("Standardize employee onboarding and 24-hour offboarding checklists • 2h")
+      ("Build Vendor Inventory and classify sub-processors by data risk tier • 3h")
+    ["EPIC-5 Vulnerability Management, Pen-Testing & Incident Response"]
+      ("Configure automated SAST, DAST, and container vulnerability scanning in CI/CD • 3.5h")
+      ("Commission third-party black-box and grey-box penetration test • 4h")
+      ("Remediate pen-test findings and obtain clean re-test attestation letter • 6h")
+      ("Run tabletop Incident Response IR breach simulation drill • 3h")
+    ["EPIC-6 Automated Evidence Collection & External Audit Execution"]
+      ("Perform internal mock audit and verify 100% passing automated tests • 4h")
+      ("Fulfill auditor PBC Prepared by Client evidence and population sample requests • 5h")
+      ("Conduct external auditor walkthrough interviews with Engineering and HR leads • 4h")
+      ("Review draft SOC 2 Type II / ISO 27001 report and issue Management Assertion letter • 3h")
+```
+
+---
+
+## 🌳 Epic Hierarchy & Status Flow (from `mindmap.json`)
+
+> **Real-Time Agile Pipeline:** Nodes are color-coded based on live completion status (<span style="color:#059669">■</span> Done, <span style="color:#d97706">■</span> In Progress, <span style="color:#dc2626">■</span> To Do).
+
+```mermaid
+flowchart LR
+    %% Theme & Node Styles
+    classDef primary fill:#8b5cf6,stroke:#7c3aed,stroke-width:2.5px,color:#ffffff,font-weight:bold;
+    classDef done fill:#059669,stroke:#047857,stroke-width:1.5px,color:#ffffff;
+    classDef inprog fill:#d97706,stroke:#b45309,stroke-width:1.5px,color:#ffffff;
+    classDef todo fill:#dc2626,stroke:#b91c1c,stroke-width:1.5px,color:#ffffff;
+
+    Root["🚀 <b>SOC 2 Type II & ISO 27001 Roadmap</b><br/>#PRO-Architecture"]:::primary
+
+    E_1["<b>#EPIC-1: Readiness Assessment & Audit Scope</b><br/>5 Tasks • 33h • 🟡 In Progress"]:::inprog
+    Root --> E_1
+    E_2["<b>#EPIC-2: Information Security Policies & Governance</b><br/>5 Tasks • 32h • 🔴 To Do"]:::todo
+    Root --> E_2
+    E_3["<b>#EPIC-3: Cloud Infrastructure & Access Hardening</b><br/>6 Tasks • 38h • 🔴 To Do"]:::todo
+    Root --> E_3
+    E_4["<b>#EPIC-4: HR Security, Onboarding & Vendor Risk Management</b><br/>5 Tasks • 29h • 🔴 To Do"]:::todo
+    Root --> E_4
+    E_5["<b>#EPIC-5: Vulnerability Management, Pen-Testing & Incident Response</b><br/>5 Tasks • 39h • 🔴 To Do"]:::todo
+    Root --> E_5
+    E_6["<b>#EPIC-6: Automated Evidence Collection & External Audit Execution</b><br/>5 Tasks • 37h • 🔴 To Do"]:::todo
+    Root --> E_6
+```
+
+---
+
+## ⏱️ Dynamic Agile Gantt Timeline (from `mindmap.json`)
+
+> **Continuous Scheduling Engine:** Auto-projected task start dates, durations (derived from estimated hours), and critical execution paths.
+
+```mermaid
+gantt
+    title SOC 2 Type II & ISO 27001 Roadmap — Execution Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section EPIC-1 Readiness Assessment & Audit Scope
+    Define SOC 2 Trust Services Criteria and ISO 27001 Statement of Applicability SoA :done, 2026-11-20, 1d
+    Map production system architecture and data-flow boundaries :active, 2026-11-23, 1d
+    Deploy compliance automation platform Vanta / Drata and connect integrations :2026-11-25, 1d
+    section EPIC-2 Information Security Policies & Governance
+    Draft and ratify core Information Security and Access Control policies :2026-11-24, 1d
+    Publish Acceptable Use, Data Classification, and Retention policies :2026-11-26, 1d
+    Formalize Change Management and Secure SDLC policy :2026-11-30, 1d
+    section EPIC-3 Cloud Infrastructure & Access Hardening
+    Enforce hardware-backed MFA and SSO across all production and SaaS tools :2026-11-25, 1d
+    Configure full-disk encryption and MDM enrollment on all employee laptops :2026-11-27, 1d
+    Enable encryption at rest AES-256 and in transit TLS 1.3 across all data stores :2026-12-02, 1d
+    section EPIC-4 HR Security, Onboarding & Vendor Risk Management
+    Verify background checks and signed NDAs for 100% of employees and contractors :2026-12-03, 1d
+    Roll out mandatory annual Security Awareness and Phishing training :2026-12-07, 1d
+    Standardize employee onboarding and 24-hour offboarding checklists :2026-12-10, 1d
+    section EPIC-5 Vulnerability Management, Pen-Testing & Incident Response
+    Configure automated SAST, DAST, and container vulnerability scanning in CI/CD :2026-12-07, 1d
+    Commission third-party black-box and grey-box penetration test :2026-12-10, 1d
+    Remediate pen-test findings and obtain clean re-test attestation letter :2026-12-16, 1d
+    section EPIC-6 Automated Evidence Collection & External Audit Execution
+    Perform internal mock audit and verify 100% passing automated tests :2026-12-16, 1d
+    Fulfill auditor PBC Prepared by Client evidence and population sample requests :2026-12-21, 1d
+    Conduct external auditor walkthrough interviews with Engineering and HR leads :2026-12-23, 1d
+```
+
 ## 🗂️ Sprints & Detailed Compliance Execution
 
 ### Sprint 1: Scope, Policies & Cloud Hardening (Nov 20 – Dec 04, 2026)
