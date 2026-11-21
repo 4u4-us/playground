@@ -615,7 +615,7 @@
             "id": "c-soc-501",
             "title": "Configure automated SAST, DAST, and container vulnerability scanning in CI/CD",
             "description": "Integrate Dependabot/Snyk and enforce SLA remediation windows (Critical < 72h, High < 14d).",
-            "ticketKey": "#TSK-1",
+            "ticketKey": "#TIX-1",
             "status": 1,
             "sprintId": "sprint-soc2-2",
             "panelData": {
@@ -628,7 +628,8 @@
                 "DAST",
                 "Vulnerability Management"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/30"
           },
           {
             "id": "c-soc-502",
