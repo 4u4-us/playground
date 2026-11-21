@@ -240,7 +240,7 @@ gantt
 |----------|-----------------------|-------|----------|--------|
 | [![#TASK-S1](https://img.shields.io/badge/TASK-S1-3b82f6)](https://github.com/4u4-us/playground/issues/14) | Setup Next.js 15 Monorepo with Turborepo & Tailwind | Next.js / TS | 10h | Done |
 | [![#TASK-S2](https://img.shields.io/badge/TASK-S2-3b82f6)](https://github.com/4u4-us/playground/issues/15) | Configure PostgreSQL with RLS & Drizzle ORM Schema | Postgres / Drizzle | 14h | Done |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/28)** | **Database Incident: pgvector HNSW index lock contention during batch embedding backfills** | Database | 6h | Open |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/28)** | **Database Incident: pgvector HNSW index lock contention during batch embedding backfills** | Database | 6h | Open |
 | [![#TASK-S3](https://img.shields.io/badge/TASK-S3-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S3") | Multi-Tenant Organization Switcher & JWT Middleware | Clerk / Next.js | 12h | Done |
 | [![#TASK-S4](https://img.shields.io/badge/TASK-S4-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S4") | Upstash Redis Distributed Rate Limiting Configuration | Upstash / Redis | 8h | In Progress |
 | [![#TASK-S5](https://img.shields.io/badge/TASK-S5-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S5") | GitHub Actions CI/CD Pipeline with Automated E2E | Playwright | 10h | In Progress |
@@ -266,7 +266,7 @@ gantt
 | Task Key | Technical Deliverable | Stack | Estimate | Status |
 |----------|-----------------------|-------|----------|--------|
 | [![#TASK-S11](https://img.shields.io/badge/TASK-S11-3b82f6)](https://github.com/4u4-us/playground/issues/18) | Stripe Billing v3 Subscriptions & Webhook Processing | Stripe SDK | 14h | To Do |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/29)** | **Billing Defect: Stripe customer portal return_url session token expiration** | Stripe | 3h | Closed |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/29)** | **Billing Defect: Stripe customer portal return_url session token expiration** | Stripe | 3h | Closed |
 | [![#TASK-S12](https://img.shields.io/badge/TASK-S12-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S12") | Usage-Based Invoicing & Real-Time Token Tracking UI | React / Server Actions | 10h | To Do |
 | [![#TASK-S13](https://img.shields.io/badge/TASK-S13-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S13") | Team RBAC Permissions (Owner, Admin, Member, Viewer) | Drizzle / Postgres RLS | 12h | To Do |
 | [![#TASK-S14](https://img.shields.io/badge/TASK-S14-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S14") | Audit Log Streaming & Security Event Tracking | Datadog / OpenTelemetry | 8h | To Do |
