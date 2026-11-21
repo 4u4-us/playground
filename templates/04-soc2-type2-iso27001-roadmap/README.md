@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://4u4.us/playground">
+    <img src="https://raw.githubusercontent.com/4u4-us/playground/main/assets/4u4-logo.svg" alt="4u4.us Logo" width="220" />
+  </a>
+</p>
+
 # <p align="center"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2316a34a" width="40" height="40" align="center" /> SOC 2 Type II & ISO 27001 Enterprise Roadmap</p>
 
 <p align="center">
