@@ -224,9 +224,11 @@ gantt
 
 | Task Key | Task Description | Channel | Target / Deliverable | Status |
 |----------|------------------|---------|----------------------|--------|
-| [#TSK-M1](https://github.com/4u4-us/playground/issues) | Deploy Coming Soon Landing Page on Subdomain | Web | High-converting waitlist page | Done |
+| [#TSK-M1](https://github.com/4u4-us/playground/issues/9) | Deploy Coming Soon Landing Page on Subdomain | Web | High-converting waitlist page | Done |
+| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/27)** | **Support Ticket: VIP Waitlist SMS early-access URL redirection loop** | SMS | Verified SSL handshake fix | Closed |
 | [#TSK-M2](https://github.com/4u4-us/playground/issues) | Launch Meta Lead Ads Campaign (VIP Early Access) | Meta | Target CPL < $1.40 | In Progress |
-| [#TSK-M3](https://github.com/4u4-us/playground/issues) | Build Klaviyo Welcome Nurture Sequence (5 Emails) | Email | 48% Open Rate benchmark | In Progress |
+| [#TSK-M3](https://github.com/4u4-us/playground/issues/11) | Build Klaviyo Welcome Nurture Sequence (5 Emails) | Email | 48% Open Rate benchmark | In Progress |
+| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/26)** | **Marketing Defect: Meta Conversions API purchase event deduplication mismatch** | CAPI | 100% match quality fix | Open |
 | [#TSK-M4](https://github.com/4u4-us/playground/issues) | Commission Teaser UGC Video Production (8 Creators) | TikTok | 8 Approved Video Concepts | Done |
 | [#TSK-M5](https://github.com/4u4-us/playground/issues) | Implement Server-Side GTM, Meta CAPI & GA4 Events | Tracking | 100% Event Match Quality | Done |
 
