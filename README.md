@@ -32,6 +32,38 @@ flowchart LR
 
 ---
 
+## 🗺️ Unified Architecture Taxonomy
+
+The diagram below illustrates the structural scope of all 4 showcase projects generated directly from their `mindmap.json` data models:
+
+
+```mermaid
+mindmap
+  root(("🚀 4u4.us Playground Showcase"))
+    ["🛒 01. Magento E-Commerce Store"]
+      ("Hyvä Performance Theme")
+      ("AWS Aurora Multi-AZ & Varnish")
+      ("Stripe & Apple Pay Gateway")
+      ("SAP & Baselinker WMS Sync")
+    ["💄 02. Beauty Brand Launch & GTM"]
+      ("TikTok UGC & Spark Ads")
+      ("Meta Advantage+ Dynamic Catalog")
+      ("Klaviyo 5-Stage Lifecycle Flows")
+      ("Influencer Seeding & VIP Waitlist")
+    ["⚡ 03. Modern B2B SaaS Platform"]
+      ("Next.js 15 App Router & RSC")
+      ("PostgreSQL 16 Multi-Tenant RLS")
+      ("Gemini 1.5 Pro AI Reasoning Engine")
+      ("Stripe Metered Usage Invoicing")
+    ["🛡️ 04. SOC 2 Type II & ISO 27001"]
+      ("AICPA 5 Trust Services Criteria")
+      ("Zero-Trust IAM & Tailscale Mesh")
+      ("Continuous Automated Auditing")
+      ("Pen-Testing & Enterprise Risk Register")
+```
+
+---
+
 ## 📂 Production Reference Templates in This Repository
 
 This showcase repository contains **4 real-world, enterprise-grade project templates** generated automatically by **4u4.us**. Each project includes a complete architectural specification, Mermaid system diagrams, tech stack blueprints, sprint roadmaps, and full task registries.
