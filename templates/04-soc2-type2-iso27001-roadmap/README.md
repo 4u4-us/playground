@@ -218,7 +218,7 @@ gantt
 | **CC6.7** | Transit Protection | Strict TLS 1.3 with automated certificate rotation via ACM | Done |
 | **CC2.1** | Governance & Policy | Author and publish Information Security Policy & Acceptable Use | In Progress |
 | **CC5.1** | Risk Assessment | Conduct annual Threat Model & Enterprise Risk Assessment | In Progress |
-| &nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/30)** | **Audit Finding: Remediate inactive AWS IAM programmatic access keys older than 90 days** | IAM / SOC 2 | Open |
+| &nbsp;&nbsp;**[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/30)** | **Audit Finding: Remediate inactive AWS IAM programmatic access keys older than 90 days** | IAM / SOC 2 | Open |
 
 ---
 
@@ -229,7 +229,7 @@ gantt
 |-------------|-----------------|------------------------------|--------|
 | **CC7.1** | Vulnerability Scanning | Automated daily vulnerability scans on infrastructure with Snyk | In Progress |
 | **CC7.2** | Penetration Testing | Independent CREST-accredited white-box penetration test | To Do |
-| &nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/31)** | **Security Incident Drill: Tabletop breach simulation & PagerDuty runbook update** | SecOps / IR | Closed |
+| &nbsp;&nbsp;**[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/31)** | **Security Incident Drill: Tabletop breach simulation & PagerDuty runbook update** | SecOps / IR | Closed |
 | **CC9.2** | Vendor Management | Security review & DPA execution for all critical SaaS vendors | To Do |
 | **CC7.3** | Incident Response | Tabletop Incident Response Simulation with PagerDuty runbooks | To Do |
 | **CC8.1** | Change Control | Mandatory 2-person code review and automated CI security gates | Done |
