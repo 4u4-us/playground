@@ -112,7 +112,8 @@
                   "checked": true
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/19"
           },
           {
             "id": "c-soc-102",
