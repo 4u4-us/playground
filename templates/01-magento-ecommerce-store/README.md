@@ -302,7 +302,8 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-8](https://github.com/4u4-us/playground/issues) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
+| [#TSK-8](https://github.com/4u4-us/playground/issues/6) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
+| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/25)** | **Defect: Varnish 7.x ESI block stale cache after product stock updates** | 3h | Closed | DevOps SRE |
 | [#TSK-9](https://github.com/4u4-us/playground/issues) | Configure Multi-Store Structure (PLN / EUR) | 12h | In Progress | Senior Backend Dev |
 | [#TSK-10](https://github.com/4u4-us/playground/issues) | OpenSearch 2.11 Cluster Configuration & Indexers | 10h | In Progress | Senior Backend Dev |
 | [#TSK-11](https://github.com/4u4-us/playground/issues) | Product Attribute Sets (Skin Types, Shades, Volumes) | 10h | To Do | Backend Dev |
@@ -330,7 +331,8 @@ gantt
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
 | [#TSK-17](https://github.com/4u4-us/playground/issues) | Integrate Hyvä Checkout (One-Step React/Alpine) | 10h | To Do | Frontend Lead |
-| [#TSK-18](https://github.com/4u4-us/playground/issues) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
+| [#TSK-18](https://github.com/4u4-us/playground/issues/8) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
+| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/24)** | **Incident: Stripe Apple Pay 3DS2 biometric popup dismissal on iOS 18** | 4h | Open | Mobile QA |
 | [#TSK-19](https://github.com/4u4-us/playground/issues) | Polish BLIK & PayU / Przelewy24 Payment Rails | 8h | To Do | Senior Backend Dev |
 | [#TSK-20](https://github.com/4u4-us/playground/issues) | InPost Paczkomaty Parcel Locker Map Picker | 8h | To Do | Integration Dev |
 
