@@ -117,7 +117,8 @@
                   "checked": true
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/9"
           },
           {
             "id": "mkt-tsk-2",
@@ -288,7 +289,8 @@
                 "Meta Ads",
                 "Leads"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/10"
           },
           {
             "id": "mkt-tsk-9",
@@ -345,7 +347,8 @@
                 "UGC",
                 "Video"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/12"
           },
           {
             "id": "mkt-tsk-12",
