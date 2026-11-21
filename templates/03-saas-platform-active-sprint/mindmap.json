@@ -53,7 +53,8 @@
           "assigneeNick": "Alex",
           "assigneeId": "demo-user-alex",
           "notes": "Flagship cloud platform modernization and global launch. Target: 99.99% availability, SOC 2 compliance, and 10k+ active workspaces."
-        }
+        },
+        "ticketUrl": "https://github.com/4u4-us/playground/tree/main/templates/03-saas-platform-active-sprint"
       },
       "measured": {
         "width": 480,
@@ -124,7 +125,7 @@
             "id": "c-102",
             "title": "Configure managed PostgreSQL with read replicas and automated backups",
             "description": "Deploy primary database cluster with point-in-time recovery (PITR) and connection pooling.",
-            "ticketKey": "#TSK-2",
+            "ticketKey": "#TIX-1",
             "status": 2,
             "sprintId": "sprint-saas-1",
             "panelData": {
@@ -149,7 +150,8 @@
                   "checked": false
                 }
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/28"
           },
           {
             "id": "c-103",
@@ -836,7 +838,7 @@
             "id": "c-602",
             "title": "Build resilient Stripe webhook handler for subscription lifecycle events",
             "description": "Process checkout, invoice payment, upgrades, cancellations, and dunning retries with signature validation.",
-            "ticketKey": "#TSK-2",
+            "ticketKey": "#TIX-2",
             "status": 1,
             "sprintId": "sprint-saas-3",
             "panelData": {
@@ -849,7 +851,8 @@
                 "Webhooks",
                 "Dunning"
               ]
-            }
+            },
+            "ticketUrl": "https://github.com/4u4-us/playground/issues/29"
           },
           {
             "id": "c-603",
