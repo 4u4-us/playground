@@ -11,7 +11,7 @@
         "y": 30
       },
       "data": {
-        "label": "Magento Cosmetics Store Launch – 3-Month Marketing Campaign (PL/EU)",
+        "label": "Cosmetics Store Launch – 3-Month Marketing Campaign (PL/EU)",
         "description": "Comprehensive go-to-market strategy in the beauty e-commerce sector. Encompasses full-funnel execution from pre-launch teaser, through Launch Blitz, to retention and loyalty programs built on Magento 2 architecture. Timeline: Nov 18, 2026 – Feb 17, 2027.",
         "githubUrl": "https://github.com/4u4-us",
         "projectKey": "#PRO-1",
@@ -88,7 +88,7 @@
             "id": "mkt-tsk-1",
             "title": "Deploy Google Tag Manager & GA4 Enhanced E-Commerce",
             "description": "Data Layer integration for full cart, checkout, and purchase journey tracking on Magento.",
-            "ticketKey": "#TSK-1",
+            "ticketKey": "#TASK-1",
             "status": 3,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -125,7 +125,7 @@
             "id": "mkt-tsk-2",
             "title": "Implement Facebook Conversions API (CAPI)",
             "description": "Server-side tracking deployment to maximize Meta Ads attribution and signal resilience.",
-            "ticketKey": "#TSK-2",
+            "ticketKey": "#TASK-2",
             "status": 2,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -156,7 +156,7 @@
             "id": "mkt-tsk-3",
             "title": "Configure Google Consent Mode v2",
             "description": "Integrate cookie consent banner with advanced consent states required for EU markets.",
-            "ticketKey": "#TSK-3",
+            "ticketKey": "#TASK-3",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -175,7 +175,7 @@
             "id": "mkt-tsk-4",
             "title": "Generate and Validate Product Feeds (XML)",
             "description": "Create catalog feeds for Google Merchant Center and Meta via native Magento catalog export.",
-            "ticketKey": "#TSK-4",
+            "ticketKey": "#TASK-4",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -214,7 +214,7 @@
             "id": "mkt-tsk-6",
             "title": "Varnish Cache Audit for Mobile Ad Traffic",
             "description": "Simulate high ad traffic spikes to ensure Largest Contentful Paint (LCP) remains under 2.5s.",
-            "ticketKey": "#TSK-6",
+            "ticketKey": "#TASK-6",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -259,7 +259,7 @@
             "id": "mkt-tsk-7",
             "title": "Deploy Coming Soon Landing Page on Magento CMS",
             "description": "High-converting teaser page with countdown timer and VIP signup form for 20% launch discount.",
-            "ticketKey": "#TSK-7",
+            "ticketKey": "#TASK-7",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -278,7 +278,7 @@
             "id": "mkt-tsk-8",
             "title": "Launch Meta Lead Ads Campaign",
             "description": "Top-of-funnel campaign targeting beauty enthusiasts with copy: \"Join VIP early access & claim welcome discount\".",
-            "ticketKey": "#TSK-8",
+            "ticketKey": "#TASK-8",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -298,7 +298,7 @@
             "id": "mkt-tsk-9",
             "title": "Build Klaviyo Welcome Nurture Flow",
             "description": "Automated email warm-up sequence introducing brand founders, organic formulations, and clean ingredients.",
-            "ticketKey": "#TSK-9",
+            "ticketKey": "#TASK-9",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -317,7 +317,7 @@
             "id": "mkt-tsk-10",
             "title": "Define Cart Price Rules for VIP Launch in Magento",
             "description": "Configure unique single-use VIP discount coupon codes mapped to customer email profiles.",
-            "ticketKey": "#TSK-10",
+            "ticketKey": "#TASK-10",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -336,7 +336,7 @@
             "id": "mkt-tsk-11",
             "title": "Commission Teaser UGC Video Production",
             "description": "Produce high-impact 3-second macro texture close-ups formatted for TikTok and Instagram Reels.",
-            "ticketKey": "#TSK-11",
+            "ticketKey": "#TASK-11",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -356,7 +356,7 @@
             "id": "mkt-tsk-12",
             "title": "Segment Acquired VIP Lead Database",
             "description": "Tag skin type preferences and product interests in CRM to personalize launch day messaging.",
-            "ticketKey": "#TSK-12",
+            "ticketKey": "#TASK-12",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -401,7 +401,7 @@
             "id": "mkt-tsk-13",
             "title": "SEO Meta Tags for Top 20 Categories",
             "description": "Optimize Title, H1, and Description tags focusing on \"clean skincare\" and \"vegan beauty\".",
-            "ticketKey": "#TSK-13",
+            "ticketKey": "#TASK-13",
             "status": 2,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -420,7 +420,7 @@
             "id": "mkt-tsk-14",
             "title": "Implement WebP Images with Alt Tags",
             "description": "Compress and convert all catalog media to next-gen WebP to boost Google Images visibility and speed.",
-            "ticketKey": "#TSK-14",
+            "ticketKey": "#TASK-14",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -439,7 +439,7 @@
             "id": "mkt-tsk-15",
             "title": "Configure 301 URL Redirect Mapping",
             "description": "Ensure pristine Magento URL key hierarchy and eliminate potential 404 crawl errors.",
-            "ticketKey": "#TSK-15",
+            "ticketKey": "#TASK-15",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -457,7 +457,7 @@
             "id": "mkt-tsk-16",
             "title": "Publish Skincare Routine Blog Guides",
             "description": "Author 4 educational SEO articles with internal links to recommended product bundles.",
-            "ticketKey": "#TSK-16",
+            "ticketKey": "#TASK-16",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -476,7 +476,7 @@
             "id": "mkt-tsk-17",
             "title": "Validate Schema.org Structured Data",
             "description": "Implement Product and AggregateRating rich snippets to display live prices and star reviews in SERPs.",
-            "ticketKey": "#TSK-17",
+            "ticketKey": "#TASK-17",
             "status": 1,
             "sprintId": "sprint-mkt-1",
             "panelData": {
@@ -521,7 +521,7 @@
             "id": "mkt-tsk-18",
             "title": "Launch Google Ads Performance Max (PMax)",
             "description": "Target ROAS > 300% campaign utilizing optimized Magento product XML feeds and creative asset groups.",
-            "ticketKey": "#TSK-18",
+            "ticketKey": "#TASK-18",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -540,7 +540,7 @@
             "id": "mkt-tsk-19",
             "title": "Activate Meta Advantage+ Shopping Campaigns",
             "description": "Automated dynamic catalog sales campaign optimized for Purchase events across PL/EU.",
-            "ticketKey": "#TSK-19",
+            "ticketKey": "#TASK-19",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -559,7 +559,7 @@
             "id": "mkt-tsk-20",
             "title": "Deploy Go-Live Email Announcement",
             "description": "Broadcast launch email to entire VIP waitlist announcing store open with discount codes.",
-            "ticketKey": "#TSK-20",
+            "ticketKey": "#TASK-20",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -578,7 +578,7 @@
             "id": "mkt-tsk-21",
             "title": "Launch TikTok Spark Ads Campaign",
             "description": "Promote creator UGC videos linking directly to mobile-optimized, fast-loading product pages.",
-            "ticketKey": "#TSK-21",
+            "ticketKey": "#TASK-21",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -597,7 +597,7 @@
             "id": "mkt-tsk-22",
             "title": "Enable Meta Dynamic Product Ads (DPA)",
             "description": "Dynamic retargeting showing viewed but unpurchased cosmetic products to warm prospects.",
-            "ticketKey": "#TSK-22",
+            "ticketKey": "#TASK-22",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -616,7 +616,7 @@
             "id": "mkt-tsk-23",
             "title": "Real-Time Checkout Funnel Monitoring",
             "description": "Track checkout drop-off rates and payment gateway response times during peak launch traffic spikes.",
-            "ticketKey": "#TSK-23",
+            "ticketKey": "#TASK-23",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -661,7 +661,7 @@
             "id": "mkt-tsk-24",
             "title": "Recruit 30 Beauty Nano-Influencers (PL/EU)",
             "description": "Source creators with 10k-25k engaged followers for product gifting and affiliate partnerships.",
-            "ticketKey": "#TSK-24",
+            "ticketKey": "#TASK-24",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -680,7 +680,7 @@
             "id": "mkt-tsk-25",
             "title": "Configure Custom Affiliate Coupon Codes",
             "description": "Set up trackable creator-specific discount codes in Magento Cart Price Rules with commission tracking.",
-            "ticketKey": "#TSK-25",
+            "ticketKey": "#TASK-25",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -699,7 +699,7 @@
             "id": "mkt-tsk-26",
             "title": "Dispatch PR Seed Packages (Unboxing Experience)",
             "description": "Ship 30 branded unboxing gift boxes featuring signature skincare sets and custom cards.",
-            "ticketKey": "#TSK-26",
+            "ticketKey": "#TASK-26",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -718,7 +718,7 @@
             "id": "mkt-tsk-27",
             "title": "Curate and Reformat Influencer UGC Assets",
             "description": "Edit creator Reels and TikToks into high-converting paid social ad variants with bold visual hooks.",
-            "ticketKey": "#TSK-27",
+            "ticketKey": "#TASK-27",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -737,7 +737,7 @@
             "id": "mkt-tsk-28",
             "title": "Analyze Creator Sales in Magento Reports",
             "description": "Identify which influencers generate the lowest blended CAC and highest conversion volume.",
-            "ticketKey": "#TSK-28",
+            "ticketKey": "#TASK-28",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -756,7 +756,7 @@
             "id": "mkt-tsk-29",
             "title": "Onboard Top 5 Converting Creators to Long-Term Contracts",
             "description": "Offer ongoing monthly brand ambassadorships based on verified sales performance.",
-            "ticketKey": "#TSK-29",
+            "ticketKey": "#TASK-29",
             "status": 1,
             "sprintId": "sprint-mkt-2",
             "panelData": {
@@ -821,7 +821,7 @@
             "id": "mkt-tsk-31",
             "title": "Activate Magento Reward Points Program",
             "description": "Configure native points accrual for purchases and product reviews to foster customer retention.",
-            "ticketKey": "#TSK-31",
+            "ticketKey": "#TASK-31",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -840,7 +840,7 @@
             "id": "mkt-tsk-32",
             "title": "Implement Tier Pricing Rules",
             "description": "Set volume discount rules (e.g. buy 3 face masks, save 20%) in Magento catalog pricing.",
-            "ticketKey": "#TSK-32",
+            "ticketKey": "#TASK-32",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -859,7 +859,7 @@
             "id": "mkt-tsk-33",
             "title": "Create Curated Cosmetic Bundles",
             "description": "Group complementary routine products into single SKU bundles (e.g. \"Morning Glow Routine\") to lift AOV.",
-            "ticketKey": "#TSK-33",
+            "ticketKey": "#TASK-33",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -878,7 +878,7 @@
             "id": "mkt-tsk-34",
             "title": "Automate Post-Purchase Review Collection",
             "description": "Trigger automated review requests with photo incentive 14 days after order fulfillment.",
-            "ticketKey": "#TSK-34",
+            "ticketKey": "#TASK-34",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -897,7 +897,7 @@
             "id": "mkt-tsk-35",
             "title": "Deploy Customer Win-Back Email Campaign",
             "description": "Automated replenishment campaign with cross-sell recommendations sent 30 days after last order.",
-            "ticketKey": "#TSK-35",
+            "ticketKey": "#TASK-35",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
@@ -916,7 +916,7 @@
             "id": "mkt-tsk-36",
             "title": "LTV/CAC Financial Audit & ROAS Reallocation",
             "description": "Comprehensive financial review. Shift surplus ad spend into top-margin bestsellers across Google PMax.",
-            "ticketKey": "#TSK-36",
+            "ticketKey": "#TASK-36",
             "status": 1,
             "sprintId": "sprint-mkt-3",
             "panelData": {
