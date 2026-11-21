@@ -250,17 +250,17 @@ gantt
 - [💳 Checkout & Payment Execution Sequence](#-checkout--payment-execution-sequence)
 - [📊 Sprints & Milestones Overview](#-sprints--milestones-overview)
 - [🗂️ Epics & Technical Backlog](#️-epics--technical-backlog)
-  - [#EPIC-1 Project Planning](#epic-1-project-planning)
-  - [#EPIC-2 Store Design & UX](#epic-2-store-design--ux)
-  - [#EPIC-3 Magento 2 Core Development](#epic-3-magento-2-core-development)
-  - [#EPIC-4 Frontend Development with Hyvä](#epic-4-frontend-development-with-hyvä)
-  - [#EPIC-5 Checkout & Payment Integrations](#epic-5-checkout--payment-integrations)
-  - [#EPIC-6 DevOps, Cloud Infrastructure & Security](#epic-6-devops-cloud-infrastructure--security)
-  - [#EPIC-7 Third-Party ERP & Logistics Systems](#epic-7-third-party-erp--logistics-systems)
-  - [#EPIC-8 Testing & Quality Assurance](#epic-8-testing--quality-assurance)
-  - [#EPIC-9 SEO, Analytics & Compliance](#epic-9-seo-analytics--compliance)
-  - [#EPIC-10 Deployment & Hypercare Go-Live](#epic-10-deployment--hypercare-go-live)
-  - [#EPIC-11 Post-Launch Support & Maintenance](#epic-11-post-launch-support--maintenance)
+  - 🟢 [![#EPIC-1](https://img.shields.io/badge/EPIC-1-8b5cf6)](#epic-1-project-planning) [Project Planning](#epic-1-project-planning)
+  - 🟡 [![#EPIC-2](https://img.shields.io/badge/EPIC-2-8b5cf6)](#epic-2-store-design--ux) [Store Design & UX](#epic-2-store-design--ux)
+  - 🟡 [![#EPIC-3](https://img.shields.io/badge/EPIC-3-8b5cf6)](#epic-3-magento-2-core-development) [Magento 2 Core Development](#epic-3-magento-2-core-development)
+  - 🟡 [![#EPIC-4](https://img.shields.io/badge/EPIC-4-8b5cf6)](#epic-4-frontend-development-with-hyvä) [Frontend Development with Hyvä](#epic-4-frontend-development-with-hyvä)
+  - 🟡 [![#EPIC-5](https://img.shields.io/badge/EPIC-5-8b5cf6)](#epic-5-checkout--payment-integrations) [Checkout & Payment Integrations](#epic-5-checkout--payment-integrations)
+  - 🟡 [![#EPIC-6](https://img.shields.io/badge/EPIC-6-8b5cf6)](#epic-6-devops-cloud-infrastructure--security) [DevOps, Cloud Infrastructure & Security](#epic-6-devops-cloud-infrastructure--security)
+  - 🟡 [![#EPIC-7](https://img.shields.io/badge/EPIC-7-8b5cf6)](#epic-7-third-party-erp--logistics-systems) [Third-Party ERP & Logistics Systems](#epic-7-third-party-erp--logistics-systems)
+  - ⚪ [![#EPIC-8](https://img.shields.io/badge/EPIC-8-8b5cf6)](#epic-8-testing--quality-assurance) [Testing & Quality Assurance](#epic-8-testing--quality-assurance)
+  - ⚪ [![#EPIC-9](https://img.shields.io/badge/EPIC-9-8b5cf6)](#epic-9-seo-analytics--compliance) [SEO, Analytics & Compliance](#epic-9-seo-analytics--compliance)
+  - ⚪ [![#EPIC-10](https://img.shields.io/badge/EPIC-10-8b5cf6)](#epic-10-deployment--hypercare-go-live) [Deployment & Hypercare Go-Live](#epic-10-deployment--hypercare-go-live)
+  - ⚪ [![#EPIC-11](https://img.shields.io/badge/EPIC-11-8b5cf6)](#epic-11-post-launch-support--maintenance) [Post-Launch Support & Maintenance](#epic-11-post-launch-support--maintenance)
 - [🛡️ Non-Functional Requirements & Security](#️-non-functional-requirements--security)
 
 ---
@@ -277,7 +277,7 @@ gantt
 
 ## 🗂️ Epics & Technical Backlog
 
-### #EPIC-1: Project Planning
+### 🟢 [![#EPIC-1](https://img.shields.io/badge/EPIC-1-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-1") Project Planning <a id="epic-1-project-planning"></a>
 > Initial project scope definition, technical architecture specifications, resource allocation, and kickoff.
 * **Estimate:** 24h | **Status:** <img src="https://api.iconify.design/twemoji/green-circle.svg" width="10" height="10" /> Done | **Owner:** Lead Solutions Architect
 
@@ -289,7 +289,7 @@ gantt
 
 ---
 
-### #EPIC-2: Store Design & UX
+### 🟡 [![#EPIC-2](https://img.shields.io/badge/EPIC-2-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-2") Store Design & UX <a id="epic-2-store-design--ux"></a>
 > UI/UX design in Figma, design system, interactive prototypes, and design approval for cosmetics store.
 * **Estimate:** 32h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Senior Product Designer
 
@@ -302,14 +302,14 @@ gantt
 
 ---
 
-### #EPIC-3: Magento 2 Core Development
+### 🟡 [![#EPIC-3](https://img.shields.io/badge/EPIC-3-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-3") Magento 2 Core Development <a id="epic-3-magento-2-core-development"></a>
 > Magento 2.4 EE setup, composer configuration, database schema, multi-store architecture, and catalog indexing.
 * **Estimate:** 48h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Senior Backend Engineer
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
 | [![#TASK-8](https://img.shields.io/badge/TASK-8-3b82f6)](https://github.com/4u4-us/playground/issues/6) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/25)** | **Defect: Varnish 7.x ESI block stale cache after product stock updates** | 3h | Closed | DevOps SRE |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/25)** | **Defect: Varnish 7.x ESI block stale cache after product stock updates** | 3h | Closed | DevOps SRE |
 | [![#TASK-9](https://img.shields.io/badge/TASK-9-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-9") | Configure Multi-Store Structure (PLN / EUR) | 12h | In Progress | Senior Backend Dev |
 | [![#TASK-10](https://img.shields.io/badge/TASK-10-3b82f6)](https://github.com/4u4-us/playground/issues/7) | OpenSearch 2.11 Cluster Configuration & Indexers | 10h | In Progress | Senior Backend Dev |
 | [![#TASK-11](https://img.shields.io/badge/TASK-11-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-11") | Product Attribute Sets (Skin Types, Shades, Volumes) | 10h | To Do | Backend Dev |
@@ -317,7 +317,7 @@ gantt
 
 ---
 
-### #EPIC-4: Frontend Development with Hyvä
+### 🟡 [![#EPIC-4](https://img.shields.io/badge/EPIC-4-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-4") Frontend Development with Hyvä <a id="epic-4-frontend-development-with-hyvä"></a>
 > Modern frontend implementation using Hyvä Theme, TailwindCSS, Alpine.js, and extreme performance tuning.
 * **Estimate:** 40h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Lead Frontend Engineer
 
@@ -330,7 +330,7 @@ gantt
 
 ---
 
-### #EPIC-5: Checkout & Payment Integrations
+### 🟡 [![#EPIC-5](https://img.shields.io/badge/EPIC-5-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-5") Checkout & Payment Integrations <a id="epic-5-checkout--payment-integrations"></a>
 > Frictionless single-step checkout, Stripe Elements, Apple Pay, Google Pay, and localized carrier shipping.
 * **Estimate:** 36h | **Status:** <img src="https://api.iconify.design/twemoji/red-circle.svg" width="10" height="10" /> To Do | **Owner:** Senior Integration Engineer
 
@@ -338,13 +338,13 @@ gantt
 |----------|------------|----------|--------|----------|
 | [![#TASK-17](https://img.shields.io/badge/TASK-17-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-17") | Integrate Hyvä Checkout (One-Step React/Alpine) | 10h | To Do | Frontend Lead |
 | [![#TASK-18](https://img.shields.io/badge/TASK-18-3b82f6)](https://github.com/4u4-us/playground/issues/8) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/24)** | **Incident: Stripe Apple Pay 3DS2 biometric popup dismissal on iOS 18** | 4h | Open | Mobile QA |
+| &nbsp;&nbsp;&nbsp;&nbsp;**[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/24)** | **Incident: Stripe Apple Pay 3DS2 biometric popup dismissal on iOS 18** | 4h | Open | Mobile QA |
 | [![#TASK-19](https://img.shields.io/badge/TASK-19-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-19") | Polish BLIK & PayU / Przelewy24 Payment Rails | 8h | To Do | Senior Backend Dev |
 | [![#TASK-20](https://img.shields.io/badge/TASK-20-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-20") | InPost Paczkomaty Parcel Locker Map Picker | 8h | To Do | Integration Dev |
 
 ---
 
-### #EPIC-6: DevOps, Cloud Infrastructure & Security
+### 🟡 [![#EPIC-6](https://img.shields.io/badge/EPIC-6-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-6") DevOps, Cloud Infrastructure & Security <a id="epic-6-devops-cloud-infrastructure--security"></a>
 > AWS ECS Fargate, Aurora MySQL, ElastiCache Redis, CloudFront CDN, WAF, CI/CD with GitHub Actions.
 * **Estimate:** 32h | **Status:** <img src="https://api.iconify.design/twemoji/green-circle.svg" width="10" height="10" /> Done | **Owner:** Lead DevOps Engineer
 
