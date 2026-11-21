@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://4u4.us/playground">
+    <img src="https://raw.githubusercontent.com/4u4-us/playground/main/assets/4u4-logo.svg" alt="4u4.us Logo" width="220" />
+  </a>
+</p>
+
 # <p align="center"><img src="https://api.iconify.design/lucide/orbit.svg?color=%238b5cf6" width="36" height="36" align="center" /> 4u4.us — Visual Agile & Architecture Planning</p>
 
 <p align="center">
@@ -71,7 +77,7 @@ This showcase repository contains **4 real-world, enterprise-grade project templ
 | # | Project Architecture Template | Domain / Industry | Scope & Scale | Interactive Live View | GitHub Documentation & Raw Data |
 |---|-------------------------------|-------------------|---------------|-----------------------|---------------------------------|
 | 1 | **[Magento E-Commerce Store Design](templates/01-magento-ecommerce-store/README.md)** | Enterprise Retail & E-Commerce | 11 Epics • 33 Tasks • AWS Cloud Infra | [🚀 Open in Playground](https://4u4.us/playground?template=template-magento-store) | [📄 Documentation](templates/01-magento-ecommerce-store/README.md) • [📦 JSON](templates/01-magento-ecommerce-store/mindmap.json) |
-| 2 | **[Magento Beauty Store Launch & Marketing](templates/02-magento-beauty-marketing/README.md)** | Growth, Funnel & Influencers | 3 Sprints • 20 Tasks • Full Go-To-Market | [🚀 Open in Playground](https://4u4.us/playground?template=template-magento-marketing) | [📄 Documentation](templates/02-magento-beauty-marketing/README.md) • [📦 JSON](templates/02-magento-beauty-marketing/mindmap.json) |
+| 2 | **[Cosmetics Store Launch & Marketing](templates/02-magento-beauty-marketing/README.md)** | Growth, Funnel & Influencers | 3 Sprints • 20 Tasks • Full Go-To-Market | [🚀 Open in Playground](https://4u4.us/playground?template=template-magento-marketing) | [📄 Documentation](templates/02-magento-beauty-marketing/README.md) • [📦 JSON](templates/02-magento-beauty-marketing/mindmap.json) |
 | 3 | **[SaaS Platform & Active Sprint](templates/03-saas-platform-active-sprint/README.md)** | B2B SaaS • AI Engine • Microservices | 9 Epics • 28 Tasks • Multi-Tenant RLS | [🚀 Open in Playground](https://4u4.us/playground?template=template-saas-sprint) | [📄 Documentation](templates/03-saas-platform-active-sprint/README.md) • [📦 JSON](templates/03-saas-platform-active-sprint/mindmap.json) |
 | 4 | **[SOC 2 Type II & ISO 27001 Roadmap](templates/04-soc2-type2-iso27001-roadmap/README.md)** | Security, Compliance & DevSecOps | 3 Sprints • 22 Tasks • AICPA Trust Criteria | [🚀 Open in Playground](https://4u4.us/playground?template=template-soc2-compliance) | [📄 Documentation](templates/04-soc2-type2-iso27001-roadmap/README.md) • [📦 JSON](templates/04-soc2-type2-iso27001-roadmap/mindmap.json) |
 
