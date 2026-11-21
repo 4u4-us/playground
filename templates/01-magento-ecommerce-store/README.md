@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://4u4.us/playground">
+    <img src="https://raw.githubusercontent.com/4u4-us/playground/main/assets/4u4-logo.svg" alt="4u4.us Logo" width="220" />
+  </a>
+</p>
+
 # <p align="center"><img src="https://api.iconify.design/logos/magento.svg" width="40" height="40" align="center" /> Magento E-Commerce Store Design — Enterprise Platform</p>
 
 <p align="center">
@@ -277,9 +283,9 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-1](https://github.com/4u4-us/playground/issues) | Requirements Gathering & Stakeholder Workshops | 8h | Done | Solutions Architect |
-| [#TSK-2](https://github.com/4u4-us/playground/issues) | Technical Architecture & Cloud Infrastructure Blueprint | 10h | Done | Lead Cloud Engineer |
-| [#TSK-3](https://github.com/4u4-us/playground/issues) | Project Roadmap, RACI Matrix & Milestone Definition | 6h | Done | Technical PM |
+| [![#TASK-1](https://img.shields.io/badge/TASK-1-3b82f6)](https://github.com/4u4-us/playground/issues/4) | Requirements Gathering & Stakeholder Workshops | 8h | Done | Solutions Architect |
+| [![#TASK-2](https://img.shields.io/badge/TASK-2-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-2") | Technical Architecture & Cloud Infrastructure Blueprint | 10h | Done | Lead Cloud Engineer |
+| [![#TASK-3](https://img.shields.io/badge/TASK-3-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-3") | Project Roadmap, RACI Matrix & Milestone Definition | 6h | Done | Technical PM |
 
 ---
 
@@ -289,10 +295,10 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-4](https://github.com/4u4-us/playground/issues) | Wireframes, User Journey & Design System | 10h | Done | UI/UX Designer |
-| [#TSK-5](https://github.com/4u4-us/playground/issues) | Homepage & Category (PLP) UI Designs | 8h | In Progress | UI/UX Designer |
-| [#TSK-6](https://github.com/4u4-us/playground/issues) | Product Page (PDP) & Swatches UI Designs | 8h | In Progress | UI/UX Designer |
-| [#TSK-7](https://github.com/4u4-us/playground/issues) | Checkout Flow & Cart Drawer Prototype | 6h | To Do | UI/UX Designer |
+| [![#TASK-4](https://img.shields.io/badge/TASK-4-3b82f6)](https://github.com/4u4-us/playground/issues/5) | Wireframes, User Journey & Design System | 10h | Done | UI/UX Designer |
+| [![#TASK-5](https://img.shields.io/badge/TASK-5-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-5") | Homepage & Category (PLP) UI Designs | 8h | In Progress | UI/UX Designer |
+| [![#TASK-6](https://img.shields.io/badge/TASK-6-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-6") | Product Page (PDP) & Swatches UI Designs | 8h | In Progress | UI/UX Designer |
+| [![#TASK-7](https://img.shields.io/badge/TASK-7-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-7") | Checkout Flow & Cart Drawer Prototype | 6h | To Do | UI/UX Designer |
 
 ---
 
@@ -302,12 +308,12 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-8](https://github.com/4u4-us/playground/issues/6) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
+| [![#TASK-8](https://img.shields.io/badge/TASK-8-3b82f6)](https://github.com/4u4-us/playground/issues/6) | Setup Magento 2.4.7 Enterprise with Composer | 8h | Done | Senior Backend Dev |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/25)** | **Defect: Varnish 7.x ESI block stale cache after product stock updates** | 3h | Closed | DevOps SRE |
-| [#TSK-9](https://github.com/4u4-us/playground/issues) | Configure Multi-Store Structure (PLN / EUR) | 12h | In Progress | Senior Backend Dev |
-| [#TSK-10](https://github.com/4u4-us/playground/issues) | OpenSearch 2.11 Cluster Configuration & Indexers | 10h | In Progress | Senior Backend Dev |
-| [#TSK-11](https://github.com/4u4-us/playground/issues) | Product Attribute Sets (Skin Types, Shades, Volumes) | 10h | To Do | Backend Dev |
-| [#TSK-12](https://github.com/4u4-us/playground/issues) | Custom Product Options & Dynamic Price Calculation | 8h | To Do | Backend Dev |
+| [![#TASK-9](https://img.shields.io/badge/TASK-9-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-9") | Configure Multi-Store Structure (PLN / EUR) | 12h | In Progress | Senior Backend Dev |
+| [![#TASK-10](https://img.shields.io/badge/TASK-10-3b82f6)](https://github.com/4u4-us/playground/issues/7) | OpenSearch 2.11 Cluster Configuration & Indexers | 10h | In Progress | Senior Backend Dev |
+| [![#TASK-11](https://img.shields.io/badge/TASK-11-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-11") | Product Attribute Sets (Skin Types, Shades, Volumes) | 10h | To Do | Backend Dev |
+| [![#TASK-12](https://img.shields.io/badge/TASK-12-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-12") | Custom Product Options & Dynamic Price Calculation | 8h | To Do | Backend Dev |
 
 ---
 
@@ -317,10 +323,10 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-13](https://github.com/4u4-us/playground/issues) | Initialize Hyvä Base Theme with Tailwind JIT | 8h | Done | Frontend Lead |
-| [#TSK-14](https://github.com/4u4-us/playground/issues) | Implement Sticky Header, Megamenu & Search Flyout | 10h | In Progress | Frontend Dev |
-| [#TSK-15](https://github.com/4u4-us/playground/issues) | Product Gallery with Zoom & Shade Selector | 12h | In Progress | Frontend Dev |
-| [#TSK-16](https://github.com/4u4-us/playground/issues) | Ajax Mini-Cart & Free Shipping Progress Bar | 10h | To Do | Frontend Dev |
+| [![#TASK-13](https://img.shields.io/badge/TASK-13-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-13") | Initialize Hyvä Base Theme with Tailwind JIT | 8h | Done | Frontend Lead |
+| [![#TASK-14](https://img.shields.io/badge/TASK-14-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-14") | Implement Sticky Header, Megamenu & Search Flyout | 10h | In Progress | Frontend Dev |
+| [![#TASK-15](https://img.shields.io/badge/TASK-15-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-15") | Product Gallery with Zoom & Shade Selector | 12h | In Progress | Frontend Dev |
+| [![#TASK-16](https://img.shields.io/badge/TASK-16-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-16") | Ajax Mini-Cart & Free Shipping Progress Bar | 10h | To Do | Frontend Dev |
 
 ---
 
@@ -330,11 +336,11 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-17](https://github.com/4u4-us/playground/issues) | Integrate Hyvä Checkout (One-Step React/Alpine) | 10h | To Do | Frontend Lead |
-| [#TSK-18](https://github.com/4u4-us/playground/issues/8) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
+| [![#TASK-17](https://img.shields.io/badge/TASK-17-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-17") | Integrate Hyvä Checkout (One-Step React/Alpine) | 10h | To Do | Frontend Lead |
+| [![#TASK-18](https://img.shields.io/badge/TASK-18-3b82f6)](https://github.com/4u4-us/playground/issues/8) | Stripe Payment Gateway Integration (Cards & Apple Pay) | 10h | To Do | Senior Backend Dev |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/24)** | **Incident: Stripe Apple Pay 3DS2 biometric popup dismissal on iOS 18** | 4h | Open | Mobile QA |
-| [#TSK-19](https://github.com/4u4-us/playground/issues) | Polish BLIK & PayU / Przelewy24 Payment Rails | 8h | To Do | Senior Backend Dev |
-| [#TSK-20](https://github.com/4u4-us/playground/issues) | InPost Paczkomaty Parcel Locker Map Picker | 8h | To Do | Integration Dev |
+| [![#TASK-19](https://img.shields.io/badge/TASK-19-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-19") | Polish BLIK & PayU / Przelewy24 Payment Rails | 8h | To Do | Senior Backend Dev |
+| [![#TASK-20](https://img.shields.io/badge/TASK-20-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-20") | InPost Paczkomaty Parcel Locker Map Picker | 8h | To Do | Integration Dev |
 
 ---
 
@@ -344,10 +350,10 @@ gantt
 
 | Task Key | Task Title | Estimate | Status | Assignee |
 |----------|------------|----------|--------|----------|
-| [#TSK-21](https://github.com/4u4-us/playground/issues) | Terraform Provisioning of Multi-AZ AWS Infrastructure | 12h | Done | Lead DevOps Eng |
-| [#TSK-22](https://github.com/4u4-us/playground/issues) | Varnish 7.x Full-Page-Cache Clustering on AWS | 8h | Done | DevOps Eng |
-| [#TSK-23](https://github.com/4u4-us/playground/issues) | GitHub Actions CI/CD Pipeline (Build, Test, Deploy) | 8h | Done | DevOps Eng |
-| [#TSK-24](https://github.com/4u4-us/playground/issues) | Automated Nightly Backups & S3 Snapshot Archiving | 4h | Done | DevOps Eng |
+| [![#TASK-21](https://img.shields.io/badge/TASK-21-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-21") | Terraform Provisioning of Multi-AZ AWS Infrastructure | 12h | Done | Lead DevOps Eng |
+| [![#TASK-22](https://img.shields.io/badge/TASK-22-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-22") | Varnish 7.x Full-Page-Cache Clustering on AWS | 8h | Done | DevOps Eng |
+| [![#TASK-23](https://img.shields.io/badge/TASK-23-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-23") | GitHub Actions CI/CD Pipeline (Build, Test, Deploy) | 8h | Done | DevOps Eng |
+| [![#TASK-24](https://img.shields.io/badge/TASK-24-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-24") | Automated Nightly Backups & S3 Snapshot Archiving | 4h | Done | DevOps Eng |
 
 ---
 
