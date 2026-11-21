@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# <p align="center"><img src="https://api.iconify.design/lucide/sparkles.svg?color=%23e11d48" width="40" height="40" align="center" /> Magento Beauty Store Launch & Marketing Strategy</p>
+# <p align="center"><img src="https://api.iconify.design/lucide/sparkles.svg?color=%23e11d48" width="40" height="40" align="center" /> Cosmetics Store Launch & 3-Month Marketing Campaign (PL/EU)</p>
 
 <p align="center">
   <strong>High-Velocity Go-To-Market Plan, Multi-Channel Performance Ads & Influencer Engine</strong>
@@ -122,7 +122,7 @@ sequenceDiagram
 
 ```mermaid
 mindmap
-  root(("Magento Beauty Store Launch & Marketing"))
+  root(("Beauty Store Launch & Marketing"))
     ["EPIC-1 Analytics & Tracking Architecture"]
       ("Deploy Google Tag Manager & GA4 Enhanced E-Commerce • 4h")
       ("Implement Facebook Conversions API CAPI • 3h")
@@ -169,7 +169,7 @@ flowchart LR
     classDef inprog fill:#d97706,stroke:#b45309,stroke-width:1.5px,color:#ffffff;
     classDef todo fill:#dc2626,stroke:#b91c1c,stroke-width:1.5px,color:#ffffff;
 
-    Root["🚀 <b>Magento Beauty Store Launch & Marketing</b><br/>#PRO-Architecture"]:::primary
+    Root["🚀 <b>Beauty Store Launch & Marketing</b><br/>#PRO-Architecture"]:::primary
 
     E_1["<b>#EPIC-1: Analytics & Tracking Architecture</b><br/>6 Tasks • 32h • 🟡 In Progress"]:::inprog
     Root --> E_1
@@ -193,7 +193,7 @@ flowchart LR
 
 ```mermaid
 gantt
-    title Magento Beauty Store Launch & Marketing — Execution Timeline
+    title Beauty Store Launch & Marketing — Execution Timeline
     dateFormat YYYY-MM-DD
     axisFormat %b %d
 
