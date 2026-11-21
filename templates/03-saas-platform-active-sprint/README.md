@@ -97,6 +97,134 @@ sequenceDiagram
 
 ---
 
+
+---
+
+## 🗺️ Interactive MindMap Graph (Generated 1:1 from `mindmap.json`)
+
+> **Dynamic Architecture Decomposition:** The native Mermaid diagram below is generated programmatically from the `mindmap.json` data tree. Each branch represents an architecture epic, and terminal leaves represent actionable agile user stories and tasks.
+
+```mermaid
+mindmap
+  root(("SaaS Platform & Active Sprint"))
+    ["EPIC-1 Cloud Architecture & Infrastructure Foundation"]
+      ("Provision multi-region VPC and Kubernetes clusters via Terraform • 6h")
+      ("Configure managed PostgreSQL with read replicas and automated backups • 4h")
+      ("Deploy distributed Redis caching and session layer • 3h")
+      ("Build GitHub Actions CI/CD pipelines with preview environments • 4h")
+    ["EPIC-2 Multi-Tenant Identity, RBAC & Security"]
+      ("Implement SSO SAML 2.0 / OIDC and OAuth2 authentication • 5h")
+      ("Enforce PostgreSQL Row-Level Security RLS for tenant isolation • 4h")
+      ("Design granular RBAC permission matrix Owner, Admin, Editor, Viewer • 4h")
+      ("Build Personal Access Token PAT and scoped API key manager • 3.5h")
+    ["EPIC-3 Core API Gateway & Event-Driven Services"]
+      ("Deploy versioned REST/GraphQL API Gateway with per-tenant rate limiting • 5h")
+      ("Set up event-driven message broker and dead-letter queues • 4h")
+      ("Build outbound webhook engine with HMAC signing and exponential backoff • 5h")
+      ("Implement idempotent background worker fleet for async processing • 4h")
+    ["EPIC-4 Next-Gen Web Dashboard & Design System 2.0"]
+      ("Publish Design System 2.0 tokens and accessible UI component library • 6h")
+      ("Implement real-time multiplayer state synchronization via WebSockets • 6h")
+      ("Build customizable executive analytics dashboard and KPI widgets • 5h")
+      ("Implement global Command Palette Cmd+K and keyboard shortcuts • 3h")
+    ["EPIC-5 AI Copilot & Workflow Automation Layer"]
+      ("Build encrypted BYOK vault for personal and team LLM API keys • 4h")
+      ("Implement multi-LLM priority router with automatic failover • 4.5h")
+      ("Build streaming AI Copilot sidebar with workspace context injection • 5h")
+      ("Deploy vector embeddings and RAG indexing pipeline • 5h")
+    ["EPIC-6 Billing, Subscriptions & Usage-Based Metering"]
+      ("Configure Stripe products and pricing tiers Free, Developer, Pro, Enterprise • 2.5h")
+      ("Build resilient Stripe webhook handler for subscription lifecycle events • 4h")
+      ("Implement real-time usage metering and overage reporting • 4h")
+      ("Integrate self-serve Billing Portal and seat-based proration UI • 3h")
+    ["EPIC-7 Observability, QA & Performance Hardening"]
+      ("Instrument OpenTelemetry distributed tracing and APM dashboards • 4h")
+      ("Configure PagerDuty/Slack incident alerting and SLO burn-rate monitors • 2h")
+      ("Write comprehensive Playwright E2E test suite for critical user flows • 6h")
+      ("Execute k6 load and stress testing at 5x projected launch traffic • 4h")
+    ["EPIC-8 Go-To-Market, Beta Rollout & Production Launch"]
+      ("Launch zero-signup interactive sandbox demo environment • 4h")
+      ("Publish v2.0 documentation hub, changelog, and migration guides • 5h")
+      ("Onboard 50 design-partner accounts to Private Beta cohort • 3h")
+      ("Launch public Status Page and SLA uptime reporting • 1.5h")
+```
+
+---
+
+## 🌳 Epic Hierarchy & Status Flow (from `mindmap.json`)
+
+> **Real-Time Agile Pipeline:** Nodes are color-coded based on live completion status (<span style="color:#059669">■</span> Done, <span style="color:#d97706">■</span> In Progress, <span style="color:#dc2626">■</span> To Do).
+
+```mermaid
+flowchart LR
+    %% Theme & Node Styles
+    classDef primary fill:#8b5cf6,stroke:#7c3aed,stroke-width:2.5px,color:#ffffff,font-weight:bold;
+    classDef done fill:#059669,stroke:#047857,stroke-width:1.5px,color:#ffffff;
+    classDef inprog fill:#d97706,stroke:#b45309,stroke-width:1.5px,color:#ffffff;
+    classDef todo fill:#dc2626,stroke:#b91c1c,stroke-width:1.5px,color:#ffffff;
+
+    Root["🚀 <b>SaaS Platform & Active Sprint</b><br/>#PRO-Architecture"]:::primary
+
+    E_1["<b>#EPIC-1: Cloud Architecture & Infrastructure Foundation</b><br/>6 Tasks • 45h • 🟡 In Progress"]:::inprog
+    Root --> E_1
+    E_2["<b>#EPIC-2: Multi-Tenant Identity, RBAC & Security</b><br/>6 Tasks • 47h • 🔴 To Do"]:::todo
+    Root --> E_2
+    E_3["<b>#EPIC-3: Core API Gateway & Event-Driven Services</b><br/>6 Tasks • 51h • 🔴 To Do"]:::todo
+    Root --> E_3
+    E_4["<b>#EPIC-4: Next-Gen Web Dashboard & Design System 2.0</b><br/>6 Tasks • 55h • 🔴 To Do"]:::todo
+    Root --> E_4
+    E_5["<b>#EPIC-5: AI Copilot & Workflow Automation Layer</b><br/>6 Tasks • 52h • 🔴 To Do"]:::todo
+    Root --> E_5
+    E_6["<b>#EPIC-6: Billing, Subscriptions & Usage-Based Metering</b><br/>6 Tasks • 36h • 🔴 To Do"]:::todo
+    Root --> E_6
+    E_7["<b>#EPIC-7: Observability, QA & Performance Hardening</b><br/>6 Tasks • 46h • 🔴 To Do"]:::todo
+    Root --> E_7
+    E_8["<b>#EPIC-8: Go-To-Market, Beta Rollout & Production Launch</b><br/>6 Tasks • 43h • 🔴 To Do"]:::todo
+    Root --> E_8
+```
+
+---
+
+## ⏱️ Dynamic Agile Gantt Timeline (from `mindmap.json`)
+
+> **Continuous Scheduling Engine:** Auto-projected task start dates, durations (derived from estimated hours), and critical execution paths.
+
+```mermaid
+gantt
+    title SaaS Platform & Active Sprint — Execution Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section EPIC-1 Cloud Architecture & Infrastructure Foundation
+    Provision multi-region VPC and Kubernetes clusters via Terraform :done, 2026-11-20, 1d
+    Configure managed PostgreSQL with read replicas and automated backups :active, 2026-11-24, 1d
+    Deploy distributed Redis caching and session layer :2026-11-26, 1d
+    section EPIC-2 Multi-Tenant Identity, RBAC & Security
+    Implement SSO SAML 2.0 / OIDC and OAuth2 authentication :2026-11-27, 1d
+    Enforce PostgreSQL Row-Level Security RLS for tenant isolation :2026-12-01, 1d
+    Design granular RBAC permission matrix Owner, Admin, Editor, Viewer :2026-12-04, 1d
+    section EPIC-3 Core API Gateway & Event-Driven Services
+    Deploy versioned REST/GraphQL API Gateway with per-tenant rate limiting :2026-12-07, 1d
+    Set up event-driven message broker and dead-letter queues :2026-12-11, 1d
+    Build outbound webhook engine with HMAC signing and exponential backoff :2026-12-16, 1d
+    section EPIC-4 Next-Gen Web Dashboard & Design System 2.0
+    Publish Design System 2.0 tokens and accessible UI component library :2026-12-14, 1d
+    Implement real-time multiplayer state synchronization via WebSockets :2026-12-21, 1d
+    Build customizable executive analytics dashboard and KPI widgets :2026-12-28, 1d
+    section EPIC-5 AI Copilot & Workflow Automation Layer
+    Build encrypted BYOK vault for personal and team LLM API keys :2026-12-28, 1d
+    Implement multi-LLM priority router with automatic failover :2027-01-04, 1d
+    Build streaming AI Copilot sidebar with workspace context injection :2027-01-08, 1d
+    section EPIC-6 Billing, Subscriptions & Usage-Based Metering
+    Configure Stripe products and pricing tiers Free, Developer, Pro, Enterprise :2027-01-06, 1d
+    Build resilient Stripe webhook handler for subscription lifecycle events :2027-01-09, 1d
+    Implement real-time usage metering and overage reporting :2027-01-13, 1d
+    section EPIC-7 Observability, QA & Performance Hardening
+    Instrument OpenTelemetry distributed tracing and APM dashboards :2027-01-18, 1d
+    Configure PagerDuty/Slack incident alerting and SLO burn-rate monitors :2027-01-21, 1d
+    Write comprehensive Playwright E2E test suite for critical user flows :2027-01-26, 1d
+```
+
 ## 🗂️ Active Sprints & Engineering Roadmap
 
 ### Sprint 1: Cloud Foundation, Database Schema & Authentication (Nov 20 – Dec 14, 2026)
