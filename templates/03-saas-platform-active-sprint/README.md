@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://4u4.us/playground">
+    <img src="https://raw.githubusercontent.com/4u4-us/playground/main/assets/4u4-logo.svg" alt="4u4.us Logo" width="220" />
+  </a>
+</p>
+
 # <p align="center"><img src="https://api.iconify.design/lucide/layers.svg?color=%230ea5e9" width="40" height="40" align="center" /> Modern B2B SaaS Platform — Production Architecture</p>
 
 <p align="center">
@@ -232,12 +238,12 @@ gantt
 
 | Task Key | Technical Deliverable | Stack | Estimate | Status |
 |----------|-----------------------|-------|----------|--------|
-| [#TSK-S1](https://github.com/4u4-us/playground/issues) | Setup Next.js 15 Monorepo with Turborepo & Tailwind | Next.js / TS | 10h | Done |
-| [#TSK-S2](https://github.com/4u4-us/playground/issues/15) | Configure PostgreSQL with RLS & Drizzle ORM Schema | Postgres / Drizzle | 14h | Done |
+| [![#TASK-S1](https://img.shields.io/badge/TASK-S1-3b82f6)](https://github.com/4u4-us/playground/issues/14) | Setup Next.js 15 Monorepo with Turborepo & Tailwind | Next.js / TS | 10h | Done |
+| [![#TASK-S2](https://img.shields.io/badge/TASK-S2-3b82f6)](https://github.com/4u4-us/playground/issues/15) | Configure PostgreSQL with RLS & Drizzle ORM Schema | Postgres / Drizzle | 14h | Done |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/28)** | **Database Incident: pgvector HNSW index lock contention during batch embedding backfills** | Database | 6h | Open |
-| [#TSK-S3](https://github.com/4u4-us/playground/issues) | Multi-Tenant Organization Switcher & JWT Middleware | Clerk / Next.js | 12h | Done |
-| [#TSK-S4](https://github.com/4u4-us/playground/issues) | Upstash Redis Distributed Rate Limiting Configuration | Upstash / Redis | 8h | In Progress |
-| [#TSK-S5](https://github.com/4u4-us/playground/issues) | GitHub Actions CI/CD Pipeline with Automated E2E | Playwright | 10h | In Progress |
+| [![#TASK-S3](https://img.shields.io/badge/TASK-S3-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S3") | Multi-Tenant Organization Switcher & JWT Middleware | Clerk / Next.js | 12h | Done |
+| [![#TASK-S4](https://img.shields.io/badge/TASK-S4-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S4") | Upstash Redis Distributed Rate Limiting Configuration | Upstash / Redis | 8h | In Progress |
+| [![#TASK-S5](https://img.shields.io/badge/TASK-S5-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S5") | GitHub Actions CI/CD Pipeline with Automated E2E | Playwright | 10h | In Progress |
 
 ---
 
@@ -246,11 +252,11 @@ gantt
 
 | Task Key | Technical Deliverable | Stack | Estimate | Status |
 |----------|-----------------------|-------|----------|--------|
-| [#TSK-S6](https://github.com/4u4-us/playground/issues) | Interactive React Flow Canvas with Custom Node Renderers | React Flow / Canvas | 16h | In Progress |
-| [#TSK-S7](https://github.com/4u4-us/playground/issues) | Integrate Gemini 1.5 Pro with Zod Schema Validation | Google GenAI SDK | 14h | In Progress |
-| [#TSK-S8](https://github.com/4u4-us/playground/issues) | Setup pgvector HNSW Index for Architecture Semantic Search | pgvector | 10h | To Do |
-| [#TSK-S9](https://github.com/4u4-us/playground/issues) | Real-Time Collaborative WebSockets with Yjs | Yjs / WebSockets | 18h | To Do |
-| [#TSK-S10](https://github.com/4u4-us/playground/issues) | REST API v1 Endpoints (/api/v1/projects, /api/v1/nodes) | Next.js Route Handlers | 12h | To Do |
+| [![#TASK-S6](https://img.shields.io/badge/TASK-S6-3b82f6)](https://github.com/4u4-us/playground/issues/16) | Interactive React Flow Canvas with Custom Node Renderers | React Flow / Canvas | 16h | In Progress |
+| [![#TASK-S7](https://img.shields.io/badge/TASK-S7-3b82f6)](https://github.com/4u4-us/playground/issues/17) | Integrate Gemini 1.5 Pro with Zod Schema Validation | Google GenAI SDK | 14h | In Progress |
+| [![#TASK-S8](https://img.shields.io/badge/TASK-S8-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S8") | Setup pgvector HNSW Index for Architecture Semantic Search | pgvector | 10h | To Do |
+| [![#TASK-S9](https://img.shields.io/badge/TASK-S9-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S9") | Real-Time Collaborative WebSockets with Yjs | Yjs / WebSockets | 18h | To Do |
+| [![#TASK-S10](https://img.shields.io/badge/TASK-S10-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S10") | REST API v1 Endpoints (/api/v1/projects, /api/v1/nodes) | Next.js Route Handlers | 12h | To Do |
 
 ---
 
@@ -259,11 +265,11 @@ gantt
 
 | Task Key | Technical Deliverable | Stack | Estimate | Status |
 |----------|-----------------------|-------|----------|--------|
-| [#TSK-S11](https://github.com/4u4-us/playground/issues/18) | Stripe Billing v3 Subscriptions & Webhook Processing | Stripe SDK | 14h | To Do |
+| [![#TASK-S11](https://img.shields.io/badge/TASK-S11-3b82f6)](https://github.com/4u4-us/playground/issues/18) | Stripe Billing v3 Subscriptions & Webhook Processing | Stripe SDK | 14h | To Do |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/29)** | **Billing Defect: Stripe customer portal return_url session token expiration** | Stripe | 3h | Closed |
-| [#TSK-S12](https://github.com/4u4-us/playground/issues) | Usage-Based Invoicing & Real-Time Token Tracking UI | React / Server Actions | 10h | To Do |
-| [#TSK-S13](https://github.com/4u4-us/playground/issues) | Team RBAC Permissions (Owner, Admin, Member, Viewer) | Drizzle / Postgres RLS | 12h | To Do |
-| [#TSK-S14](https://github.com/4u4-us/playground/issues) | Audit Log Streaming & Security Event Tracking | Datadog / OpenTelemetry | 8h | To Do |
+| [![#TASK-S12](https://img.shields.io/badge/TASK-S12-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S12") | Usage-Based Invoicing & Real-Time Token Tracking UI | React / Server Actions | 10h | To Do |
+| [![#TASK-S13](https://img.shields.io/badge/TASK-S13-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S13") | Team RBAC Permissions (Owner, Admin, Member, Viewer) | Drizzle / Postgres RLS | 12h | To Do |
+| [![#TASK-S14](https://img.shields.io/badge/TASK-S14-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-S14") | Audit Log Streaming & Security Event Tracking | Datadog / OpenTelemetry | 8h | To Do |
 
 ---
 
