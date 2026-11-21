@@ -100,6 +100,144 @@ sequenceDiagram
 
 ---
 
+
+---
+
+## 🗺️ Interactive MindMap Graph (Generated 1:1 from `mindmap.json`)
+
+> **Dynamic Architecture Decomposition:** The native Mermaid diagram below is generated programmatically from the `mindmap.json` data tree. Each branch represents an architecture epic, and terminal leaves represent actionable agile user stories and tasks.
+
+```mermaid
+mindmap
+  root(("Magento E-Commerce Store Design"))
+    ["EPIC-1 Project Planning"]
+      ("Define project scope • 8h")
+      ("Gather requirements • 8h")
+      ("Create project timeline • 8h")
+    ["EPIC-2 Store Design"]
+      ("Design homepage mockup • 12h")
+      ("Design product page • 12h")
+      ("Design checkout flow • 12h")
+    ["EPIC-3 Magento Development"]
+      ("Install Magento • 16h")
+      ("Configure store settings • 16h")
+      ("Develop custom modules • 24h")
+    ["EPIC-4 Product Catalog"]
+      ("Import initial product data • 12h")
+      ("Set up product categories • 8h")
+      ("Optimize product descriptions • 8h")
+    ["EPIC-5 Payment Gateway Integration"]
+      ("Choose payment gateway • 6h")
+      ("Integrate payment gateway • 12h")
+      ("Test payment processing • 6h")
+    ["EPIC-6 Shipping Configuration"]
+      ("Configure shipping options • 6h")
+      ("Set up shipping rates • 8h")
+      ("Test shipping calculations • 6h")
+    ["EPIC-7 SEO Optimization"]
+      ("Implement SEO best practices • 8h")
+      ("Set up Google Analytics & GTM • 8h")
+      ("Optimize meta descriptions • 6h")
+    ["EPIC-8 Testing and QA"]
+      ("Perform user acceptance testing • 10h")
+      ("Conduct cross-browser testing • 8h")
+      ("Test order processing & webhooks • 6h")
+    ["EPIC-9 Deployment"]
+      ("Deploy to production server • 8h")
+      ("Configure DNS settings & CDN • 6h")
+      ("Monitor site performance • 6h")
+    ["EPIC-10 Marketing and Promotion"]
+      ("Set up marketing campaigns • 8h")
+      ("Plan social media strategy • 8h")
+      ("Implement email marketing automation • 8h")
+    ["EPIC-11 Ongoing Maintenance"]
+      ("Perform regular backups • 6h")
+      ("Update Magento security patches • 6h")
+      ("Monitor security & audit logs • 6h")
+```
+
+---
+
+## 🌳 Epic Hierarchy & Status Flow (from `mindmap.json`)
+
+> **Real-Time Agile Pipeline:** Nodes are color-coded based on live completion status (<span style="color:#059669">■</span> Done, <span style="color:#d97706">■</span> In Progress, <span style="color:#dc2626">■</span> To Do).
+
+```mermaid
+flowchart LR
+    %% Theme & Node Styles
+    classDef primary fill:#8b5cf6,stroke:#7c3aed,stroke-width:2.5px,color:#ffffff,font-weight:bold;
+    classDef done fill:#059669,stroke:#047857,stroke-width:1.5px,color:#ffffff;
+    classDef inprog fill:#d97706,stroke:#b45309,stroke-width:1.5px,color:#ffffff;
+    classDef todo fill:#dc2626,stroke:#b91c1c,stroke-width:1.5px,color:#ffffff;
+
+    Root["🚀 <b>Magento E-Commerce Store Design</b><br/>#PRO-Architecture"]:::primary
+
+    E_1["<b>#EPIC-1: Project Planning</b><br/>3 Tasks • 48h • ✅ Done"]:::done
+    Root --> E_1
+    E_2["<b>#EPIC-2: Store Design</b><br/>3 Tasks • 72h • 🟡 In Progress"]:::inprog
+    Root --> E_2
+    E_3["<b>#EPIC-3: Magento Development</b><br/>3 Tasks • 112h • 🟡 In Progress"]:::inprog
+    Root --> E_3
+    E_4["<b>#EPIC-4: Product Catalog</b><br/>3 Tasks • 56h • 🟡 In Progress"]:::inprog
+    Root --> E_4
+    E_5["<b>#EPIC-5: Payment Gateway Integration</b><br/>3 Tasks • 48h • 🟡 In Progress"]:::inprog
+    Root --> E_5
+    E_6["<b>#EPIC-6: Shipping Configuration</b><br/>3 Tasks • 40h • 🟡 In Progress"]:::inprog
+    Root --> E_6
+    E_7["<b>#EPIC-7: SEO Optimization</b><br/>3 Tasks • 44h • 🟡 In Progress"]:::inprog
+    Root --> E_7
+    E_8["<b>#EPIC-8: Testing and QA</b><br/>3 Tasks • 48h • 🟡 In Progress"]:::inprog
+    Root --> E_8
+    E_9["<b>#EPIC-9: Deployment</b><br/>3 Tasks • 40h • 🔴 To Do"]:::todo
+    Root --> E_9
+    E_10["<b>#EPIC-10: Marketing and Promotion</b><br/>3 Tasks • 48h • 🟡 In Progress"]:::inprog
+    Root --> E_10
+    E_11["<b>#EPIC-11: Ongoing Maintenance</b><br/>3 Tasks • 36h • 🟡 In Progress"]:::inprog
+    Root --> E_11
+```
+
+---
+
+## ⏱️ Dynamic Agile Gantt Timeline (from `mindmap.json`)
+
+> **Continuous Scheduling Engine:** Auto-projected task start dates, durations (derived from estimated hours), and critical execution paths.
+
+```mermaid
+gantt
+    title Magento E-Commerce Store Design — Execution Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section EPIC-1 Project Planning
+    Define project scope :done, 2026-11-10, 1d
+    Gather requirements :done, 2026-11-12, 1d
+    Create project timeline :done, 2026-11-14, 1d
+    section EPIC-2 Store Design
+    Design homepage mockup :done, 2026-11-16, 2d
+    Design product page :done, 2026-11-18, 2d
+    Design checkout flow :active, 2026-11-21, 2d
+    section EPIC-3 Magento Development
+    Install Magento :done, 2026-11-15, 2d
+    Configure store settings :active, 2026-11-21, 2d
+    Develop custom modules :active, 2026-11-23, 3d
+    section EPIC-4 Product Catalog
+    Import initial product data :done, 2026-11-17, 2d
+    Set up product categories :active, 2026-11-21, 1d
+    Optimize product descriptions :2026-11-24, 1d
+    section EPIC-5 Payment Gateway Integration
+    Choose payment gateway :done, 2026-11-16, 1d
+    Integrate payment gateway :active, 2026-11-21, 2d
+    Test payment processing :2026-11-24, 1d
+    section EPIC-6 Shipping Configuration
+    Configure shipping options :done, 2026-11-18, 1d
+    Set up shipping rates :active, 2026-11-22, 1d
+    Test shipping calculations :2026-11-25, 1d
+    section EPIC-7 SEO Optimization
+    Implement SEO best practices :done, 2026-11-17, 1d
+    Set up Google Analytics & GTM :active, 2026-11-22, 1d
+    Optimize meta descriptions :2026-11-26, 1d
+```
+
 ## 📋 Table of Contents
 
 - [🏛️ High-Availability System Architecture](#️-high-availability-system-architecture)
