@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://4u4.us/playground">
+    <img src="https://raw.githubusercontent.com/4u4-us/playground/main/assets/4u4-logo.svg" alt="4u4.us Logo" width="220" />
+  </a>
+</p>
+
 # <p align="center"><img src="https://api.iconify.design/lucide/sparkles.svg?color=%23e11d48" width="40" height="40" align="center" /> Magento Beauty Store Launch & Marketing Strategy</p>
 
 <p align="center">
@@ -224,13 +230,13 @@ gantt
 
 | Task Key | Task Description | Channel | Target / Deliverable | Status |
 |----------|------------------|---------|----------------------|--------|
-| [#TSK-M1](https://github.com/4u4-us/playground/issues/9) | Deploy Coming Soon Landing Page on Subdomain | Web | High-converting waitlist page | Done |
+| [![#TASK-M1](https://img.shields.io/badge/TASK-M1-3b82f6)](https://github.com/4u4-us/playground/issues/9) | Deploy Coming Soon Landing Page on Subdomain | Web | High-converting waitlist page | Done |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-2](https://img.shields.io/badge/TIX-2-ef4444)](https://github.com/4u4-us/playground/issues/27)** | **Support Ticket: VIP Waitlist SMS early-access URL redirection loop** | SMS | Verified SSL handshake fix | Closed |
-| [#TSK-M2](https://github.com/4u4-us/playground/issues) | Launch Meta Lead Ads Campaign (VIP Early Access) | Meta | Target CPL < $1.40 | In Progress |
-| [#TSK-M3](https://github.com/4u4-us/playground/issues/11) | Build Klaviyo Welcome Nurture Sequence (5 Emails) | Email | 48% Open Rate benchmark | In Progress |
+| [![#TASK-M2](https://img.shields.io/badge/TASK-M2-3b82f6)](https://github.com/4u4-us/playground/issues/10) | Launch Meta Lead Ads Campaign (VIP Early Access) | Meta | Target CPL < $1.40 | In Progress |
+| [![#TASK-M3](https://img.shields.io/badge/TASK-M3-3b82f6)](https://github.com/4u4-us/playground/issues/11) | Build Klaviyo Welcome Nurture Sequence (5 Emails) | Email | 48% Open Rate benchmark | In Progress |
 | &nbsp;&nbsp;&nbsp;&nbsp;↳ **[![#TIX-1](https://img.shields.io/badge/TIX-1-ef4444)](https://github.com/4u4-us/playground/issues/26)** | **Marketing Defect: Meta Conversions API purchase event deduplication mismatch** | CAPI | 100% match quality fix | Open |
-| [#TSK-M4](https://github.com/4u4-us/playground/issues) | Commission Teaser UGC Video Production (8 Creators) | TikTok | 8 Approved Video Concepts | Done |
-| [#TSK-M5](https://github.com/4u4-us/playground/issues) | Implement Server-Side GTM, Meta CAPI & GA4 Events | Tracking | 100% Event Match Quality | Done |
+| [![#TASK-M4](https://img.shields.io/badge/TASK-M4-3b82f6)](https://github.com/4u4-us/playground/issues/12) | Commission Teaser UGC Video Production (8 Creators) | TikTok | 8 Approved Video Concepts | Done |
+| [![#TASK-M5](https://img.shields.io/badge/TASK-M5-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M5") | Implement Server-Side GTM, Meta CAPI & GA4 Events | Tracking | 100% Event Match Quality | Done |
 
 ---
 
@@ -239,11 +245,11 @@ gantt
 
 | Task Key | Task Description | Channel | Target / Deliverable | Status |
 |----------|------------------|---------|----------------------|--------|
-| [#TSK-M6](https://github.com/4u4-us/playground/issues) | Deploy Go-Live Email & SMS Announcement Blast | CRM | 10k VIP audience blast | To Do |
-| [#TSK-M7](https://github.com/4u4-us/playground/issues) | Launch Google Performance Max & Brand Search Campaigns | Google | Top-position brand defense | To Do |
-| [#TSK-M8](https://github.com/4u4-us/playground/issues) | Activate Meta Advantage+ Catalog Dynamic Product Ads | Meta | Dynamic retargeting ads | To Do |
-| [#TSK-M9](https://github.com/4u4-us/playground/issues) | Launch TikTok Spark Ads using Creator Whitelisted Handles | TikTok | Scale top 3 viral UGC hooks | To Do |
-| [#TSK-M10](https://github.com/4u4-us/playground/issues) | Real-Time Funnel Monitoring & Abandoned Cart Recovery | CRO | Cart abandonment rate < 62% | To Do |
+| [![#TASK-M6](https://img.shields.io/badge/TASK-M6-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M6") | Deploy Go-Live Email & SMS Announcement Blast | CRM | 10k VIP audience blast | To Do |
+| [![#TASK-M7](https://img.shields.io/badge/TASK-M7-3b82f6)](https://github.com/4u4-us/playground/issues/13) | Launch Google Performance Max & Brand Search Campaigns | Google | Top-position brand defense | To Do |
+| [![#TASK-M8](https://img.shields.io/badge/TASK-M8-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M8") | Activate Meta Advantage+ Catalog Dynamic Product Ads | Meta | Dynamic retargeting ads | To Do |
+| [![#TASK-M9](https://img.shields.io/badge/TASK-M9-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M9") | Launch TikTok Spark Ads using Creator Whitelisted Handles | TikTok | Scale top 3 viral UGC hooks | To Do |
+| [![#TASK-M10](https://img.shields.io/badge/TASK-M10-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M10") | Real-Time Funnel Monitoring & Abandoned Cart Recovery | CRO | Cart abandonment rate < 62% | To Do |
 
 ---
 
@@ -252,10 +258,10 @@ gantt
 
 | Task Key | Task Description | Channel | Target / Deliverable | Status |
 |----------|------------------|---------|----------------------|--------|
-| [#TSK-M11](https://github.com/4u4-us/playground/issues) | Launch Post-Purchase Educational Sequence | Klaviyo | Reduce returns to < 2.5% | To Do |
-| [#TSK-M12](https://github.com/4u4-us/playground/issues) | Deploy VIP Glow Club Loyalty & Referral Program | Loyalty | 15% referral participation | To Do |
-| [#TSK-M13](https://github.com/4u4-us/playground/issues) | Launch Subscribe & Save Replenishment Option | Product | 12% subscription opt-in | To Do |
-| [#TSK-M14](https://github.com/4u4-us/playground/issues) | Onboard 40 Micro-Affiliates with Custom Tracking Links | Affiliate | Tracked via UpPromote | To Do |
+| [![#TASK-M11](https://img.shields.io/badge/TASK-M11-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M11") | Launch Post-Purchase Educational Sequence | Klaviyo | Reduce returns to < 2.5% | To Do |
+| [![#TASK-M12](https://img.shields.io/badge/TASK-M12-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M12") | Deploy VIP Glow Club Loyalty & Referral Program | Loyalty | 15% referral participation | To Do |
+| [![#TASK-M13](https://img.shields.io/badge/TASK-M13-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M13") | Launch Subscribe & Save Replenishment Option | Product | 12% subscription opt-in | To Do |
+| [![#TASK-M14](https://img.shields.io/badge/TASK-M14-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-M14") | Onboard 40 Micro-Affiliates with Custom Tracking Links | Affiliate | Tracked via UpPromote | To Do |
 
 ---
 *Generated automatically by [4u4.us](https://4u4.us) — Visual Agile for Modern Engineering Armies.*
