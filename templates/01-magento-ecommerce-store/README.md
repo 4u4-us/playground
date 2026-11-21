@@ -357,6 +357,68 @@ gantt
 
 ---
 
+
+---
+
+### 🟡 [![#EPIC-7](https://img.shields.io/badge/EPIC-7-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-7") Third-Party ERP & Logistics Systems <a id="epic-7-third-party-erp--logistics-systems"></a>
+> Bidirectional ERP inventory sync, courier integrations (InPost, DHL, DPD), and warehouse dispatch automation.
+* **Estimate:** 22h | **Status:** <img src="https://api.iconify.design/twemoji/yellow-circle.svg" width="10" height="10" /> In Progress | **Owner:** Senior Integration Specialist
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [![#TASK-25](https://img.shields.io/badge/TASK-25-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-25") | ERP Inventory & Order Bi-Directional Synchronization | 8h | In Progress | Backend Dev |
+| [![#TASK-26](https://img.shields.io/badge/TASK-26-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-26") | Courier API Integration (DHL Express, DPD, InPost) | 8h | To Do | Integration Eng |
+| [![#TASK-27](https://img.shields.io/badge/TASK-27-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-27") | Automated Invoice & WZ Document Generation | 6h | To Do | Backend Dev |
+
+---
+
+### ⚪ [![#EPIC-8](https://img.shields.io/badge/EPIC-8-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-8") Testing & Quality Assurance <a id="epic-8-testing--quality-assurance"></a>
+> End-to-end Cypress test suites, performance benchmarking with k6, and multi-browser responsive audits.
+* **Estimate:** 24h | **Status:** <img src="https://api.iconify.design/twemoji/white-circle.svg" width="10" height="10" /> To Do | **Owner:** QA Automation Lead
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [![#TASK-28](https://img.shields.io/badge/TASK-28-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-28") | End-to-End Automated Cypress Test Suites | 10h | To Do | QA Lead |
+| [![#TASK-29](https://img.shields.io/badge/TASK-29-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-29") | Performance & High-Load Stress Testing with k6 | 8h | To Do | Performance Eng |
+| [![#TASK-30](https://img.shields.io/badge/TASK-30-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-30") | Cross-Browser & Mobile Viewport Compatibility Audit | 6h | To Do | QA Tester |
+
+---
+
+### ⚪ [![#EPIC-9](https://img.shields.io/badge/EPIC-9-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-9") SEO, Analytics & Compliance <a id="epic-9-seo-analytics--compliance"></a>
+> Core Web Vitals optimization, Schema.org rich snippets, GA4 eCommerce event tracking, and Omnibus compliance.
+* **Estimate:** 18h | **Status:** <img src="https://api.iconify.design/twemoji/white-circle.svg" width="10" height="10" /> To Do | **Owner:** Analytics & SEO Lead
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [![#TASK-31](https://img.shields.io/badge/TASK-31-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-31") | Core Web Vitals & Schema.org Rich Snippet Optimization | 6h | To Do | SEO Lead |
+| [![#TASK-32](https://img.shields.io/badge/TASK-32-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-32") | Google Tag Manager, GA4 eCommerce & Meta Pixel Tracking | 6h | To Do | Analytics Eng |
+| [![#TASK-33](https://img.shields.io/badge/TASK-33-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-33") | GDPR & Omnibus Directive Price History Compliance | 6h | To Do | Compliance Dev |
+
+---
+
+### ⚪ [![#EPIC-10](https://img.shields.io/badge/EPIC-10-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-10") Deployment & Hypercare Go-Live <a id="epic-10-deployment--hypercare-go-live"></a>
+> Zero-downtime blue/green deployment cutover, production DNS switchover, and 72h post-launch hypercare.
+* **Estimate:** 24h | **Status:** <img src="https://api.iconify.design/twemoji/white-circle.svg" width="10" height="10" /> To Do | **Owner:** Lead Solutions Architect
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [![#TASK-34](https://img.shields.io/badge/TASK-34-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-34") | Zero-Downtime Blue/Green Deployment Setup | 8h | To Do | Lead DevOps |
+| [![#TASK-35](https://img.shields.io/badge/TASK-35-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-35") | Production DNS Cutover & CloudFront SSL Activation | 4h | To Do | DevOps Eng |
+| [![#TASK-36](https://img.shields.io/badge/TASK-36-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-36") | 72-Hour Post-Launch Hypercare & Incident On-Call | 12h | To Do | Tech Lead |
+
+---
+
+### ⚪ [![#EPIC-11](https://img.shields.io/badge/EPIC-11-8b5cf6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23EPIC-11") Post-Launch Support & Maintenance <a id="epic-11-post-launch-support--maintenance"></a>
+> 24/7 Datadog monitoring alerts, recurring Adobe Commerce security patches, and monthly sprint releases.
+* **Estimate:** 18h | **Status:** <img src="https://api.iconify.design/twemoji/white-circle.svg" width="10" height="10" /> To Do | **Owner:** Lead DevOps Engineer
+
+| Task Key | Task Title | Estimate | Status | Assignee |
+|----------|------------|----------|--------|----------|
+| [![#TASK-37](https://img.shields.io/badge/TASK-37-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-37") | Automated 24/7 Uptime & Datadog APM Alerting | 6h | To Do | DevOps Eng |
+| [![#TASK-38](https://img.shields.io/badge/TASK-38-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-38") | Security Patch Schedule & Dependency Vulnerability Scanning | 4h | To Do | SecOps Eng |
+| [![#TASK-39](https://img.shields.io/badge/TASK-39-3b82f6)](https://github.com/4u4-us/playground/issues?q=is%3Aissue+"%23TASK-39") | Monthly Feature Iteration & Performance Review | 8h | To Do | Product Manager |
+
+
 ## 🛡️ Non-Functional Requirements & Security Matrix
 
 > [!IMPORTANT]
