@@ -113,7 +113,7 @@ sequenceDiagram
     Founder->>App: 4. Click [Save Project to GitHub]
     App->>GH: 5. Authenticate via User Token
     GH->>Repo: 6. Commit mindmap.json & formatted README.md
-    GH->>Repo: 7. Create / Update GitHub Issues & Labels (#TSK-1..N)
+    GH->>Repo: 7. Create / Update GitHub Issues & Labels (#TASK-1..N)
     GH-->>Founder: 8. Synchronized! Issues ready for engineering team
 ```
 
